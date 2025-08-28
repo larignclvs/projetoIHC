@@ -44,7 +44,7 @@ Inserido na cultura do trabalho remoto — que valoriza tanto a produtividade qu
 conscientização sobre o bem-estar para evitar o esgotamento (burnout) — o usuário
 recorre à aplicação para receber os alertas e sugestões visando o bem-estar.
 
-# **Entrega 2  (data) \[em andamento/concluído\]**
+# **Entrega 2  (28/08) \[em andamento]**
 
 **\[1 solução completa por pessoa da equipe\]**
 
@@ -59,10 +59,24 @@ recorre à aplicação para receber os alertas e sugestões visando o bem-estar.
 
 3. **Experiência do usuário (UX) e pesquisa de satisfação do cliente e opiniões:**
 
-4. **Preços e modelos de negócio:**
+4. **Padrões e tendências no mercado:**
 
-5. **Padrões e tendências no mercado:**
 
+Larissa
+1) **Público Alvo**
+Pessoas que trabalham de home office, jogam ou estudam no computador.
+
+2) **Análise de Concorrência (quando identificado concorrência \- ATENÇÃO: CONCORRENTE NÃO É IDÊNTICO E SIM ATUANDO NA MESMA ÁREA)**  
+1. **Principais concorrentes mais utilizados pelo seu público-alvo (link, descrição e imagens de ilustração):**
+<img width="319" height="597" alt="image" src="https://github.com/user-attachments/assets/344446e1-5acf-4b4f-8593-550fdf9924a9" />
+<img width="283" height="350" alt="image" src="https://github.com/user-attachments/assets/2b0b087a-cea2-42d3-9f75-42c2160d3a22" />
+O posture corretor é uma extensão do Chrome que monitora a postura do usuário e manda alertas ou deixa a tela com blur até que o usuário corrija a postura.
+2. **Características e funcionalidades dos concorrentes:**
+É possível ativar a extensão com um pop UP que tem algumas opções e ele monitora de acordo com as opções escolhidas
+3. **Experiência do usuário (UX) e pesquisa de satisfação do cliente e opiniões:**
+A experiência do usuário é um pouco confusa pois fica pedindo que eu fique numa postura ereta e não funciona e a interface é muito simples, não há opiniões sobre o app
+4. **Padrões e tendências no mercado:**
+ Em extensões de alerta é comum ver algumas opções de tempo, serem pop-up sobrepondo da tela e ter um botão de ativação.
 
 # **Entrega 3 (data) \[em andamento/concluído\]**
 

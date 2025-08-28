@@ -1,38 +1,44 @@
 **Projeto de IHC**
 
-**Projeto XX**
+**FACESENSE: MONITORAMENTO INTELIGENTE DE
+EXPRESSÕES E FADIGA**
 
-**\<colocar o título do projeto\>**
-
-**Membros de Equipe:**
-
-# **Entrega 1 (data) \[em andamento/concluído\]**
-
-# 
-
-**1\) Conhecendo o Problema** 
-
-1.1) Membros de Equipe (nome completo e número de matrícula):
-
-1.2) Título Original do TCC:
-
-1.3) Nome do orientador:
-
-1.4) Previsto desenvolver Interface? (   ) Sim     (   ) Não
-
-1.5) Objetivo do trabalho?
-
-1.6) Qual o produto final? 
-
-1.7) Quem é o usuário final deste produto?
-
-1.8) O que o usuário recebe de benefício ao usar esse produto? 
-
-1.9) Quais as funcionalidades da ferramenta (visão do usuário)?
-
-1.10) Quais tecnologias e ferramentas computacionais que pretendem usar neste projeto (TCC)?
-
-1.11) Qual é o contexto de uso dessa aplicação? (esse já é um conceito de IHC que professor explicou na sala)
+1) Membros de Equipe (nome completo e número de matrícula):
+Aléxia Santa Rosa Suares 22.224.016-0
+Gabrielle Mitie Suzuke Tenguan 22.124.097-1
+Larissa Gonçalves da Silva 22.224.022-8
+3) Título Original do TCC: FACESENSE: MONITORAMENTO INTELIGENTE DE
+EXPRESSÕES E FADIGA
+4) Nome do orientador: Leila Cristina Bergamasco
+5) Previsto desenvolver Interface? (X ) Sim ( ) Não
+6) Objetivo do trabalho? Desenvolver uma interface inteligente para promover o
+bem-estar no trabalho remoto, monitorando em tempo real expressões faciais e
+comportamentos associados à fadiga.
+7) Qual o produto final? Aplicação que monitora sinais de fadiga em tempo real e envia
+alertas com sugestões de pausas e alongamentos.
+8) Quem é o usuário final deste produto? Pessoas que trabalham remoto
+9) O que o usuário recebe de benefício ao usar esse produto? Maior produtividade,
+aumento do bem-estar, prevenção ao cansaço mental (burnout)
+10) Quais as funcionalidades da ferramenta (visão do usuário)?
+● Janela flutuante mostrando o status atual (Focado, Inquieto, Cansado)
+● Pop-ups de alertas (“Seu status mudou para Inquieto, faça uma pausa”)
+● Botão de pausa/finalizar expediente
+● Tela final com relatório do monitoramento (quantidade de alertas, tempo Focado,
+linha do tempo com mudanças de status durante o expediente)
+11) Quais tecnologias e ferramentas computacionais que pretendem usar neste projeto
+(TCC)?
+Linguagem de Programação: Python 3.9
+Bibliotecas: OpenCV, MediaPipe, XGBoost, Scikit-learn, Pandas, Numpy, Matplotlib,
+Seaborn, Streamlit, Joblib e Json
+Ferramentas de Desenvolvimento: VSCode, Git e Github
+12) Qual é o contexto de uso dessa aplicação? (esse já é um conceito de IHC que
+professor explicou na sala)
+O contexto de uso é o do profissional que trabalha em home office (considerando, em
+sua maioria, do período das 9h as 18h) , utilizando a ferramenta de forma contínua
+durante seu expediente em um ambiente fisicamente isolado da equipe de trabalho.
+Inserido na cultura do trabalho remoto — que valoriza tanto a produtividade quanto a
+conscientização sobre o bem-estar para evitar o esgotamento (burnout) — o usuário
+recorre à aplicação para receber os alertas e sugestões visando o bem-estar.
 
 # **Entrega 2  (data) \[em andamento/concluído\]**
 

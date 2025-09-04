@@ -74,15 +74,16 @@ Pessoas que trabalham de home office, jogam ou estudam no computador.
 ## 2.1 **Principais concorrentes utilizados pelo público-alvo**  
 > Inclui link, descrição e imagens de ilustração.
 
-- **Posture Corrector (extensão para Chrome)**  
+### **1. Posture Corrector (extensão para Chrome)**  
   Extensão que monitora a postura do usuário, envia alertas ou aplica blur na tela até que a postura seja corrigida.
 
 **Imagens ilustrativas:**
-**Posture Corrector**  
 <img width="319" height="597" alt="image" src="https://github.com/user-attachments/assets/344446e1-5acf-4b4f-8593-550fdf9924a9" />
 <img width="283" height="350" alt="image" src="https://github.com/user-attachments/assets/2b0b087a-cea2-42d3-9f75-42c2160d3a22" />
 
-**Facial Expression Analysis (iMotions)**  
+### **2. Facial Expression Analysis (iMotions)**  
+**Imagens ilustrativas:**  
+- Foram encontrados padrões, onde é necessário uma webcam ligada com as bounding boxes identificando o rosto do usuário e uma tela de relatório. No caso da nossa aplicação, a tela de relatório **não** será gerada em tempo real, mas será gerada ao final do uso da aplicação.   
 
 <img width="1132" height="720" alt="videoframe_3204" src="https://github.com/user-attachments/assets/e621f04a-da23-4bf8-bdaf-69984b4f3dd6" />
 <img width="768" height="432" alt="Pupil-Invisible-Glasses-FEA-768x432" src="https://github.com/user-attachments/assets/3db7010c-6f18-45e6-b277-ef1843c536a2" />
@@ -90,11 +91,11 @@ Pessoas que trabalham de home office, jogam ou estudam no computador.
 ---
 
 ## 2.2 **Características e funcionalidades dos concorrentes**
-**Posture Corrector**
+### **1. Posture Corrector**
 - Ativação por pop-up com algumas opções personalizáveis.
 - Monitora a postura com base nas opções selecionadas pelo usuário.
 
-**Facial Expression Analysis (iMotions)**  
+### **2. Facial Expression Analysis (iMotions)**  
 - Monitoramento de expressões em tempo real ou por upload de vídeo.
 - Realiza a análise das expressões em resposta a um estímulo.
 
@@ -102,13 +103,13 @@ Pessoas que trabalham de home office, jogam ou estudam no computador.
 ---
 
 ## 2.3 **Experiência do Usuário (UX) e opiniões**
-**Posture Corrector**
+### **1. Posture Corrector**
 - A experiência do usuário é um pouco confusa.
 - A extensão solicita postura ereta constantemente, mas pode não funcionar corretamente.
 - Interface muito simples.
 - Não há avaliações ou opiniões visíveis sobre o app.  
 
-**Facial Expression Analysis (iMotions)**  
+### **2. Facial Expression Analysis (iMotions)**  
 - A experiência do usuário é bastante intuitiva.  
 - O software possui várias ferramentas que permitem explorar os resultados das análises das expressões  
 - Monitoramento e geração de relatório em tempo real  
@@ -116,13 +117,13 @@ Pessoas que trabalham de home office, jogam ou estudam no computador.
 ---
 
 ## 2.4 **Padrões e tendências do mercado**
-**Posture Corrector**
+### **1. Posture Corrector**
 - Extensões de alerta costumam:
   - Oferecer opções de tempo.
   - Utilizar pop-ups sobre a tela.
   - Incluir um botão de ativação.
  
-**Facial Expression Analysis (iMotions)**  
+### **2. Facial Expression Analysis (iMotions)**  
 - Foco em APIs e SDKs
 - Usado na área de neuromarketing 
 

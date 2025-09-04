@@ -8,9 +8,9 @@
 EXPRESSÕES E FADIGA**
 
 1) Membros de Equipe (nome completo e número de matrícula):
-Aléxia Santa Rosa Suares 22.224.016-0
-Gabrielle Mitie Suzuke Tenguan 22.124.097-1
-Larissa Gonçalves da Silva 22.224.022-8
+Aléxia Santa Rosa Suares 22.224.016-0  
+Gabrielle Mitie Suzuke Tenguan 22.124.097-1  
+Larissa Gonçalves da Silva 22.224.022-8  
 3) Título Original do TCC: FACESENSE: MONITORAMENTO INTELIGENTE DE
 EXPRESSÕES E FADIGA
 4) Nome do orientador: Leila Cristina Bergamasco
@@ -23,12 +23,12 @@ alertas com sugestões de pausas e alongamentos.
 8) Quem é o usuário final deste produto? Pessoas que trabalham remoto
 9) O que o usuário recebe de benefício ao usar esse produto? Maior produtividade,
 aumento do bem-estar, prevenção ao cansaço mental (burnout)
-10) Quais as funcionalidades da ferramenta (visão do usuário)?
-● Janela flutuante mostrando o status atual (Focado, Inquieto, Cansado)
-● Pop-ups de alertas (“Seu status mudou para Inquieto, faça uma pausa”)
-● Botão de pausa/finalizar expediente
+10) Quais as funcionalidades da ferramenta (visão do usuário)?  
+● Janela flutuante mostrando o status atual (Focado, Inquieto, Cansado)  
+● Pop-ups de alertas (“Seu status mudou para Inquieto, faça uma pausa”)  
+● Botão de pausa/finalizar expediente  
 ● Tela final com relatório do monitoramento (quantidade de alertas, tempo Focado,
-linha do tempo com mudanças de status durante o expediente)
+linha do tempo com mudanças de status durante o expediente)  
 11) Quais tecnologias e ferramentas computacionais que pretendem usar neste projeto
 (TCC)?
 Linguagem de Programação: Python 3.9
@@ -78,34 +78,54 @@ Pessoas que trabalham de home office, jogam ou estudam no computador.
   Extensão que monitora a postura do usuário, envia alertas ou aplica blur na tela até que a postura seja corrigida.
 
 **Imagens ilustrativas:**
-
+**Posture Corrector**
 <img width="319" height="597" alt="image" src="https://github.com/user-attachments/assets/344446e1-5acf-4b4f-8593-550fdf9924a9" />  
 <img width="283" height="350" alt="image" src="https://github.com/user-attachments/assets/2b0b087a-cea2-42d3-9f75-42c2160d3a22" />
+
+**Facial Expression Analysis (iMotions)**  
+
+<img width="1132" height="720" alt="videoframe_3204" src="https://github.com/user-attachments/assets/e621f04a-da23-4bf8-bdaf-69984b4f3dd6" />
+<img width="768" height="432" alt="Pupil-Invisible-Glasses-FEA-768x432" src="https://github.com/user-attachments/assets/3db7010c-6f18-45e6-b277-ef1843c536a2" />
 
 ---
 
 ## 2.2 **Características e funcionalidades dos concorrentes**
-
+**Posture Corrector**
 - Ativação por pop-up com algumas opções personalizáveis.
 - Monitora a postura com base nas opções selecionadas pelo usuário.
+
+**Facial Expression Analysis (iMotions)**  
+- Monitoramento de expressões em tempo real ou por upload de vídeo.
+- Realiza a análise das expressões em resposta a um estímulo.
+
 
 ---
 
 ## 2.3 **Experiência do Usuário (UX) e opiniões**
-
+**Posture Corrector**
 - A experiência do usuário é um pouco confusa.
 - A extensão solicita postura ereta constantemente, mas pode não funcionar corretamente.
 - Interface muito simples.
-- Não há avaliações ou opiniões visíveis sobre o app.
+- Não há avaliações ou opiniões visíveis sobre o app.  
+
+**Facial Expression Analysis (iMotions)**  
+- A experiência do usuário é bastante intuitiva.  
+- O software possui várias ferramentas que permitem explorar os resultados das análises das expressões  
+- Monitoramento e geração de relatório em tempo real  
 
 ---
 
 ## 2.4 **Padrões e tendências do mercado**
-
+**Posture Corrector**
 - Extensões de alerta costumam:
   - Oferecer opções de tempo.
   - Utilizar pop-ups sobre a tela.
   - Incluir um botão de ativação.
+ 
+**Facial Expression Analysis (iMotions)**  
+- Foco em APIs e SDKs
+- Usado na área de neuromarketing 
+
 
 # **Entrega 3 (data) \[em andamento/concluído\]**
 

@@ -78,8 +78,8 @@ Pessoas que trabalham de home office, jogam ou estudam no computador.
   Extensão que monitora a postura do usuário, envia alertas ou aplica blur na tela até que a postura seja corrigida.
 
 **Imagens ilustrativas:**
-**Posture Corrector**
-<img width="319" height="597" alt="image" src="https://github.com/user-attachments/assets/344446e1-5acf-4b4f-8593-550fdf9924a9" />  
+**Posture Corrector**  
+<img width="319" height="597" alt="image" src="https://github.com/user-attachments/assets/344446e1-5acf-4b4f-8593-550fdf9924a9" />
 <img width="283" height="350" alt="image" src="https://github.com/user-attachments/assets/2b0b087a-cea2-42d3-9f75-42c2160d3a22" />
 
 **Facial Expression Analysis (iMotions)**  

@@ -132,7 +132,15 @@ Pessoas que trabalham de home office, jogam ou estudam no computador.
 
 **1\) Personas**   
 **\[1 solução completa por pessoa da equipe \- identificar o autor\]**
-
+Victor: (Autor: Larissa)
+É um programador em uma empresa de consultoria, é a pessoa primária em nosso projeto.
+- Homem
+- Nascido em 1990
+- Programador
+- Ensino superior completo
+- Computador gamer
+- Conhecimento avançado em tecnologia
+- Utiliza softwares de desenvolvimento, como VS Code,  e em seu tempo livre jogos de alto processamento.
 **2\) Mapa de Empatia \[1 por equipe\]**
 
 **3\) Contexto de Uso \[1 por equipe\]**

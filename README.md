@@ -146,7 +146,27 @@ Pessoas que trabalham de home office, jogam ou estudam no computador.
 # **Entrega 3 (04/09) \[em andamento/concluído\]**
 
 **1\) Personas**   
-**\[1 solução completa por pessoa da equipe \- identificar o autor\]**
+**\[1 solução completa por pessoa da equipe \- identificar o autor\]**  
+
+
+**1.Victor: (Autor: Larissa)**  
+É um programador em uma empresa de consultoria, é a pessoa primária em nosso projeto.
+- Homem
+- Nascido em 1990
+- Programador
+- Ensino superior completo
+- Computador gamer
+- Conhecimento avançado em tecnologia
+- Utiliza softwares de desenvolvimento, como VS Code,  e em seu tempo livre jogos de alto processamento.
+
+**2. Nicole: (Autor: Gabrielle)**  
+É uma estudante de cursinho para o vestibular. É uma pessoa secundária no nosso projeto.
+- Mulher
+- Nascida em 2006
+- Estudante
+- Ensino médio completo
+- Preferência por química
+- Utiliza softwares para auxiliar nos estudos, como YouTube para vídeo aula, aplicativos de pomodoro (gerenciamento de tempo de sessões de estudo), plataforma do cursinho para acesso ao material.  
 
 **2\) Mapa de Empatia \[1 por equipe\]**
 

@@ -44,7 +44,7 @@ Inserido na cultura do trabalho remoto — que valoriza tanto a produtividade qu
 conscientização sobre o bem-estar para evitar o esgotamento (burnout) — o usuário
 recorre à aplicação para receber os alertas e sugestões visando o bem-estar.
 
-# **Entrega 2  (28/08) \[em andamento]**
+# **Entrega 2  (28/08) \[Concluído]**
 
 **\[1 solução completa por pessoa da equipe\]**
 

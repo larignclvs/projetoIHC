@@ -44,7 +44,7 @@ Inserido na cultura do trabalho remoto — que valoriza tanto a produtividade qu
 conscientização sobre o bem-estar para evitar o esgotamento (burnout) — o usuário
 recorre à aplicação para receber os alertas e sugestões visando o bem-estar.
 
-# **Entrega 2  (28/08) \[Concluído]**
+# **Entrega 2  (28/08) \[concluído]**
 
 **\[1 solução completa por pessoa da equipe\]**
 
@@ -53,13 +53,13 @@ recorre à aplicação para receber os alertas e sugestões visando o bem-estar.
 1) **Público Alvo**
 
 2) **Análise de Concorrência (quando identificado concorrência \- ATENÇÃO: CONCORRENTE NÃO É IDÊNTICO E SIM ATUANDO NA MESMA ÁREA)**  
-1. **Principais concorrentes mais utilizados pelo seu público-alvo (link, descrição e imagens de ilustração):**
+1. **Principais concorrentes mais utilizados pelo seu público-alvo (link, descrição e imagens de ilustração):**
 
-2. **Características e funcionalidades dos concorrentes:**
+2. **Características e funcionalidades dos concorrentes:**
 
-3. **Experiência do usuário (UX) e pesquisa de satisfação do cliente e opiniões:**
+3. **Experiência do usuário (UX) e pesquisa de satisfação do cliente e opiniões:**
 
-4. **Padrões e tendências no mercado:**
+4. **Padrões e tendências no mercado:**
 
 
 # 1) **Público-Alvo**
@@ -74,84 +74,79 @@ Pessoas que trabalham de home office, jogam ou estudam no computador.
 ## 2.1 **Principais concorrentes utilizados pelo público-alvo**  
 > Inclui link, descrição e imagens de ilustração.
 
-### **1. Posture Corrector (extensão para Chrome)**  
+- **Posture Corrector (extensão para Chrome)**  
   Extensão que monitora a postura do usuário, envia alertas ou aplica blur na tela até que a postura seja corrigida.
 
 **Imagens ilustrativas:**
+**Posture Corrector**  
 <img width="319" height="597" alt="image" src="https://github.com/user-attachments/assets/344446e1-5acf-4b4f-8593-550fdf9924a9" />
 <img width="283" height="350" alt="image" src="https://github.com/user-attachments/assets/2b0b087a-cea2-42d3-9f75-42c2160d3a22" />
 
-### **2. Facial Expression Analysis (iMotions)**  
-**Imagens ilustrativas:**  
-- Foram encontrados padrões, onde é necessário uma webcam ligada com as bounding boxes identificando o rosto do usuário e uma tela de relatório. No caso da nossa aplicação, a tela de relatório **não** será gerada em tempo real, mas será gerada ao final do uso da aplicação.   
+**Facial Expression Analysis (iMotions)**  
 
 <img width="1132" height="720" alt="videoframe_3204" src="https://github.com/user-attachments/assets/e621f04a-da23-4bf8-bdaf-69984b4f3dd6" />
 <img width="768" height="432" alt="Pupil-Invisible-Glasses-FEA-768x432" src="https://github.com/user-attachments/assets/3db7010c-6f18-45e6-b277-ef1843c536a2" />
 
+**MorphCast for Zoom**  
+
+<img width="683" height="406" alt="Captura de Tela 2025-09-04 às 20 19 58" src="https://github.com/user-attachments/assets/d6b00bab-8ead-48cd-aa0f-e80f6f089faa" />
+<img width="995" height="520" alt="Captura de Tela 2025-09-04 às 20 25 17" src="https://github.com/user-attachments/assets/0c59354e-bc3a-40d1-ab34-04d3d6db2797" />
+
+
 ---
 
 ## 2.2 **Características e funcionalidades dos concorrentes**
-### **1. Posture Corrector**
+**Posture Corrector**
 - Ativação por pop-up com algumas opções personalizáveis.
 - Monitora a postura com base nas opções selecionadas pelo usuário.
 
-### **2. Facial Expression Analysis (iMotions)**  
+**Facial Expression Analysis (iMotions)**  
 - Monitoramento de expressões em tempo real ou por upload de vídeo.
 - Realiza a análise das expressões em resposta a um estímulo.
 
+**MorphCast for Zoom**
+- Monitoramento de emoções em tempo real ou por upload de vídeo
+- Monitoramento do nivel de atenção dos participantes durante reuniões 
 
 ---
 
 ## 2.3 **Experiência do Usuário (UX) e opiniões**
-### **1. Posture Corrector**
+**Posture Corrector**
 - A experiência do usuário é um pouco confusa.
 - A extensão solicita postura ereta constantemente, mas pode não funcionar corretamente.
 - Interface muito simples.
 - Não há avaliações ou opiniões visíveis sobre o app.  
 
-### **2. Facial Expression Analysis (iMotions)**  
+**Facial Expression Analysis (iMotions)**  
 - A experiência do usuário é bastante intuitiva.  
 - O software possui várias ferramentas que permitem explorar os resultados das análises das expressões  
 - Monitoramento e geração de relatório em tempo real  
 
+**MorphCast for Zoom**
+- A experiência do usuário é complexa.  
+- O extensão gera graficos demonstrando o nível de atencção durante reuniões em tempo real
+  
 ---
 
 ## 2.4 **Padrões e tendências do mercado**
-### **1. Posture Corrector**
+**Posture Corrector**
 - Extensões de alerta costumam:
   - Oferecer opções de tempo.
   - Utilizar pop-ups sobre a tela.
   - Incluir um botão de ativação.
  
-### **2. Facial Expression Analysis (iMotions)**  
+**Facial Expression Analysis (iMotions)**  
 - Foco em APIs e SDKs
 - Usado na área de neuromarketing 
 
+**MorphCast for Zoom**
+- Foco em gráficos e dashboards
+- Foco em APIs e SDKs 
 
-# **Entrega 3 (data) \[em andamento/concluído\]**
+# **Entrega 3 (04/09) \[em andamento/concluído\]**
 
 **1\) Personas**   
-**\[1 solução completa por pessoa da equipe \- identificar o autor\]**  
-
-
-**1.Victor: (Autor: Larissa)**  
-É um programador em uma empresa de consultoria, é a pessoa primária em nosso projeto.
-- Homem
-- Nascido em 1990
-- Programador
-- Ensino superior completo
-- Computador gamer
-- Conhecimento avançado em tecnologia
-- Utiliza softwares de desenvolvimento, como VS Code,  e em seu tempo livre jogos de alto processamento.
-
-**2. Nicole: (Autor: Gabrielle)**  
-É uma estudante de cursinho para o vestibular. É uma pessoa secundária no nosso projeto.
-- Mulher
-- Nascida em 2006
-- Estudante
-- Ensino médio completo
-- Preferência por química
-- Utiliza softwares para auxiliar nos estudos, como YouTube para vídeo aula, aplicativos de pomodoro (gerenciamento de tempo de sessões de estudo), plataforma do cursinho para acesso ao material.  
+**\[1 solução completa por pessoa da equipe \- identificar o autor\]**
 
 **2\) Mapa de Empatia \[1 por equipe\]**
 

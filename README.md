@@ -166,7 +166,15 @@ Pessoas que trabalham de home office, jogam ou estudam no computador.
 - Estudante
 - Ensino médio completo
 - Preferência por química
-- Utiliza softwares para auxiliar nos estudos, como YouTube para vídeo aula, aplicativos de pomodoro (gerenciamento de tempo de sessões de estudo), plataforma do cursinho para acesso ao material.  
+- Utiliza softwares para auxiliar nos estudos, como YouTube para vídeo aula, aplicativos de pomodoro (gerenciamento de tempo de sessões de estudo), plataforma do cursinho para acesso ao material.
+
+**3. Barbara: (Autor: Aléxia)**
+É uma coordenadora de um departamento de Engenharia de Softeware em uma instituição financeira.
+- Mulher
+- Nascida em 1988
+- Cientista da Computação
+- Conhecimento avançado em tecnologia
+- Passa grande parte do dia em reuniões, utiliza principalmente ferramentas como Teams, Outlook e Excel.
 
 **2\) Mapa de Empatia \[1 por equipe\]**
 

@@ -1,4 +1,4 @@
-# **Entrega 1 (15/08) \[concluído\]**
+# **Entrega 1 (15/08) \[Concluído\]**
 
 # 
 

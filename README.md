@@ -177,6 +177,7 @@ Pessoas que trabalham de home office, jogam ou estudam no computador.
 - Passa grande parte do dia em reuniões, utiliza principalmente ferramentas como Teams, Outlook e Excel.
 
 **2\) Mapa de Empatia \[1 por equipe\]**
+
 Nome: **Victor** 
 Idade: **35**
 

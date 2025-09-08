@@ -143,7 +143,7 @@ Pessoas que trabalham de home office, jogam ou estudam no computador.
 - Foco em gráficos e dashboards
 - Foco em APIs e SDKs 
 
-# **Entrega 3 (04/09) \[em andamento/concluído\]**
+# **Entrega 3 (04/09) \[em andamento]**
 
 **1\) Personas**   
 **\[1 solução completa por pessoa da equipe \- identificar o autor\]**  

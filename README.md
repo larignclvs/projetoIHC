@@ -186,7 +186,16 @@ Idade: **35**
 
 **3\) Contexto de Uso \[1 por equipe\]**
 
+Victor é um programador de 35 anos que trabalha em uma empresa de consultoria de software. Ele trabalha no modelo full remote no seu apartamento no centro de São Paulo. Passa pelo menos 8h por dia trabalhando na frente do computador, alternando entre múltiplas telas de código e reuniões.
+
+No home office, Victor utiliza um computador gamer de alto desempenho, com um bom monitor, teclado mecânico e cadeira ergonômica, fornecidos pela empresa. O seu escritório fica em seu quarto, que depende de luz artificial durante o dia por conta da sombra dos predios em sua janela, o que facilita a fadiga ocular. O espaço é bem organizado de forma que não hajam muitos objetos que causem distração.
+
+Victor trabalha utilizando ferramentas de desenvolvimento como VS Code, GitHub e Docker, além de sistemas de comunicação corporativa como Outlook e Teams. 
+Apesar de trabalhar sozinho e de forma remota, Victor é uma pessoa muito comunicativa e mantém constante interação online com sua equipe. 
+
 **4\) Jornada do Usuário \[1 por equipe\]**
+
+
 
 # **Entrega 4  (data) \[em andamento/concluído\]**
 

@@ -143,7 +143,7 @@ Pessoas que trabalham de home office, jogam ou estudam no computador.
 - Foco em gráficos e dashboards
 - Foco em APIs e SDKs 
 
-# **Entrega 3 (04/09) \[em andamento]**
+# **Entrega 3 (04/09) \[concluído]**
 
 **1\) Personas**   
 **\[1 solução completa por pessoa da equipe \- identificar o autor\]**  
@@ -195,7 +195,8 @@ Apesar de trabalhar sozinho e de forma remota, Victor é uma pessoa muito comuni
 
 **4\) Jornada do Usuário \[1 por equipe\]**
 
-
+Victor teve seu primeiro contato com a ferramenta após participar de uma palestra no trabalho sobre a importância da prevenção ao Burnout. Acessou a plataforma para entender como a ferramenta poderia ajudá-lo a melhorar seu desempenho e reduzir sua fadiga durante seus longos períodos de trabalho. Ao acessar a documentação, ele ficou satisfeito ao ver exemplos claros e simples da utilização da API, que roda em segundo plano, processando imagens em tempo real os sinais captados pela webcam.
+Enquanto Victor trabalha, não precisa se preocupar em interagir diretamente com a ferramenta, apenas acessando a quando recebe uma notificação não invasiva em sua tela, alertando por exemplo "Você apresentou sinais de estresse nos ultimos 10 minutos. Que tal uma pausa?". Tais Notificações foram projetadas para que não atrapalhassem o fluxo de trabalho mas mesmo assim fossem suficientes para chamar sua atenção. Victor percebe nelas um suporte personalizado, o que o ajuda a se autorregular durante o dia.  Ao final do expediente, ele ainda recebe um resumo consolidado com estatísticas, mostrando quantas vezes apresentou sinais de fadiga, períodos de maior foco e recomendações para melhorar seu bem-estar. 
 
 # **Entrega 4  (data) \[em andamento/concluído\]**
 

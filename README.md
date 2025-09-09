@@ -202,18 +202,37 @@ Apesar de trabalhar sozinho e de forma remota, Victor é uma pessoa muito comuni
 Victor teve seu primeiro contato com a ferramenta após participar de uma palestra no trabalho sobre a importância da prevenção ao Burnout. Acessou a plataforma para entender como a ferramenta poderia ajudá-lo a melhorar seu desempenho e reduzir sua fadiga durante seus longos períodos de trabalho. Ao acessar a documentação, ele ficou satisfeito ao ver exemplos claros e simples da utilização da API, que roda em segundo plano, processando imagens em tempo real os sinais captados pela webcam.
 Enquanto Victor trabalha, não precisa se preocupar em interagir diretamente com a ferramenta, apenas acessando a quando recebe uma notificação não invasiva em sua tela, alertando por exemplo "Você apresentou sinais de estresse nos ultimos 10 minutos. Que tal uma pausa?". Tais Notificações foram projetadas para que não atrapalhassem o fluxo de trabalho mas mesmo assim fossem suficientes para chamar sua atenção. Victor percebe nelas um suporte personalizado, o que o ajuda a se autorregular durante o dia.  Ao final do expediente, ele ainda recebe um resumo consolidado com estatísticas, mostrando quantas vezes apresentou sinais de fadiga, períodos de maior foco e recomendações para melhorar seu bem-estar. 
 
-# **Entrega 4  (data) \[em andamento/concluído\]**
+# **Entrega 4  (data) \[em andamento\]**
 
 **\[1 solução completa por pessoa da equipe\]**
 
 **Dica: Cada membro de equipe deve pensar em cenários existentes na atualidade (que causam problemas para os usuários) e que a interface prevista ajudará a resolver o problema. Cenário de Análise/Problema é uma história triste. Não descreve a solução. Descreve somente o problema.**
 
 1) **Cenário de Análise/Problema**
+   **1. Persona Nicole**  
+   ***Problema: Falsa sensação de produtividade usando método Pomodoro***  
+Nicole está iniciando sua sessão de estudos de química para o vestibular e aciona o cronômetro do pomodoro, que conta 60 minutos. Após 30 minutos estudando fórmulas complexas, sua mente começa a se distrair e seu foco vai caindo, e aos 40 minutos, seus olhos vão ficando pesados e sua fadiga começa a aumentar. Mas Nicole decide não parar, pois a sessão ainda estava faltando 20 minutos para terminar, Nicole acredita que parar agora interromperia sua linha de raciocínio e ritmo de estudos e por isso segue até o final da sessão. Nicole percebeu então que a sessão acabou não sendo muito produtiva, pois passou a maior parte do tempo da sessão apenas cumprindo com o tempo e não adquirindo aprendizado. 
 
-2) ## **Questões de Refinamento**
 
-3) **Refinamento do Cenário Análise/Problema**
+3) ## **Questões de Refinamento**
+   **1. Persona Nicole**  
+1. Por que Nicole precisa se manter focada e produtiva durante o estudo (ex: para passar no vestibular, para não desperdiçar tempo)?  
+2. De que informações ou conhecimento Nicole precisa para saber se está sendo produtiva de fato, e não apenas cumprindo o tempo do cronômetro?  
+3. Quais características de Nicole, como seu nível de dedicação, a levam a ignorar os sinais de fadiga para não quebrar o ritmo de estudos?  
+4. Como ela se sente quando percebe que sua sessão de estudos foi improdutiva?  
+5. Como Nicole atualmente toma a decisão de fazer uma pausa, e como ela gostaria que essa decisão fosse tomada?  
+6. Quais são as estratégias alternativas que ela poderia seguir para lidar com a falta de foco, e por que ela não as adota?  
+7. Como Nicole realiza suas pausas atualmente? Ela as aproveita para descansar ou para fazer outras atividades?  
+8. Quais problemas ou dificuldades podem surgir ao tentar retomar a concentração após uma pausa?  
+9. Quais eventos, no contexto da sua aplicação, deveriam ser disparados para alertar Nicole sobre a fadiga (ex: um aviso sonoro, uma notificação na tela)?  
+10. Quais eventos disparam a necessidade de Nicole de ter um bom desempenho no estudo (ex: um prazo de prova se aproximando)?  
+11. Como Nicole avalia se sua sessão de estudos foi concluída com sucesso e se o objetivo de aprender foi realmente alcançado?  
+12. Qual é o resultado esperado por Nicole ao final de um ciclo de estudo (ex: ter a sensação de que realmente aprendeu, sentir-se mais confiante no conteúdo)?  
 
+
+5) **Refinamento do Cenário Análise/Problema**
+	**1. Persona Nicole**  
+Nicole está iniciando sua sessão de estudos de química para o vestibular que está próximo e por isso aciona o cronômetro do pomodoro em 60 minutos sem pausas [7] para conseguir estudar por um período maior de tempo  [1], em comparação com o tempo de estudo anterior, de 30 minutos com pausas de 5 minutos [6]. Após 30 minutos estudando fórmulas complexas, sua mente começa a se distrair e seu foco vai caindo, e aos 40 minutos, seus olhos vão ficando pesados e sua fadiga começa a aumentar [8], o que não aconteceria caso tivesse realizado sua pausa de 5 minutos quando o cronômetro bateu 30 minutos [6]. Mas Nicole decide não parar, pois a sessão ainda estava faltando 20 minutos para terminar e esses 20 minutos a mais são essenciais para sua sessão de estudos [3], Nicole acredita que parar agora interromperia sua linha de raciocínio e ritmo de estudos [5] e por isso segue até o final da sessão. Nicole percebeu então que a sessão acabou não sendo muito produtiva, pois passou a maior parte da sessão apenas cumprindo com o tempo e não adquirindo aprendizado, então ela terminou a sessão se sentindo cansada e sem a confiança de ter absorvido o conteúdo necessário [4]. 
 # 
 
 # **Entrega 5  (data) \[em andamento/concluído\]**

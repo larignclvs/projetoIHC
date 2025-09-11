@@ -226,8 +226,14 @@ Nicole está iniciando sua sessão de estudos de química para o vestibular e ac
 5. Como Nicole atualmente toma a decisão de fazer uma pausa, e como ela gostaria que essa decisão fosse tomada?  
 6. Quais são as estratégias alternativas que ela poderia seguir para lidar com a falta de foco, e por que ela não as adota?  
    **Ação**   
-7. Como Nicole realiza suas pausas atualmente? Ela as aproveita para descansar ou para fazer outras atividades?  
+7. Como Nicole realiza suas pausas atualmente? Ela as aproveita para descansar ou para fazer outras atividades?    
 8. Quais problemas ou dificuldades podem surgir ao tentar retomar a concentração após uma pausa?  
+	**Eventos**
+9. Quais eventos, deveriam ser disparados para alertar Nicole sobre a fadiga?  
+10. Quais eventos disparam a necessidade de Nicole de ter um bom desempenho no estudo (ex: um prazo de prova se aproximando)?  
+	**Avaliação**
+11. Como Nicole avalia se sua sessão de estudos foi concluída com sucesso e se o objetivo de aprender foi realmente alcançado?  
+
 
 5) **Refinamento do Cenário Análise/Problema**
 	**1. Persona Nicole**  

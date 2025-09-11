@@ -224,11 +224,6 @@ Nicole está iniciando sua sessão de estudos de química para o vestibular e ac
 6. Quais são as estratégias alternativas que ela poderia seguir para lidar com a falta de foco, e por que ela não as adota?  
 7. Como Nicole realiza suas pausas atualmente? Ela as aproveita para descansar ou para fazer outras atividades?  
 8. Quais problemas ou dificuldades podem surgir ao tentar retomar a concentração após uma pausa?  
-9. Quais eventos, no contexto da sua aplicação, deveriam ser disparados para alertar Nicole sobre a fadiga (ex: um aviso sonoro, uma notificação na tela)?  
-10. Quais eventos disparam a necessidade de Nicole de ter um bom desempenho no estudo (ex: um prazo de prova se aproximando)?  
-11. Como Nicole avalia se sua sessão de estudos foi concluída com sucesso e se o objetivo de aprender foi realmente alcançado?  
-12. Qual é o resultado esperado por Nicole ao final de um ciclo de estudo (ex: ter a sensação de que realmente aprendeu, sentir-se mais confiante no conteúdo)?  
-
 
 5) **Refinamento do Cenário Análise/Problema**
 	**1. Persona Nicole**  

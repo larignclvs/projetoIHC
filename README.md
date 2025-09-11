@@ -216,12 +216,16 @@ Nicole está iniciando sua sessão de estudos de química para o vestibular e ac
 
 3) ## **Questões de Refinamento**
    **1. Persona Nicole**  
+   **Objetivo**  
 1. Por que Nicole precisa se manter focada e produtiva durante o estudo (ex: para passar no vestibular, para não desperdiçar tempo)?  
 2. De que informações ou conhecimento Nicole precisa para saber se está sendo produtiva de fato, e não apenas cumprindo o tempo do cronômetro?  
+	**Ator(es)** 
 3. Quais características de Nicole, como seu nível de dedicação, a levam a ignorar os sinais de fadiga para não quebrar o ritmo de estudos?  
 4. Como ela se sente quando percebe que sua sessão de estudos foi improdutiva?  
+	**Planejamento**   
 5. Como Nicole atualmente toma a decisão de fazer uma pausa, e como ela gostaria que essa decisão fosse tomada?  
 6. Quais são as estratégias alternativas que ela poderia seguir para lidar com a falta de foco, e por que ela não as adota?  
+   **Ação**   
 7. Como Nicole realiza suas pausas atualmente? Ela as aproveita para descansar ou para fazer outras atividades?  
 8. Quais problemas ou dificuldades podem surgir ao tentar retomar a concentração após uma pausa?  
 

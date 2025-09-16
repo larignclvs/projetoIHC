@@ -215,7 +215,8 @@ Nicole está iniciando sua sessão de estudos de química para o vestibular e ac
 
 
 3) ## **Questões de Refinamento**
-   **1. Persona Nicole**  
+   **1. Persona Nicole**
+   
    **Objetivo**  
 1. Por que Nicole precisa se manter focada e produtiva durante o estudo (ex: para passar no vestibular, para não desperdiçar tempo)?  
 2. De que informações ou conhecimento Nicole precisa para saber se está sendo produtiva de fato, e não apenas cumprindo o tempo do cronômetro?  
@@ -237,7 +238,7 @@ Nicole está iniciando sua sessão de estudos de química para o vestibular e ac
 
 5) **Refinamento do Cenário Análise/Problema**
 	**1. Persona Nicole**  
-Nicole está iniciando sua sessão de estudos de química para o vestibular que está próximo e por isso aciona o cronômetro do pomodoro em 60 minutos sem pausas [7] para conseguir estudar por um período maior de tempo  [1], em comparação com o tempo de estudo anterior, de 30 minutos com pausas de 5 minutos [6]. Após 30 minutos estudando fórmulas complexas, sua mente começa a se distrair e seu foco vai caindo, e aos 40 minutos, seus olhos vão ficando pesados e sua fadiga começa a aumentar [8], o que não aconteceria caso tivesse realizado sua pausa de 5 minutos quando o cronômetro bateu 30 minutos [6]. Mas Nicole decide não parar, pois a sessão ainda estava faltando 20 minutos para terminar e esses 20 minutos a mais são essenciais para sua sessão de estudos [3], Nicole acredita que parar agora interromperia sua linha de raciocínio e ritmo de estudos [5] e por isso segue até o final da sessão. Nicole percebeu então que a sessão acabou não sendo muito produtiva, pois passou a maior parte da sessão apenas cumprindo com o tempo e não adquirindo aprendizado, então ela terminou a sessão se sentindo cansada e sem a confiança de ter absorvido o conteúdo necessário [4]. 
+Nicole está iniciando sua sessão de estudos de química para o vestibular que está próximo [10] e por isso aciona o cronômetro do pomodoro em 60 minutos sem pausas [7] para conseguir estudar por um período maior de tempo  [1], em comparação com o tempo de estudo anterior, de 30 minutos com pausas de 5 minutos [6]. Após 30 minutos estudando fórmulas complexas, sua mente começa a se distrair e seu foco vai caindo, e aos 40 minutos, seus olhos vão ficando pesados e sua fadiga começa a aumentar [8][9], o que não aconteceria caso tivesse realizado sua pausa de 5 minutos quando o cronômetro bateu 30 minutos [6]. Mas Nicole decide não parar, pois a sessão ainda estava faltando 20 minutos para terminar e esses 20 minutos a mais são essenciais para sua sessão de estudos [3], Nicole acredita que parar agora interromperia sua linha de raciocínio e ritmo de estudos [5] e por isso segue até o final da sessão. Nicole percebeu então que a sessão acabou não sendo muito produtiva, pois passou a maior parte da sessão apenas cumprindo com o tempo e não adquirindo aprendizado [11], então ela terminou a sessão se sentindo cansada e sem a confiança de ter absorvido o conteúdo necessário [4][11].    
 # 
 
 # **Entrega 5  (data) \[em andamento/concluído\]**

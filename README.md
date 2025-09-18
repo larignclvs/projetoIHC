@@ -277,7 +277,7 @@ Nicole está iniciando sua sessão de estudos de química para o vestibular que 
 	**Persona Bárbara**
 Bárbara é coordenadora de um departamento de Engenharia de Software em uma instituição financeira e passa grande parte do dia em reuniões no Teams [23] e no Outlook para acompanhar prazos de entregas importantes, acreditando que estar presente em todas as reuniões é essencial para o andamento dos projetos críticos [15]. Ela organiza sua agenda de forma apertada, com reuniões sequenciais e poucos intervalos, pensando que dessa forma conseguirá acompanhar melhor os indicadores da equipe e manter tudo sob controle [13][14][18]. Apesar disso, Bárbara percebe que ao final de algumas reuniões já está mentalmente cansada e menos focada [21][22], o que compromete sua capacidade de tomar decisões estratégicas. Quando surge um intervalo, ela acaba utilizando-o para responder e-mails ou revisar planilhas no Excel em vez de descansar [20], acreditando que pausar faria ela perder tempo e atrasar decisões importantes [5][6]. No entanto, ao final do dia Bárbara percebe que não conseguiu dar feedbacks assertivos ou consolidar informações-chave das reuniões [24], terminando o expediente com sensação de sobrecarga e de que não acompanhou os projetos de maneira adequada [16][25].
 
-# **Entrega 5  (data) \[em andamento/concluído\]**
+# **Entrega 5  (18/09) \[em andamento]**
 
 **\[1 solução por pessoa\]**
 

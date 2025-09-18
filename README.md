@@ -211,7 +211,12 @@ Enquanto Victor trabalha, não precisa se preocupar em interagir diretamente com
 1) **Cenário de Análise/Problema**
    **1. Persona Nicole**  
    ***Problema: Falsa sensação de produtividade usando método Pomodoro***  
-Nicole está iniciando sua sessão de estudos de química para o vestibular e aciona o cronômetro do pomodoro, que conta 60 minutos. Após 30 minutos estudando fórmulas complexas, sua mente começa a se distrair e seu foco vai caindo, e aos 40 minutos, seus olhos vão ficando pesados e sua fadiga começa a aumentar. Mas Nicole decide não parar, pois a sessão ainda estava faltando 20 minutos para terminar, Nicole acredita que parar agora interromperia sua linha de raciocínio e ritmo de estudos e por isso segue até o final da sessão. Nicole percebeu então que a sessão acabou não sendo muito produtiva, pois passou a maior parte do tempo da sessão apenas cumprindo com o tempo e não adquirindo aprendizado. 
+Nicole está iniciando sua sessão de estudos de química para o vestibular e aciona o cronômetro do pomodoro, que conta 60 minutos. Após 30 minutos estudando fórmulas complexas, sua mente começa a se distrair e seu foco vai caindo, e aos 40 minutos, seus olhos vão ficando pesados e sua fadiga começa a aumentar. Mas Nicole decide não parar, pois a sessão ainda estava faltando 20 minutos para terminar, Nicole acredita que parar agora interromperia sua linha de raciocínio e ritmo de estudos e por isso segue até o final da sessão. Nicole percebeu então que a sessão acabou não sendo muito produtiva, pois passou a maior parte do tempo da sessão apenas cumprindo com o tempo e não adquirindo aprendizado.
+
+	**2. Persona Barbara**
+	**Problema: Sobrecarga de reuniões e dificuldade de acompanhamento das demandas da equipe**
+Bárbara é coordenadora de um departamento de Engenharia de Software em uma instituição financeira. Seu dia é repleto de reuniões no Teams, atualizações no Outlook e análises de planilhas no Excel. Ela precisa acompanhar o progresso de diversos projetos ao mesmo tempo e, apesar do uso intenso dessas ferramentas, sente que está sempre apagando incêndios. Devido à grande quantidade de reuniões e notificações, Bárbara tem dificuldade em encontrar blocos de tempo para trabalho focado e estratégico. Muitas vezes, ela sai de uma reunião direto para outra, sem tempo para consolidar informações, tomar decisões embasadas ou dar retornos assertivos à equipe. Isso gera sensação de improdutividade e estresse, além de comprometer o acompanhamento do desempenho dos projetos e da própria equipe.
+ 
 
 
 3) ## **Questões de Refinamento**
@@ -236,11 +241,40 @@ Nicole está iniciando sua sessão de estudos de química para o vestibular e ac
 11. Como Nicole avalia se sua sessão de estudos foi concluída com sucesso e se o objetivo de aprender foi realmente alcançado?
 12. Qual é o resultado esperado por Nicole ao final de um ciclo de estudo (ex: ter a sensação de que realmente aprendeu, sentir-se mais confiante no conteúdo)?  
 
+    **2. Persona Barbara**
+    
+    **Objetivo**
+1. Por que Bárbara precisa se manter focada e organizada durante o trabalho (ex: para garantir o andamento dos projetos, para reduzir riscos financeiros)?
+2. De que informações ou indicadores Bárbara precisa para saber se está conseguindo gerenciar bem sua equipe e seus projetos?
+
+ 	**Ator(es)**
+3.Quais características de Bárbara, como sua dedicação ou perfeccionismo, a levam a aceitar muitas reuniões e notificações sem filtrar prioridades?
+4. Como ela se sente quando percebe que não conseguiu acompanhar devidamente os projetos por falta de tempo?
+
+   **Planejamento**
+5. Como Bárbara atualmente decide quais reuniões aceitar ou delegar, e como ela gostaria que essa decisão fosse feita?
+6. Quais são as estratégias alternativas que ela poderia seguir para lidar com o excesso de reuniões, e por que ela não as adota (ex: delegar mais, criar bloqueios na agenda)?
+
+
+	**Ação**
+7. Como Bárbara gerencia atualmente os intervalos entre reuniões? Ela usa esses momentos para descanso, organização ou outras atividades?
+8. Quais problemas ou dificuldades surgem quando ela tenta retomar o foco após muitas reuniões seguidas?
+
+	**Eventos**
+9. Quais eventos deveriam ser disparados para alertar Bárbara sobre sobrecarga ou excesso de reuniões?
+10. Quais eventos disparam a necessidade de Bárbara de reorganizar prioridades ou acompanhar indicadores críticos (ex: prazos de auditoria, entregas estratégicas)?
+
+	**Avaliação**
+11. Como Bárbara avalia se seu dia de trabalho foi produtivo e se conseguiu acompanhar tudo o que precisava?
+12. Qual é o resultado esperado por Bárbara ao final de um ciclo de trabalho (ex: ter clareza sobre o andamento dos projetos, sentir-se menos sobrecarregada, dar feedbacks mais assertivos)?
+
 
 5) **Refinamento do Cenário Análise/Problema**
 	**1. Persona Nicole**  
 Nicole está iniciando sua sessão de estudos de química para o vestibular que está próximo [10] e por isso aciona o cronômetro do pomodoro em 60 minutos sem pausas [7] para conseguir estudar por um período maior de tempo  [1], em comparação com o tempo de estudo anterior, de 30 minutos com pausas de 5 minutos [6]. Após 30 minutos estudando fórmulas complexas, sua mente começa a se distrair e seu foco vai caindo, e aos 40 minutos, seus olhos vão ficando pesados e sua fadiga começa a aumentar [8][9], o que não aconteceria caso tivesse realizado sua pausa de 5 minutos quando o cronômetro bateu 30 minutos [6]. Mas Nicole decide não parar, pois a sessão ainda estava faltando 20 minutos para terminar e esses 20 minutos a mais são essenciais para sua sessão de estudos [3], Nicole acredita que parar agora interromperia sua linha de raciocínio e ritmo de estudos [5] e por isso segue até o final da sessão. Nicole percebeu então que a sessão acabou não sendo muito produtiva, pois passou a maior parte da sessão apenas cumprindo com o tempo e não adquirindo aprendizado [11], então ela terminou a sessão se sentindo cansada e sem a confiança de ter absorvido o conteúdo necessário [4][12].    
-# 
+
+	**Persona Bárbara**
+Bárbara é coordenadora de um departamento de Engenharia de Software em uma instituição financeira e passa grande parte do dia em reuniões no Teams [10] e no Outlook para acompanhar prazos de entregas importantes, acreditando que estar presente em todas as reuniões é essencial para o andamento dos projetos críticos [3]. Ela organiza sua agenda de forma apertada, com reuniões sequenciais e poucos intervalos, pensando que dessa forma conseguirá acompanhar melhor os indicadores da equipe e manter tudo sob controle [1][2][5]. Apesar disso, Bárbara percebe que ao final de algumas reuniões já está mentalmente cansada e menos focada [8][9], o que compromete sua capacidade de tomar decisões estratégicas. Quando surge um intervalo, ela acaba utilizando-o para responder e-mails ou revisar planilhas no Excel em vez de descansar [7], acreditando que pausar faria ela perder tempo e atrasar decisões importantes [5][6]. No entanto, ao final do dia Bárbara percebe que não conseguiu dar feedbacks assertivos ou consolidar informações-chave das reuniões [11], terminando o expediente com sensação de sobrecarga e de que não acompanhou os projetos de maneira adequada [4][12].
 
 # **Entrega 5  (data) \[em andamento/concluído\]**
 

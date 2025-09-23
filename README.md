@@ -288,7 +288,7 @@ Bárbara é coordenadora de um departamento de Engenharia de Software em uma ins
 **1\) HTA**  
 
 ***Funcionalidade: Alerta de pop up na tela***  
-Explicação da funcionalidade: Durante o monitoramento do usuário, após a análise das expressões, o sistema detecta uma mudança de status od usuário e emite um alerta por um pop-up ("seu status mudou de "Focado" para "Inquieto", sugiro fazer uma pausa.")  
+Explicação da funcionalidade: Durante o monitoramento do usuário, após a análise das expressões, o sistema detecta uma mudança de status od usuário e emite um alerta por um pop-up ("Seu status mudou para Inquieto, faça uma pausa")  
 
 <img width="3648" height="1728" alt="image" src="https://github.com/user-attachments/assets/0df822cc-cb33-42a1-823f-ee02197eedf1" />
 

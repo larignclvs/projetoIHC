@@ -202,7 +202,7 @@ Apesar de trabalhar sozinho e de forma remota, Victor é uma pessoa muito comuni
 Victor teve seu primeiro contato com a ferramenta após participar de uma palestra no trabalho sobre a importância da prevenção ao Burnout. Acessou a plataforma para entender como a ferramenta poderia ajudá-lo a melhorar seu desempenho e reduzir sua fadiga durante seus longos períodos de trabalho. Ao acessar a documentação, ele ficou satisfeito ao ver exemplos claros e simples da utilização da API, que roda em segundo plano, processando imagens em tempo real os sinais captados pela webcam.
 Enquanto Victor trabalha, não precisa se preocupar em interagir diretamente com a ferramenta, apenas acessando a quando recebe uma notificação não invasiva em sua tela, alertando por exemplo "Você apresentou sinais de estresse nos ultimos 10 minutos. Que tal uma pausa?". Tais Notificações foram projetadas para que não atrapalhassem o fluxo de trabalho mas mesmo assim fossem suficientes para chamar sua atenção. Victor percebe nelas um suporte personalizado, o que o ajuda a se autorregular durante o dia.  Ao final do expediente, ele ainda recebe um resumo consolidado com estatísticas, mostrando quantas vezes apresentou sinais de fadiga, períodos de maior foco e recomendações para melhorar seu bem-estar. 
 
-# **Entrega 4  (data) \[em andamento\]**
+# **Entrega 4  (11/09) \[Concluído]\]**
 
 **\[1 solução completa por pessoa da equipe\]**
 
@@ -217,7 +217,10 @@ Nicole está iniciando sua sessão de estudos de química para o vestibular e ac
 	**Problema: Sobrecarga de reuniões e dificuldade de acompanhamento das demandas da equipe**
 Bárbara é coordenadora de um departamento de Engenharia de Software em uma instituição financeira. Seu dia é repleto de reuniões no Teams, atualizações no Outlook e análises de planilhas no Excel. Ela precisa acompanhar o progresso de diversos projetos ao mesmo tempo e, apesar do uso intenso dessas ferramentas, sente que está sempre apagando incêndios. Devido à grande quantidade de reuniões e notificações, Bárbara tem dificuldade em encontrar blocos de tempo para trabalho focado e estratégico. Muitas vezes, ela sai de uma reunião direto para outra, sem tempo para consolidar informações, tomar decisões embasadas ou dar retornos assertivos à equipe. Isso gera sensação de improdutividade e estresse, além de comprometer o acompanhamento do desempenho dos projetos e da própria equipe.
  
+	**3. Persona Victor**
 
+	**Problema: Excesso de horas extras e falta de pausas no home office**
+Victor é um programador de 35 anos que trabalha em home office. Ele começa cedo, mas raramente define quando vai parar, passando longas horas sentado sem pausas para descanso ou autocuidado. Sempre acredita que só poderá parar depois de finalizar todas as demandas, o que o leva a fazer horas extras com frequência. No fim do dia, percebe que trabalhou além do necessário, mas termina exausto e sem energia para sua vida pessoal, sentindo que o home office tem aumentado seu desgaste em vez de trazer equilíbrio.
 
 3) ## **Questões de Refinamento**
    **1. Persona Nicole**
@@ -269,13 +272,43 @@ Bárbara é coordenadora de um departamento de Engenharia de Software em uma ins
 12. Qual é o resultado esperado por Bárbara ao final de um ciclo de trabalho (ex: ter clareza sobre o andamento dos projetos, sentir-se menos sobrecarregada, dar feedbacks mais assertivos)?
 
 
+**3. Persona Victor**
+**Objetivo**  
+1. Por que Victor precisa manter foco e produtividade durante o trabalho (ex: para cumprir prazos, evitar atrasos nos projetos)?  
+2. De que informações ou indicadores Victor precisa para saber se está sendo realmente produtivo e não apenas trabalhando mais horas?  
+
+**Ator(es)**  
+3. Quais características de Victor, como dedicação ou perfeccionismo, o levam a não respeitar pausas e sempre estender o expediente?  
+4. Como ele se sente quando percebe que trabalhou além do necessário e terminou o dia exausto?  
+
+**Planejamento**  
+5. Como Victor atualmente decide quando encerrar o expediente, e como ele gostaria que essa decisão fosse tomada?  
+6. Quais estratégias alternativas ele poderia adotar para equilibrar horas de trabalho e bem-estar, e por que não as coloca em prática?  
+
+**Ação**  
+7. Como Victor lida com pausas ao longo do dia? Ele faz pequenas interrupções ou trabalha de forma contínua?  
+8. Quais dificuldades ele encontra para retomar o foco caso precise parar no meio de uma tarefa?  
+
+**Eventos**  
+9. Quais eventos deveriam ser disparados para alertar Victor sobre fadiga, excesso de horas extras ou falta de pausas?  
+10. Quais eventos disparam a necessidade de Victor aumentar o ritmo de trabalho (ex: prazos apertados, entregas urgentes)?  
+
+**Avaliação**  
+11. Como Victor avalia se o seu dia de trabalho foi produtivo de verdade, e não apenas longo?  
+12. Qual é o resultado esperado por Victor ao final do expediente (ex: cumprir demandas, sentir que produziu sem prejudicar o bem-estar)?  
+    
+    
+
 5) **Refinamento do Cenário Análise/Problema**
 
 	**1. Persona Nicole**  
 Nicole está iniciando sua sessão de estudos de química para o vestibular que está próximo [10] e por isso aciona o cronômetro do pomodoro em 60 minutos sem pausas [7] para conseguir estudar por um período maior de tempo  [1], em comparação com o tempo de estudo anterior, de 30 minutos com pausas de 5 minutos [6]. Após 30 minutos estudando fórmulas complexas, sua mente começa a se distrair e seu foco vai caindo, e aos 40 minutos, seus olhos vão ficando pesados e sua fadiga começa a aumentar [8][9], o que não aconteceria caso tivesse realizado sua pausa de 5 minutos quando o cronômetro bateu 30 minutos [6]. Mas Nicole decide não parar, pois a sessão ainda estava faltando 20 minutos para terminar e esses 20 minutos a mais são essenciais para sua sessão de estudos [3], Nicole acredita que parar agora interromperia sua linha de raciocínio e ritmo de estudos [5] e por isso segue até o final da sessão. Nicole percebeu então que a sessão acabou não sendo muito produtiva, pois passou a maior parte da sessão apenas cumprindo com o tempo e não adquirindo aprendizado [11], então ela terminou a sessão se sentindo cansada e sem a confiança de ter absorvido o conteúdo necessário [4][12].    
 
-	**Persona Bárbara**
+	**2. Persona Bárbara**
 Bárbara é coordenadora de um departamento de Engenharia de Software em uma instituição financeira e passa grande parte do dia em reuniões no Teams [23] e no Outlook para acompanhar prazos de entregas importantes, acreditando que estar presente em todas as reuniões é essencial para o andamento dos projetos críticos [15]. Ela organiza sua agenda de forma apertada, com reuniões sequenciais e poucos intervalos, pensando que dessa forma conseguirá acompanhar melhor os indicadores da equipe e manter tudo sob controle [13][14][18]. Apesar disso, Bárbara percebe que ao final de algumas reuniões já está mentalmente cansada e menos focada [21][22], o que compromete sua capacidade de tomar decisões estratégicas. Quando surge um intervalo, ela acaba utilizando-o para responder e-mails ou revisar planilhas no Excel em vez de descansar [20], acreditando que pausar faria ela perder tempo e atrasar decisões importantes [5][6]. No entanto, ao final do dia Bárbara percebe que não conseguiu dar feedbacks assertivos ou consolidar informações-chave das reuniões [24], terminando o expediente com sensação de sobrecarga e de que não acompanhou os projetos de maneira adequada [16][25].
+
+	**3. Persona Victor**  
+Victor é um programador de 35 anos que trabalha em home office e começa seu dia cedo, mas sem definir um horário claro para encerrar o expediente [5]. Ele passa longas horas sentado em frente ao computador, sem se lembrar de fazer pausas para beber água ou alongar o corpo [7]. Por conta de seu perfeccionismo e dedicação, acredita que só poderá parar de trabalhar quando finalizar todas as tarefas do dia [3], o que o leva a estender o expediente com horas extras quase todos os dias [9]. Conforme as horas passam, Victor começa a sentir fadiga mental e tensão física [8], mas continua insistindo no trabalho por acreditar que precisa manter o ritmo [2]. Quando finalmente decide encerrar o dia, percebe que trabalhou além do necessário e está exausto, sem energia para atividades pessoais [4]. Ele termina com a sensação de que seu home office, em vez de trazer equilíbrio, aumentou seu cansaço e reduziu sua qualidade de vida [11][12].  
 
 # **Entrega 5  (18/09) \[em andamento]**
 

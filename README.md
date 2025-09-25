@@ -337,7 +337,8 @@ Explicação da funcionalidade: Durante o monitoramento do usuário, após a an�
 | 2.2 Exibir pop-up para status "Cansado"  | Mudança de status para "Cansado".                                       | Pop-up "Seu status mudou para Cansado, considere uma pausa mais longa ou finalizar o expediente" é exibido. |                                                                                                              |                                                                                    |
 | 3. Fechar o pop-up                         | O usuário clica no botão "fechar" ou no "X".                          | O pop-up desaparece da tela.                                                                                  |                                                                                                              |                                                                                    |
 
-
+***Funcionalidade: Tela final com relatório de monitoramento***
+Explicação da funcionalidade: permite que o usuário visualize os resultados completos do monitoramento. Quando a sessão de trabalho é encerrada, o sistema gera um relatório com resultados de detecção de expressões faciais, níveis de cansaço, ansiedade e inquietação, além de apresentar gráficos, estatísticas e alertas.
 **2\) GOMS**  
 ***Funcionalidade: Alerta de pop up na tela***    
 ## **GOAL 0: Responder ao alerta de status**  

@@ -331,11 +331,11 @@ Explicação da funcionalidade: Durante o monitoramento do usuário, após a an�
 | Objetivos/Operações                        | Input                                                                     | Feedback                                                                                                      | Plano                                                                                                        | Recomendação                                                                       |
 |--------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | 0. Receber alerta de mudança de status     | O sistema detecta uma mudança de status para "Inquieto" ou "Cansado". | Um pop-up surge na tela com a mensagem e sugestão correspondente.                                             | Detectar mudança de status (1) e exibir o pop-up de alerta (2), permitindo que o usuário feche o pop-up (3). | O alerta deve ser visualmente distinto e não-intrusivo.                            |
-| 1. Detectar mudança de status              | O sistema identifica uma mudança de "Focado" para outro estado.         | O sistema aciona o evento para exibir o pop-up.                                                               |                                                                                                              |                                                                                    |
-| 2. Exibir pop-up de alerta                 | O sistema identifica o novo status ("Inquieto" ou "Cansado").         | O pop-up com a mensagem e sugestão correspondente é exibido na tela.                                          | Exibir pop-up para status "Inquieto" (2.1) ou exibir pop-up para status "Cansado" (2.2).                 | Incluir um botão de "pausar monitoramento" no pop-up para facilitar a interação. |
-| 2.1 Exibir pop-up para status "Inquieto" | Mudança de status para "Inquieto".                                      | Pop-up "Seu status mudou para Inquieto, faça uma pausa" é exibido.                                          |                                                                                                              |                                                                                    |
-| 2.2 Exibir pop-up para status "Cansado"  | Mudança de status para "Cansado".                                       | Pop-up "Seu status mudou para Cansado, considere uma pausa mais longa ou finalizar o expediente" é exibido. |                                                                                                              |                                                                                    |
-| 3. Fechar o pop-up                         | O usuário clica no botão "fechar" ou no "X".                          | O pop-up desaparece da tela.                                                                                  |                                                                                                              |                                                                                    |
+| 1. Detectar mudança de status              |         |                                                             |                                                                                                              |                                                                                    |
+| 2. Exibir pop-up de alerta                 |        |                                          | Exibir pop-up para status "Inquieto" (2.1) ou exibir pop-up para status "Cansado" (2.2).                 | Incluir um botão de "pausar monitoramento" no pop-up para facilitar a interação. |
+| 2.1 Exibir pop-up para status "Inquieto" |                                 |                                         |                                                                                                              |                                                                                    |
+| 2.2 Exibir pop-up para status "Cansado"  |                                      | |                                                                                                              |                                                                                    |
+| 3. Fechar o pop-up                         |                          |                                                                                |                                                                                                              |                                                                                    |
 
 ***Funcionalidade: Tela final com relatório de monitoramento***
 Explicação da funcionalidade: permite que o usuário visualize os resultados completos do monitoramento. Quando a sessão de trabalho é encerrada, o sistema gera um relatório com resultados de detecção de expressões faciais, níveis de cansaço, ansiedade e inquietação, além de apresentar gráficos, estatísticas e alertas.
@@ -344,42 +344,46 @@ Explicação da funcionalidade: permite que o usuário visualize os resultados c
 ## **GOAL 0: Responder ao alerta de status**  
 Este é o objetivo principal do usuário, que é interagir com a notificação que apareceu na tela para tomar uma decisão.  
 #### **GOAL 1: Entender o alerta e sua sugestão**
-##### **METHOD 1.A: Ler a mensagem do pop-up**
-(SEL. RULE: O usuário precisa compreender o motivo do alerta.)
+##### ** SUBGOAL: Ler a mensagem do pop-up**
 
-- OP. 1.A.1: Focar o olhar no pop-up que apareceu.
-- OP. 1.A.2: Ler a mensagem exibida.
-- OP. 1.A.3: Processar a informação (ex: "Seu status mudou para Inquieto, faça uma pausa").
+- OP. 1: Focar o olhar no pop-up que apareceu.
+- OP. 2: Ler a mensagem exibida.
+- OP. 3: Processar a informação (ex: "Seu status mudou para Inquieto, faça uma pausa").
 
 #### **GOAL 2: Dispensar o pop-up**
-##### **METHOD 2.A: Fechar o pop-up com o mouse**
+##### **METHOD 1.A: Fechar o pop-up com o mouse**
 (SEL. RULE: O usuário deseja continuar com a tarefa atual ou a notificação é considerada uma interrupção.)
 
-- OP. 2.A.1: Mover o cursor para o botão de fechar (X) no canto do pop-up.
-- OP. 2.A.2: Clicar no botão para fechar.
+- OP. 1.A.1: Mover o cursor para o botão de fechar (X) no canto do pop-up.
+- OP. 1.A.2: Clicar no botão para fechar.
+- OP. 1.A.3: Perceber que a tela do pop-up fechou.
 
-##### **METHOD 2.B: Fechar o pop-up usando uma tecla de atalho**
+##### **METHOD 1.B: Fechar o pop-up usando uma tecla de atalho**
 (SEL. RULE: O usuário prefere usar o teclado ou está acostumado com atalhos.)
 
-- OP. 2.B.1: Pressionar a tecla de atalho designada (ex: Esc).
+- OP. 1.B.1: Pressionar a tecla de atalho designada (ex: Esc).  
+- OP. 1.B.2: Percebe que a tela do pop-up fechou.
 
 #### **GOAL 3: Iniciar uma ação sugerida**
-##### **METHOD 3.A: Clicar no botão "Pausar Monitoramento"**
+##### **METHOD 2.A: Clicar no botão "Pausar Monitoramento"**
 (SEL. RULE: O usuário decide seguir a sugestão de fazer uma pausa.)
 
-- OP. 3.A.1: Mover o cursor para o botão "Pausar Monitoramento" no pop-up.
-- OP. 3.A.2: Clicar no botão para iniciar a pausa.
+- OP. 2.A.1: Mover o cursor para o botão "Pausar Monitoramento" no pop-up.
+- OP. 2.A.2: Clicar no botão para iniciar a pausa.  
+- OP. 2.A.3: Perceber que o monitoramento foi pausado. 
 
 #### **GOAL 4: Desconsiderar o alerta**
-##### **METHOD 4.A: Ignorar o pop-up até que ele desapareça**
+##### **METHOD 3.A: Ignorar o pop-up até que ele desapareça**
 (SEL. RULE: O usuário não deseja interagir com o pop-up e espera que ele desapareça automaticamente.)
 
-- OP. 4.A.1: Continuar com a tarefa atual.
-- OP. 4.A.2: Esperar o tempo de exibição do pop-up.
+- OP. 3.A.1: Continuar com a tarefa atual.
+- OP. 3.A.2: Esperar o tempo de exibição do pop-up.
+- OP. 3.A.3: Perceber que o pop-up desapareceu.  
 
 **3\) CTT**  
 ***Funcionalidade: Alerta de pop up na tela***    
-<img width="3260" height="2852" alt="image" src="https://github.com/user-attachments/assets/1e520849-8ced-412c-87d3-39bff9732dda" />
+<img width="4940" height="2080" alt="image" src="https://github.com/user-attachments/assets/bd16f619-a650-4997-9889-20c9eb131cde" />
+
 
 
 # 

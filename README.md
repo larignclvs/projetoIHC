@@ -33,7 +33,7 @@ linha do tempo com mudanças de status durante o expediente)
 (TCC)?
 Linguagem de Programação: Python 3.9
 Bibliotecas: OpenCV, MediaPipe, XGBoost, Scikit-learn, Pandas, Numpy, Matplotlib,
-Seaborn, Streamlit, Joblib e Json
+Seaborn, PySide6, Joblib e Json
 Ferramentas de Desenvolvimento: VSCode, Git e Github
 12) Qual é o contexto de uso dessa aplicação? (esse já é um conceito de IHC que
 professor explicou na sala)
@@ -388,7 +388,7 @@ Este é o objetivo principal do usuário, que é interagir com a notificação q
 
 # 
 
-# **Entrega 6  (data) \[em andamento/concluído\]**
+# **Entrega 6  (data) \[em andamento]**
 
 **\[PARTE A \- 1 solução por equipe\]**
 
@@ -482,7 +482,7 @@ Imagem do formulário:
 
 # 
 
-# **Entrega 8  (data) \[em andamento/concluído\]**
+# **Entrega 8  (data) \[concluído\]**
 
 **\[1 solução por equipe\]**
 
@@ -495,10 +495,10 @@ Imagem do formulário:
 
 | Característica | Descrição |
 | :---- | :---- |
-| Descrição do Software |  |
-| Descrição do Hardware |  |
-| LISTA DE Capacidades da Plataforma (com explicação) |  |
-| LISTA DE Restrições da Plataforma (com explicação) |  |
+| Descrição do Software | O sistema será desenvolvido em Python 3.9, utilizando bibliotecas como OpenCV e MediaPipe para detecção facial e rastreamento de expressões, Scikit-learn e XGBoost para classificação de estados de fadiga, e PySide6 para a construção da interface interativa. O código será versionado via Git/GitHub e executado em ambiente desktop. |
+| Descrição do Hardware | O FACESENSE será executado em computadores pessoais com webcam integrada ou externa, processador mínimo i5 ou Ryzen 5, 8 GB de RAM, e placa gráfica integrada capaz de processar imagens em tempo real (mínimo 30 fps). O sistema requer câmera funcional e iluminação adequada para o reconhecimento facial. |
+| LISTA DE Capacidades da Plataforma (com explicação) | • Processamento de vídeo em tempo real – Permite capturar e analisar expressões faciais instantaneamente usando a webcam. • Compatibilidade multiplataforma – As bibliotecas Python utilizadas (OpenCV, PySide6) funcionam em Windows, Linux e macOS. • Aprendizado de máquina integrado – Capacidade de executar modelos de classificação treinados localmente, sem depender de conexão constante à internet. • Interface visual interativa – Uso do PySide6 possibilita visualização em tempo real dos status detectados (“Focado”, “Cansado”, “Inquieto”). • Alertas personalizados – Sistema envia pop-ups e mensagens automáticas conforme o estado detectado. |
+| LISTA DE Restrições da Plataforma (com explicação) | • Dependência de webcam funcional – Sem captura de vídeo, o sistema não consegue realizar detecção facial e expressões, comprometendo o monitoramento. • Iluminação e posição do usuário – Condições ruins de luz ou ângulo podem reduzir a precisão da detecção de fadiga. • Desempenho limitado em hardware fraco – Em máquinas com baixa capacidade de processamento, o FPS pode cair, prejudicando a experiência. • Privacidade e ética – O uso de dados faciais requer consentimento e cuidados com armazenamento e anonimização. • Necessidade de ambiente de trabalho silencioso – Sons altos podem interferir se alertas sonoros forem habilitados, causando desconforto. |
 
    
 
@@ -507,19 +507,25 @@ Imagem do formulário:
 
 | Nome | Descrição | Link |
 | :---- | :---- | :---- |
-| Descrição do Contexto | .  |  |
+| Descrição do Contexto | O sistema FACESENSE será utilizado por profissionais que trabalham em home office, em ambiente silencioso e iluminado, com uso contínuo durante o expediente. O contexto exige uma interface intuitiva, não invasiva e capaz de gerar alertas sutis, priorizando o conforto e a privacidade do usuário.  |  |
 | Lei Geral de Proteção de Dados (LGPD) \- Lei n.º 13.709/2018 | A LGPD é a legislação brasileira que regulamenta o tratamento de dados pessoais no Brasil. É importante para o projeto porque estabelece regras sobre como os dados dos usuários devem ser coletados, armazenados, processados e protegidos, garantindo sua privacidade e segurança. | [https://www.planalto.gov.br/ccivil\_03/\_ato2015-2018/2018/lei/l13709.htm](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) |
 | Lei n.º 10.098/2000 \- Lei da Acessibilidade |  Esta lei brasileira estabelece normas gerais e critérios básicos para a promoção da acessibilidade das pessoas com deficiência ou com mobilidade reduzida. É importante para o projeto porque define diretrizes para tornar produtos e serviços, incluindo interfaces de usuário, acessíveis a todos os usuários, independentemente de suas habilidades físicas ou cognitivas. | [https://www.planalto.gov.br/ccivil\_03/leis/l10098.htm](https://www.planalto.gov.br/ccivil_03/leis/l10098.htm) |
 | ABNT NBR ISO 9241 Ergonomia da interação humano-sistema |  Esta série de normas brasileiras, baseadas nas normas ISO 9241, fornece diretrizes e orientações para o design centrado no usuário de sistemas interativos, incluindo a concepção de interfaces de usuário. A parte 210 aborda o processo de design centrado no humano, enquanto a parte 11 fornece orientações específicas sobre usabilidade. Essas normas são importantes para o projeto porque estabelecem princípios e métodos para garantir que a interface do usuário atenda às necessidades e expectativas dos usuários. | [https://www.inf.ufsc.br/\~edla.ramos/ine5624/\_Walter/Normas/Parte%2011/iso9241-11F2.pdf](https://www.inf.ufsc.br/~edla.ramos/ine5624/_Walter/Normas/Parte%2011/iso9241-11F2.pdf) |
-|  | . |  |
-
+| Heurísticas de Nielsen (1994) | Conjunto de dez princípios universais de usabilidade, como visibilidade do status do sistema, prevenção de erros e controle pelo usuário. São importantes para o projeto porque guiam a construção de uma interface clara e responsiva, evitando sobrecarga cognitiva e frustração. | https://www.nngroup.com/articles/ten-usability-heuristics/ |  
+| Diretrizes de Design Inclusivo da Microsoft (Inclusive Design Toolkit) | Conjunto de orientações práticas para criar produtos que atendam à diversidade humana. No FACESENSE, podem ser aplicadas para projetar alertas acessíveis, mensagens empáticas e evitar discriminação facial. | https://inclusive.microsoft.design/ |  
    
 
 3. **Metas de Usabilidade**
 
-   1. **Qualitativo**
+1. **Qualitativo**  
 
-    
+| Meta | Descrição |
+|------|------------|
+| **Eficiência** | O sistema deve permitir que o usuário compreenda rapidamente seu status atual (“Focado”, “Inquieto”, “Cansado”) sem precisar navegar por menus complexos. |
+| **Satisfação** | A interface deve transmitir uma experiência agradável, intuitiva e não invasiva, garantindo conforto visual e interação empática. |
+| **Segurança e Privacidade** | O usuário deve se sentir seguro quanto ao uso de sua imagem e dados, sabendo que não há armazenamento indevido ou exposição de informações. |
+| **Aprendizado rápido** | O usuário deve conseguir utilizar o FACESENSE de forma autônoma logo na primeira sessão, sem necessidade de suporte técnico. |
+| **Confiabilidade** | O sistema deve apresentar alertas coerentes e consistentes, sem emitir notificações falsas com frequência. |
 
 
    2. **Quantitativo**  
@@ -527,12 +533,12 @@ Imagem do formulário:
 
 | Metas | Porcentagem | Justificativa |
 | ----- | :---- | :---- |
-| Facilidade de … |  |  |
-|  |  |  |
-|  |  |  |
-|  | 1% |  |
-|  | 20% |  |
-| **Total** | **100%** |  |
+| **Facilidade de aprendizado** | **30%** | O usuário deve ser capaz de compreender a funcionalidade principal (monitoramento e alertas) em menos de 5 minutos de uso. |
+| **Eficiência na execução** | **25%** | As ações do sistema (captura facial, exibição de status e envio de alertas) devem ocorrer em tempo real, com resposta inferior a 1 segundo. |
+| **Satisfação do usuário** |  **20%**  | Espera-se que pelo menos 80% dos usuários considerem o sistema “fácil” ou “muito fácil” de usar em testes de usabilidade. |
+| **Taxa de erro tolerável** | **15%** | O sistema deve apresentar no máximo 1 falha leve a cada 10 interações (como perda temporária de rastreamento facial). |
+| **Segurança e privacidade percebida** | **10%** | Pelo menos 90% dos participantes devem afirmar se sentir confortáveis em relação à proteção de seus dados e imagens. |
+| **Total** | **100%** | Pelo menos 90% dos participantes devem afirmar se sentir confortáveis em relação à proteção de seus dados e imagens. |
 
       
 

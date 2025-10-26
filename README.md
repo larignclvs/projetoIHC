@@ -400,15 +400,60 @@ Este é o objetivo principal do usuário, que é interagir com a notificação q
 
 **1\)	Identificação de Necessidades dos Usuários e Requisitos de IHC: exercício de perguntas**
 
+
 * **Que dados coletar?**
 
-* **De quem coletar?**
+* **Sobre o próprio usuário**
+1. Dados demográficos (idade, gênero, profissão, rotina de trabalho remoto).
+2. Nível de escolaridade e familiaridade com tecnologias digitais.
+3. Grau de alfabetização digital (ex.: se utiliza plataformas como Zoom, Teams ou sistemas de produtividade).
 
-	
+* **Relação com tecnologia**
+1. Experiência com ferramentas de videoconferência, sistemas de monitoramento e aplicativos de produtividade.
+2. Preferência por notificações visuais ou sonoras.
+3. Acesso a hardware (notebook, webcam, iluminação adequada).
+
+* **Conhecimento do domínio**
+1. Entendimento sobre ergonomia, pausas ativas e autocuidado digital.
+2. Consciência sobre fadiga ocular, mental e emocional.
+
+* **Tarefas**
+1. Tempo médio de expediente e frequência de pausas.
+2. Tipos de tarefas que exigem mais foco (ex.: reuniões, digitação, análise de dados).
+3. Dificuldades enfrentadas ao manter concentração durante o trabalho remoto.
+
+* **Motivações e valores**
+1. O que o motiva a usar uma aplicação de bem-estar?
+2. Valores associados à saúde mental e qualidade de vida.
+3. Disposição para receber alertas e ajustar comportamento.
+
+* **De quem coletar?**  
+
+Quem usará o sistema? → Profissionais que trabalham de casa com computador e webcam.
+
+Quem será afetado? → Usuários e possivelmente seus gestores.
+
+Quem define objetivos? → Equipe de desenvolvimento e orientadora, com base em princípios de bem-estar digital.
+
+
 
 **2\)	Aspectos Éticos**
 
-* **Seu projeto deverá considerar aspectos éticos? Justifique usando os conceitos da aula.**
+* **Seu projeto deverá considerar aspectos éticos? Justifique usando os conceitos da aula.**  
+Sim, o projeto deve considerar aspectos éticos, pois envolve coleta e processamento de imagens faciais e dados pessoais dos usuários. Com base na Resolução nº 196/96 do Conselho Nacional de Saúde (citada por Barbosa & Silva, 2010), os seguintes princípios se aplicam:
+* Autonomia:
+ O usuário deve participar de forma voluntária, com consentimento livre e esclarecido sobre o uso de dados faciais.
+* Não maleficência:
+ Garantir que o sistema não cause danos psicológicos ou constrangimento, evitando interpretações incorretas ou exposição dos dados.
+* Beneficência:
+ O sistema deve proporcionar benefícios claros, como melhoria do bem-estar e redução da fadiga.
+* Justiça e equidade:
+ Os dados devem ser tratados de forma anônima, respeitando a privacidade e confidencialidade das informações coletadas (imagens, expressões e métricas de atenção).
+
+**Na prática:**  
+* Exibir termo de consentimento antes do uso.
+* Garantir que nenhum dado facial seja armazenado sem permissão.
+* Permitir ao usuário interromper ou excluir seus dados a qualquer momento.
 
 	
 
@@ -416,8 +461,24 @@ Este é o objetivo principal do usuário, que é interagir com a notificação q
 
 **3\)	Ferramentas de Coleta de Dados**  
 **3.1) nome do instrumento e objetivo de aplicação**  
+**Instrumento**: Questionário online (Google Forms)  
+**Objetivo**: Coletar dados sobre hábitos de trabalho remoto, níveis de fadiga percebida, uso de pausas e receptividade a alertas de bem-estar.  
+
 **3.2) explicar como aplicar (serve para normalizar o processo de aplicação quando pessoas distintas aplicam o instrumento)**  
-**3.3) instrumento (por exemplo, link do questionário no Google Forms, roteiro de entrevista, roteiro do Grupo Focal, etc)**
+1. O questionário será aplicado de forma online por meio do Google Forms, garantindo acesso rápido e anônimo.
+2. Deve ser precedido por um termo de consentimento livre e esclarecido
+3. As perguntas devem combinar fechadas (para dados objetivos) e abertas (para opiniões e percepções), incluindo escalas Likert para medir o grau de fadiga e satisfação.
+4. O processo deve ser padronizado para que todos os membros da equipe apliquem o instrumento da mesma forma.
+5. Recomenda-se divulgar o formulário em grupos de trabalhadores remotos, redes sociais e fóruns de tecnologia.
+
+**3.3) instrumento (por exemplo, link do questionário no Google Forms, roteiro de entrevista, roteiro do Grupo Focal, etc)**  
+Link do questionário do google forms: https://docs.google.com/forms/d/e/1FAIpQLSdFC9WHRcSoxlcoDoFb0eECdSh_RamAG-wQCNkD_hXt-hLKfw/viewform?usp=dialog  
+Imagem do formulário:  
+<img width="771" height="809" alt="image" src="https://github.com/user-attachments/assets/6c8916d7-1da4-46b4-b77b-44bb172cd0d4" />  
+
+<img width="751" height="407" alt="image" src="https://github.com/user-attachments/assets/5ccaefe9-f841-4af1-8b98-4d9fbf7002a8" />
+
+
 
 # 
 

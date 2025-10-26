@@ -394,7 +394,7 @@ Este é o objetivo principal do usuário, que é interagir com a notificação q
 
 **DICA: protótipo em papel**
 
-# **Entrega 7  (data) \[em andamento/concluído\]**
+# **Entrega 7  (data) \[em andamento\]**
 
 **\[PARTE A: 1 solução completa por pessoa da equipe\]**
 
@@ -538,7 +538,7 @@ Imagem do formulário:
 | **Satisfação do usuário** |  **20%**  | Espera-se que pelo menos 80% dos usuários considerem o sistema “fácil” ou “muito fácil” de usar em testes de usabilidade. |
 | **Taxa de erro tolerável** | **15%** | O sistema deve apresentar no máximo 1 falha leve a cada 10 interações (como perda temporária de rastreamento facial). |
 | **Segurança e privacidade percebida** | **10%** | Pelo menos 90% dos participantes devem afirmar se sentir confortáveis em relação à proteção de seus dados e imagens. |
-| **Total** | **100%** | Pelo menos 90% dos participantes devem afirmar se sentir confortáveis em relação à proteção de seus dados e imagens. |
+| **Total** | **100%** | Distribuição proporcional de metas de usabilidade conforme critérios de eficácia, eficiência e satisfação definidos no ciclo de Mayhew. |
 
       
 

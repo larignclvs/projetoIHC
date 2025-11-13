@@ -547,8 +547,29 @@ Imagem do formulário:
 **\[1 solução completa por pessoa da equipe\]**
 
 1) **Cenários de Interação (destacar em cor diferente o texto alterado entre Cenário Problema e Cenário de Interação)**
+## Cenário de interação feita por Gabi  
+Nicole está estudando química para o vestibular e precisa manter seu foco para garantir um bom desempenho na prova [01]. Porém, tem dificuldade em avaliar se está realmente aprendendo ou apenas cumprindo o Pomodoro [02]. Muito dedicada, ela ignora sinais de fadiga para não perder o ritmo [03], mas quando percebe que a sessão foi improdutiva sente frustração e insegurança [04].
+
+Para melhorar sua percepção de cansaço, Nicole utiliza o FaceSense, que monitora em tempo real expressões faciais e sinais de queda de foco [05]. O sistema envia alertas quando identifica inquietação, olhos pesados ou redução de atenção [09], ajudando-a a decidir pausas que normalmente ela só faria quando já estivesse exausta [05][06]. Durante as pausas, o painel flutuante do FaceSense faz com que ela realmente descanse ao invés de se distrair com o celular [07], e ao retomar o estudo ela acompanha pelo status visual quando volta a ficar focada [08].
+
+A proximidade do vestibular reforça sua necessidade de bom desempenho [10], e por isso Nicole consulta ao final da sessão o relatório do FaceSense, verificando tempo focada, momentos de cansaço e alertas recebidos [11]. Assim, consegue avaliar se aprendeu de fato e alcançar o resultado que espera: sentir confiança e perceber que o estudo valeu a pena [12].
+
 
 2) **Design Centrado na Comunicação**
+
+
+**Nome do Cenário: Nicole monitora o foco com o FaceSense**
+
+| tópico \> subtópico (diálogo) | falas e signos |
+| :---- | :---- |
+| Início da interação | U: “Preciso garantir que estou realmente aprendendo e não só cumprindo o tempo do Pomodoro.” |
+| > Expressão da necessidade  | U: “Quero saber quando meu foco está caindo para fazer pausas no momento certo.”    D: O FaceSense exibe um painel inicial mostrando “Focado”, com ícone de atenção estável. |
+| Identificação do problema | U: “Acho que estou começando a me distrair… meus olhos estão pesados.”  |
+| Detecção automática do sistema | D: O FaceSense muda o status para “Inquieto” com um ícone pulsando em amarelo.  |
+| Alerta com filtro da informação relevante | D: “Seu status mudou para Inquieto. Recomendo uma pausa curta para recuperar o foco.” |
+| Solicitação de detalhamento | U: “Por que você me recomendou essa pausa agora?” |
+| Fornecimento de informação filtrada e explicada | D: “Detectei sinais de fadiga: desvio prolongado do olhar e redução na frequência de piscadas. Aqui está a informação filtrada.” |
+
 
 **Nome do Cenário: XXXXXX**
 

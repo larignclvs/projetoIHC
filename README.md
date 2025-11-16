@@ -388,11 +388,11 @@ Este é o objetivo principal do usuário, que é interagir com a notificação q
 
 # 
 
-# **Entrega 6  (data) \[em andamento]**
-
+# **Entrega 6  (data) \[Concluído]**  
 **\[PARTE A \- 1 solução por equipe\]**
+ ![prototipo](https://github.com/user-attachments/assets/c0b970c1-117d-499a-b16f-eb979c56eb41)  
 
-**DICA: protótipo em papel**
+
 
 # **Entrega 7  (data) \[em andamento\]**
 

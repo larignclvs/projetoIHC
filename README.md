@@ -390,7 +390,8 @@ Este é o objetivo principal do usuário, que é interagir com a notificação q
 
 # **Entrega 6  (data) \[Concluído]**  
 **\[PARTE A \- 1 solução por equipe\]**
- ![prototipo](https://github.com/user-attachments/assets/c0b970c1-117d-499a-b16f-eb979c56eb41)  
+![Imagem do WhatsApp de 2025-11-15 à(s) 23 02 36_6892297f](https://github.com/user-attachments/assets/d20aae7b-222c-40c6-a737-f443f5eef552)
+
 
 
 

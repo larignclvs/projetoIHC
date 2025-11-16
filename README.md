@@ -565,10 +565,10 @@ A proximidade do vestibular reforça sua necessidade de bom desempenho [10], e p
 | Início da interação | U: “Preciso garantir que estou realmente aprendendo e não só cumprindo o tempo do Pomodoro.” |
 | > Expressão da necessidade  | U: “Quero saber quando meu foco está caindo para fazer pausas no momento certo.”    D: O FaceSense exibe um painel inicial mostrando “Focado”, com ícone de atenção estável. |
 | Identificação do problema | U: “Acho que estou começando a me distrair… meus olhos estão pesados.”  |
-| Detecção automática do sistema | D: O FaceSense muda o status para “Inquieto” com um ícone pulsando em amarelo.  |
-| Alerta com filtro da informação relevante | D: “Seu status mudou para Inquieto. Recomendo uma pausa curta para recuperar o foco.” |
+| Detecção automática do sistema | D: O FaceSense muda o status para “Inquieto”.  |
+| Alerta com filtro da informação relevante | D: “Notificação não invasiva sinalizando possível nível de estresse médio. Recomendo uma pausa curta para recuperar o foco.” |
 | Solicitação de detalhamento | U: “Por que você me recomendou essa pausa agora?” |
-| Fornecimento de informação filtrada e explicada | D: “Detectei sinais de fadiga: desvio prolongado do olhar e redução na frequência de piscadas. Aqui está a informação filtrada.” |
+| Fornecimento de informação filtrada e explicada | D: “Detectei sinais de fadiga: desvio prolongado do olhar e redução na frequência de piscadas. Aqui está a informação filtrada (Relatório).” |
 
 
 **Nome do Cenário: XXXXXX**

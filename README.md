@@ -584,7 +584,11 @@ A proximidade do vestibular reforça sua necessidade de bom desempenho [10], e p
 
 3) **Mapa de Objetivos (cada um coloca seu mapa de objetivos e deverá ter um diagrama de consolidação)**
 
-4) **Esquema Conceitual de Signos**
+**Mapa de Objetivos - Persona Nicole (feito por Gabi)**  
+<img width="1380" height="2140" alt="mapa_objetivos_nicole" src="https://github.com/user-attachments/assets/97b314a4-aad5-4306-a7b1-cb3cf0901249" />
+
+
+5) **Esquema Conceitual de Signos**
 
 Exemplo: (fazer a junção das 3 tabelas abaixo em uma única)
 

@@ -590,7 +590,19 @@ A proximidade do vestibular reforça sua necessidade de bom desempenho [10], e p
 
 5) **Esquema Conceitual de Signos**
 
-Exemplo: (fazer a junção das 3 tabelas abaixo em uma única)
+Exemplo: (fazer a junção das 3 tabelas abaixo em uma única)   
+
+| **signo**                               | **origem** | **observações**                                            | **tipo de conteúdo**    | **restrição sobre conteúdo**                             | **valor default** | **prevenção (PP+PA)**                                     |
+| --------------------------------------- | ---------- | ---------------------------------------------------------- | ----------------------- | -------------------------------------------------------- | ----------------- | --------------------------------------------------------- |
+| status “Focado”                         | aplicação  | Indicador exibido quando o sistema detecta atenção estável | texto + ícone           | deve refletir o estado real captado                      | “Focado”          | PP: sinaliza estabilidade para evitar falsa interpretação |
+| status “Inquieto”                       | aplicação  | Exibido quando há sinais iniciais de queda de foco         | texto + ícone amarelo   | só pode aparecer se houver sinais válidos de inquietação | —                 | PP: alerta precoce evita fadiga acumulada                 |
+| alerta “Estresse Médio/Alto”            | aplicação  | Notificação gerada a partir da análise facial              | texto/visual            | só pode ser emitido com evidências de fadiga             | —                 | PA: impede continuidade prejudicial da sessão             |
+| ícone de atenção                        | aplicação  | Representa visualmente nível atual de foco                 | ícone visual            | deve estar sincronizado com análise                      | ícone verde       | PP: reduz interpretação errada de foco                    |
+| recomendação de pausa                   | aplicação  | Sugestão baseada em sinais detectados                      | texto contextualizado   | depende de análise prévia válida                         | —                 | PA: evita exaustão e queda de desempenho                  |
+| relatório final                         | aplicação  | Exibe tempo focado, alertas, variações de atenção          | tabela/gráfico          | deve conter dados reais captados                         | vazio             | PP: consolida sessão evitando perda de informação         |
+| gráfico de oscilação de foco            | aplicação  | Variação da atenção ao longo da sessão                     | visual analítico        | deve ser baseado em registros contínuos                  | zeros             | —                                                         |
+| pedido de explicação (“por que pausa?”) | usuário    | Solicitação da estudante ao sistema                        | texto                   | sem restrições                                           | —                 | —                                                         |
+
 
 | Credenciais (C) \- credenciais para acesso ao sistema |  |  |
 | :---- | :---- | :---- |

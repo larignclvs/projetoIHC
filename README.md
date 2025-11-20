@@ -543,7 +543,7 @@ Imagem do formulário:
 
       
 
-# **Entrega 9 (data) \[em andamento/concluído\]**
+# **Entrega 9 (data) \[em andamento]**
 
 **\[1 solução completa por pessoa da equipe\]**
 
@@ -622,7 +622,7 @@ Exemplo: (fazer a junção das 3 tabelas abaixo em uma única)
 | usuário | PP: campo obrigatório | RA |
 | senha | PP campo obrigatório  | RA |
 
-# **Entrega 10 (data) \[em andamento/concluído\]**
+# **Entrega 10 (data) \[em andamento]**
 
 **\[1 solução completa por pessoa da equipe\]**
 

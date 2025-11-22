@@ -351,51 +351,123 @@ Enquanto o sistema monitora o usuário pela câmera, ele calcula continuamente o
 | 2.1 Exibir status “Estressado”                       |                                                                                           | Janela exibe texto como “Status atual: Estressado” com cor de alerta (ex.: vermelho).             |                                                                                                       | Reforçar visualmente (ex.: vermelho ou ícone de atenção).                                      |
 | 2.2 Exibir status “Neutro”                           |                                                                                           | Janela exibe texto como “Status atual: Neutro” com cor neutra (ex.: verde).                       |                                                                                                       | Usar elementos visuais calmos para indicar normalidade.                                       |
 | 3. Interpretar status exibido                        | Usuário observa a janela flutuante.                                                       |                                                                                                   | Leitura do texto → percepção da cor/ícone → interpretação do significado.                            | A janela deve estar sempre visível, sem exigir ação manual para consulta.                     |
+## 2) GOMS  
 
+---
 
+### 📌 Funcionalidade 1: **Alerta de pop-up na tela**
 
+---
 
+#### GOAL 0: Responder ao alerta de status  
+Este é o objetivo principal do usuário, que é interagir com a notificação que apareceu na tela para tomar uma decisão.
 
-**2\) GOMS**  
-***Funcionalidade: Alerta de pop up na tela***    
-## **GOAL 0: Responder ao alerta de status**  
-Este é o objetivo principal do usuário, que é interagir com a notificação que apareceu na tela para tomar uma decisão.  
-#### **GOAL 1: Entender o alerta e sua sugestão**
-##### ** SUBGOAL: Ler a mensagem do pop-up**
+---
 
-- OP. 1: Focar o olhar no pop-up que apareceu.
-- OP. 2: Ler a mensagem exibida.
-- OP. 3: Processar a informação (ex: "Seu status mudou para Inquieto, faça uma pausa").
+#### GOAL 1: Entender o alerta e sua sugestão
 
-#### **GOAL 2: Dispensar o pop-up**
-##### **METHOD 1.A: Fechar o pop-up com o mouse**
-(SEL. RULE: O usuário deseja continuar com a tarefa atual ou a notificação é considerada uma interrupção.)
+##### SUBGOAL: Ler a mensagem do pop-up
+- OP. 1: Focar o olhar no pop-up que apareceu.  
+- OP. 2: Ler a mensagem exibida.  
+- OP. 3: Processar a informação (ex: *"Seu status mudou para Inquieto, faça uma pausa"*).  
 
-- OP. 1.A.1: Mover o cursor para o botão de fechar (X) no canto do pop-up.
-- OP. 1.A.2: Clicar no botão para fechar.
-- OP. 1.A.3: Perceber que a tela do pop-up fechou.
+---
 
-##### **METHOD 1.B: Fechar o pop-up usando uma tecla de atalho**
-(SEL. RULE: O usuário prefere usar o teclado ou está acostumado com atalhos.)
+#### GOAL 2: Dispensar o pop-up
 
-- OP. 1.B.1: Pressionar a tecla de atalho designada (ex: Esc).  
-- OP. 1.B.2: Percebe que a tela do pop-up fechou.
+##### METHOD 1.A: Fechar o pop-up com o mouse  
+*(SEL. RULE: O usuário deseja continuar com a tarefa atual ou a notificação é considerada uma interrupção.)*
 
-#### **GOAL 3: Iniciar uma ação sugerida**
-##### **METHOD 2.A: Clicar no botão "Pausar Monitoramento"**
-(SEL. RULE: O usuário decide seguir a sugestão de fazer uma pausa.)
+- OP. 1.A.1: Mover o cursor para o botão de fechar (X) no canto do pop-up.  
+- OP. 1.A.2: Clicar no botão para fechar.  
+- OP. 1.A.3: Perceber que a tela do pop-up fechou.  
 
-- OP. 2.A.1: Mover o cursor para o botão "Pausar Monitoramento" no pop-up.
+##### METHOD 1.B: Fechar o pop-up usando uma tecla de atalho  
+*(SEL. RULE: O usuário prefere usar o teclado ou está acostumado com atalhos.)*
+
+- OP. 1.B.1: Pressionar a tecla de atalho designada (ex: **Esc**).  
+- OP. 1.B.2: Perceber que a tela do pop-up fechou.  
+
+---
+
+#### GOAL 3: Iniciar uma ação sugerida
+
+##### METHOD 2.A: Clicar no botão **“Pausar Monitoramento”**  
+*(SEL. RULE: O usuário decide seguir a sugestão de fazer uma pausa.)*
+
+- OP. 2.A.1: Mover o cursor para o botão "Pausar Monitoramento" no pop-up.  
 - OP. 2.A.2: Clicar no botão para iniciar a pausa.  
-- OP. 2.A.3: Perceber que o monitoramento foi pausado. 
+- OP. 2.A.3: Perceber que o monitoramento foi pausado.  
 
-#### **GOAL 4: Desconsiderar o alerta**
-##### **METHOD 3.A: Ignorar o pop-up até que ele desapareça**
-(SEL. RULE: O usuário não deseja interagir com o pop-up e espera que ele desapareça automaticamente.)
+---
 
-- OP. 3.A.1: Continuar com a tarefa atual.
-- OP. 3.A.2: Esperar o tempo de exibição do pop-up.
+#### GOAL 4: Desconsiderar o alerta
+
+##### METHOD 3.A: Ignorar o pop-up até que ele desapareça  
+*(SEL. RULE: O usuário não deseja interagir com o pop-up e espera que ele desapareça automaticamente.)*
+
+- OP. 3.A.1: Continuar com a tarefa atual.  
+- OP. 3.A.2: Esperar o tempo de exibição do pop-up.  
 - OP. 3.A.3: Perceber que o pop-up desapareceu.  
+
+---
+
+<br>
+
+---
+
+### 📌 Funcionalidade 2: **Exibir status do usuário em janela flutuante**
+
+---
+
+#### GOAL 0: Consultar o status atual  
+Este é o objetivo principal do usuário: verificar rapidamente seu estado atual (ex.: *“Estressado” ou “Neutro”*) por meio da janela flutuante.
+
+---
+
+#### GOAL 1: Localizar a janela flutuante
+
+##### SUBGOAL: Direcionar a atenção para a janela
+- OP. 1: Desviar o olhar da tarefa atual para o canto da tela onde a janela está posicionada.  
+- OP. 2: Identificar a janela flutuante (reconhecer sua posição fixa e contorno).
+
+---
+
+#### GOAL 2: Compreender o status exibido
+
+##### SUBGOAL 2.1: Ler o texto do status
+- OP. 2.1.1: Focar o olhar sobre o texto da janela.  
+- OP. 2.1.2: Ler o texto apresentado (ex.: *“Status atual: Estressado”*).
+
+##### SUBGOAL 2.2: Interpretar elementos visuais
+- OP. 2.2.1: Observar a cor/ícone associado ao status (ex.: vermelho para estresse).  
+- OP. 2.2.2: Relacionar a cor/ícone ao significado do estado emocional/postural.
+
+---
+
+#### GOAL 3: Decidir o que fazer com essa informação
+
+##### METHOD 3.A: Continuar a atividade normalmente  
+*(SEL. RULE: status exibido é considerado aceitável ou o usuário não deseja agir agora.)*
+
+- OP. 3.A.1: Retornar a atenção para a tarefa em execução.
+
+##### METHOD 3.B: Considerar uma ação corretiva  
+*(SEL. RULE: status indica desconforto, estresse ou necessidade de pausa.)*
+
+- OP. 3.B.1: Refletir sobre realizar uma pausa ou ajustar postura.  
+- OP. 3.B.2: Decidir se pretende seguir recomendações do sistema (ex.: abrir sugestão de pausa).
+
+---
+
+#### GOAL 4: Ignorar a janela flutuante  
+*(Método alternativo caso o status não seja considerado relevante ou o usuário opte por não interagir.)*
+
+- OP. 4.1: Manter o foco na tarefa atual sem prestar atenção ao indicador.  
+- OP. 4.2: Deixar a janela flutuante visível até que atualize automaticamente ao detectar nova condição.
+
+---
+
 
 **3\) CTT**  
 ***Funcionalidade: Alerta de pop up na tela***    

@@ -797,7 +797,40 @@ Ao utilizar o sistema, Victor passa a visualizar um indicador contínuo de seu e
 | Ação do usuário                  | U: “Vou parar por alguns minutos para retomar com mais clareza.”               |
 | Feedback do sistema              | D: “A pausa foi registrada. O status voltará a ser monitorado ao retomar a tarefa.” |
 
+**3 - Mapa de Objetivos - Persona Victor (feito por Lari)**   
+<img width="1380" height="2140" alt="diagrama obj" src="https://github.com/user-attachments/assets/9cc164ef-1c3c-4bb3-ba87-411e6e8c1ab4" />
+## 4) Esquema Conceitual de Signos – Persona Victor (Programador)
 
+### Junção das três tabelas em uma única (conforme orientado)
+
+| **signo**                                    | **origem**   | **observações**                                                                 | **tipo de conteúdo**  | **restrição sobre conteúdo**                                | **valor default** | **prevenção (PP+PA)**                                                         |
+|----------------------------------------------|--------------|---------------------------------------------------------------------------------|-----------------------|-------------------------------------------------------------|-------------------|-------------------------------------------------------------------------------|
+| status “Estável”                             | aplicação    | Exibido quando o sistema detecta concentração adequada                         | texto + ícone         | deve refletir o estado real analisado                      | “Estável”        | PP: ajuda a evitar falsa percepção de normalidade                           |
+| status “Sobrecarga”                          | aplicação    | Indica possível queda cognitiva ou tensão mental                               | texto + ícone amarelo | só pode aparecer se forem detectados sinais válidos        | —                 | PP: alerta preventivo reduz intensificação de estresse                      |
+| alerta “Alto nível de estresse”              | aplicação    | Notificação gerada a partir da análise das expressões                         | texto/visual          | deve estar baseado em detecção sólida                      | —                 | PA: evita continuação prejudicial do trabalho                               |
+| sugestão de pausa                            | aplicação    | Recomendação para reorganização mental baseada no estresse                    | texto contextualizado | depende da análise prévia                                   | —                 | PA: previne queda prolongada de performance                                 |
+| relatório de desempenho                      | aplicação    | Registra momentos de tensão, pausas e retomadas de produtividade              | tabela/gráfico        | deve utilizar dados reais captados                         | vazio             | PP: previne perda de registros ao final da sessão                           |
+| gráfico de variação cognitiva                | aplicação    | Demonstra oscilações de concentração ao longo da atividade                    | visual analítico      | deve representar eventos coletados continuamente           | zeros             | —                                                                             |
+| pedido de justificativa (“por que pausa?”)   | usuário      | Solicitação do programador ao sistema para entender a recomendação de pausa   | texto                 | sem restrições                                             | —                 | —                                                                             |
+
+---
+
+### Credenciais (C) – acesso ao sistema
+
+| **signo** | **origem** | **observações** |
+|----------|------------|-----------------|
+| usuário  | domínio    | —               |
+| senha    | domínio    | —               |
+
+| **signo** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** |
+|----------|-----------------------|------------------------------|-------------------|
+| usuário  | texto                 | não pode ser nulo            | —                 |
+| senha    | texto                 | não pode ser nulo            | —                 |
+
+| **signo** | **prevenção**             | **recuperação** |
+|----------|---------------------------|-----------------|
+| usuário  | PP: campo obrigatório     | RA              |
+| senha    | PP: campo obrigatório     | RA              |
 
 
 # **Entrega 10 (data) \[em andamento]**

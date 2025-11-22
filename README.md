@@ -1080,6 +1080,7 @@ O objetivo dos testes foi identificar problemas reais de usabilidade durante o u
 
 
 1) **Fluxograma de Avaliação de Usabilidade por Observação do Usuário \[1 solução por equipe\]**
+<img width="3916" height="808" alt="image" src="https://github.com/user-attachments/assets/9c0437de-ea89-4ca3-8dbb-e3e59752f442" />  
 
 2) **DESCRIÇÃO DO PROCEDIMENTO DE PREPARAÇÃO DO TESTE \[1 solução por equipe\]**
 

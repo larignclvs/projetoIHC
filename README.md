@@ -1008,11 +1008,8 @@ Tela das opções de controle do usuário
 **Local:** Tela inicial  
 **Justificativa:** O sistema não apresenta tutorial ou explicação sobre como funciona a detecção facial e como usar a ferramenta corretamente.  
 **Recomendação:** Criar um guia inicial curto, com imagens explicando como usar o FaceSense.
+
 # 1) Avaliação de IHC através de inspeção HEURÍSTICA (Larissa)
-
-Sistema avaliado: FaceSense – análise voltada ao uso em atividades cognitivamente intensas (ex.: programação).
-
-⚠️ Observação: Conforme orientação, foram deixados em branco (—) os itens já avaliados pela colega Gabi sem alterações adicionais.
 
 1. Visibilidade do status do sistema  
 —  
@@ -1020,17 +1017,18 @@ Sistema avaliado: FaceSense – análise voltada ao uso em atividades cognitivam
 2. Compatibilidade entre sistema e mundo real  
 Severidade: 1 – Cosmético  
 Local: Relatório pós-sessão  
-Justificativa: Alguns termos usados para descrever desempenho mental, como "oscilações cognitivas", podem ser interpretados como clínicos em vez de operacionais.  
-Recomendação: Preferir terminologias de uso comum (“momentos de queda de foco” ou “nível de tensão percebido”).
+Justificativa: Algumas informações são apresentadas em formato técnico ou pouco intuitivo, dificultando a associação imediata com a experiência real do usuário.  
+Recomendação: Utilizar linguagem e representações mais alinhadas ao cotidiano (ex.: indicadores simples de foco ou desconforto).
+
 
 3. Liberdade e controle do usuário  
 —  
 
 4. Consistência e padrões  
-Severidade: 2 – Simples  
-Local: Visualização consolidada de dados  
-Justificativa: Na tela de histórico, algumas representações não seguem a mesma cor utilizada em tempo real, podendo gerar confusão ao comparar alertas.  
-Recomendação: Aplicar a mesma paleta presente no monitoramento também na visualização retrospectiva.
+Severidade: 1 – Cosmético  
+Local: Relatório final   
+Justificativa: Na tela de relatório final as informações não estão padronizadas entre os blocos
+Recomendação: Aplicar o mesmo padrão no relatório inteiro
 
 5. Prevenção contra erros  
 —  
@@ -1056,8 +1054,6 @@ Recomendação: Indicar a possibilidade de conflito com outro aplicativo (ex.: �
 10. Ajuda e documentação  
 —
 
-
---------------------------------------------------
 
 # 2) INDICAÇÃO DE BOA PRÁTICA (Larissa)
 

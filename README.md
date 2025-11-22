@@ -946,8 +946,6 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 ## Avaliação Heurística – FaceSense
 
 
-## Avaliação Heurística – FaceSense
-
 ### 1. Visibilidade do status do sistema
 **Descrição:** O sistema deve comunicar claramente ao usuário o que está acontecendo, especialmente durante processos contínuos ou automáticos.  
 Tela informando o status do processo:  

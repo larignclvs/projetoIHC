@@ -1008,85 +1008,61 @@ Tela das opções de controle do usuário
 **Local:** Tela inicial  
 **Justificativa:** O sistema não apresenta tutorial ou explicação sobre como funciona a detecção facial e como usar a ferramenta corretamente.  
 **Recomendação:** Criar um guia inicial curto, com imagens explicando como usar o FaceSense.
+# 1) Avaliação de IHC através de inspeção HEURÍSTICA (Larissa)
 
+Sistema avaliado: FaceSense – análise voltada ao uso em atividades cognitivamente intensas (ex.: programação).
 
-# 1) Avaliação de IHC através de inspeção HEURÍSTICA (Larissa)  
-Sistema avaliado: FaceSense – uso em ambiente de trabalho (programação/home office)  
-Foco da avaliação: experiência de usuários que executam tarefas cognitivamente intensas, como programação.
+⚠️ Observação: Conforme orientação, foram deixados em branco (—) os itens já avaliados pela colega Gabi sem alterações adicionais.
 
 1. Visibilidade do status do sistema  
-Severidade: 3 – Grave  
-Local: Tela inicial de monitoramento  
-Justificativa: Não há indicação clara se o monitoramento facial está ativo ou aguardando permissões.  
-Recomendação: Inserir indicador explícito (ex.: “Monitoramento ativo/pausado”).
+—  
 
 2. Compatibilidade entre sistema e mundo real  
 Severidade: 1 – Cosmético  
 Local: Relatório pós-sessão  
-Justificativa: Uso de termos técnicos pouco intuitivos.  
-Recomendação: Adotar linguagem mais natural como “momentos de distração”.
+Justificativa: Alguns termos usados para descrever desempenho mental, como "oscilações cognitivas", podem ser interpretados como clínicos em vez de operacionais.  
+Recomendação: Preferir terminologias de uso comum (“momentos de queda de foco” ou “nível de tensão percebido”).
 
 3. Liberdade e controle do usuário  
-Severidade: 3 – Grave  
-Local: Alertas durante uso  
-Justificativa: Não é possível adiar/silenciar alertas durante tarefas importantes.  
-Recomendação: Incluir opção “Lembrar depois” ou “Silenciar por 10 min”.
+—  
 
 4. Consistência e padrões  
 Severidade: 2 – Simples  
-Local: Indicadores de estado  
-Justificativa: Padrões de cores não são uniformes entre telas.  
-Recomendação: Definir paleta fixa (verde = estável, amarelo = atenção, vermelho = alerta).
+Local: Visualização consolidada de dados  
+Justificativa: Na tela de histórico, algumas representações não seguem a mesma cor utilizada em tempo real, podendo gerar confusão ao comparar alertas.  
+Recomendação: Aplicar a mesma paleta presente no monitoramento também na visualização retrospectiva.
 
 5. Prevenção contra erros  
-Severidade: 4 – Catastrófico  
-Local: Detecção facial  
-Justificativa: Iluminação inadequada pode gerar alertas falsos.  
-Recomendação: Validar apenas após alguns segundos de consistência.
+—  
 
 6. Reconhecimento em vez de lembrança  
-Severidade: 2 – Simples  
-Local: Ícones de status  
-Justificativa: Usuário precisa lembrar o significado de cores e símbolos.  
-Recomendação: Adicionar tooltip explicativo.
+—  
 
 7. Flexibilidade e eficiência de uso  
 Severidade: 1 – Cosmético  
-Local: Configurações  
-Justificativa: Não há opções avançadas de ajuste.  
-Recomendação: Permitir personalização de sensibilidade/frequência de alertas.
+Local: Histórico de sessões  
+Justificativa: A análise pós-sessão não permite reordenação ou comparação dinâmica entre sessões, o que poderia auxiliar usuários recorrentes.  
+Recomendação: Adicionar filtros e ordenação (por duração, horário ou frequência de alertas).
 
 8. Estética e design minimalista  
-Severidade: 2 – Simples  
-Local: Relatório final  
-Justificativa: Excesso de dados exibidos de forma concentrada.  
-Recomendação: Criar visualização resumida com “ver mais”.
+—  
 
 9. Ajuda na detecção e recuperação de erros  
-Severidade: 3 – Grave  
-Local: Inicialização do monitoramento  
-Justificativa: Mensagens de erro são genéricas.  
-Recomendação: Orientar ações (“Verifique permissões da câmera”).
+Severidade: 2 – Simples  
+Local: Tentativa de acionamento manual da câmera  
+Justificativa: Quando a conexão da câmera é bloqueada por outro software, o erro apresentado não identifica a causa potencial.  
+Recomendação: Indicar a possibilidade de conflito com outro aplicativo (ex.: “Verifique se a câmera está em uso por outro programa”).
 
 10. Ajuda e documentação  
-Severidade: 2 – Simples  
-Local: Primeira utilização  
-Justificativa: Ausência de orientações iniciais.  
-Recomendação: Inserir tutorial rápido na primeira execução.
+—
+
 
 --------------------------------------------------
-## 2) **INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA \- HEURÍSTICAS NÃO VIOLADAS \[1 solução completa por pessoa da equipe\]**  
-(Feita por Gabi)   
-1. **Visibilidade do status do sistema**: O sistema sempre mostra o status do processo, se está sendo monitorado, monitoramento pausado/encerrado. Isso permite que o usuário esteja sempre informado sobre o que está acontecendo.  
-2. **Liberdade e controle do usuário**: A interface permite que o usuário tenha liberdade de fazer/desfazer ações - como iniciar/pausar/encerrar monitoramento - além das possibilidades de configurações simples (como volume de aúdio, tempo de alerta, alongamentos).  
-3. **Estética e design minimalista**: A interface do FACESENSE é projetada para causar o mínimo de desconforto ao usuário, adotando ícones minimalistas com poucas informações, com o objetivo de criar uma interface confortável e pouco invasiva ao usuário.  
 
+# 2) INDICAÇÃO DE BOA PRÁTICA (Larissa)
 
-(Feita por Larissa)  
-# 2) Heurística não violada – exemplo de boa prática
 Heurística 8 – Projeto estético e minimalista  
-A janela flutuante mostra apenas o status atual e uma recomendação direta, evitando distrações e mantendo a interface limpa, o que favorece usuários em situações de alta concentração como programação.
-
+A interface em modo flutuante apresenta somente o status atual e uma sugestão objetiva, permitindo rápida interpretação sem interromper o fluxo da atividade. Esse comportamento é adequado principalmente para usuários que trabalham em tarefas contínuas de alto foco, como programação.
 
 **DICA: 1 EXEMPLO DO SEU SISTEMA ONDE A HEURÍSTICA FOI ATENDIDA (ISSO NÃO É USADO NO MERCADO, SERVE APENAS PARA APRENDIZADO)**
 

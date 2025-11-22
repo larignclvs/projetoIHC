@@ -854,6 +854,13 @@ Victor monitora o próprio nível de estresse enquanto programa
 
 **Protótipo Correspondente ao MOLIC**  
 **Link para o FIGMA: https://www.figma.com/proto/K6zYDujZiOf12tfWnJVX3y/FACESENSE---PROTOTYPE?node-id=0-1&t=nMxU6QR3f7SQGF5k-1**  
+**Observações**: Usar o scroll do mouse para explorar a tela inteira do protótipo.  
+
+![FACESENSE](https://github.com/user-attachments/assets/b193fedc-b082-4849-aa4a-75b53aaf668f)
+
+
+
+
 
 # **Entrega 12 (data) \[concluído\]**
 

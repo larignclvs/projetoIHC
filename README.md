@@ -854,6 +854,10 @@ DICA: MATERIAL ABAIXO DISPONÍVEL EM ARQUIVO NO MOODLE.
 
 **DICA: SOMENTE VIOLAÇÕES**
 
+**Fluxograma de Avaliação Heurística**  
+<img width="4932" height="1916" alt="image" src="https://github.com/user-attachments/assets/961b454c-f74c-4182-a0d4-741b1fc65940" />
+
+
 Dez Heurísticas de Nielsen
 
 **Descrição da avaliação**

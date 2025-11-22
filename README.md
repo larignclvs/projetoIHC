@@ -1066,12 +1066,22 @@ A interface em modo flutuante apresenta somente o status atual e uma sugestão o
 
 **DICA: 1 EXEMPLO DO SEU SISTEMA ONDE A HEURÍSTICA FOI ATENDIDA (ISSO NÃO É USADO NO MERCADO, SERVE APENAS PARA APRENDIZADO)**
 
-# **Entrega 14 (data) \[em andamento/concluído\]**
+# **Entrega 14 (data) \[em andamento\]**
 
 **\[1 solução completa por pessoa da equipe\]**
 
 **Método de Avaliação de Usabilidade por Observação do Usuário**   
-**(o número de usuários observados é igual o número de membros da equipe)**
+**(o número de usuários observados é igual o número de membros da equipe)**  
+Foram realizados testes de usabilidade com base nas três personas desenvolvidas pela equipe:
+
+- **Nicole** — Estudante de cursinho pré-vestibular  
+- **Vitor** — Programador em uma empresa de consultoria  
+- **Barbara** — Coordenadora de um departamento de Engenharia de Software  
+
+O objetivo dos testes foi identificar problemas reais de usabilidade durante o uso espontâneo do protótipo, com foco especial em verificar se as dificuldades antecipadas na avaliação heurística realmente se manifestavam durante a interação dos usuários.
+
+
+
 
 1) **Fluxograma de Avaliação de Usabilidade por Observação do Usuário \[1 solução por equipe\]**
 

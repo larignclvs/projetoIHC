@@ -1033,10 +1033,77 @@ Tela das opções de controle do usuário
 **Justificativa:** O sistema não apresenta tutorial ou explicação sobre como funciona a detecção facial e como usar a ferramenta corretamente.  
 **Recomendação:** Criar um guia inicial curto, com imagens explicando como usar o FaceSense.
 
-
-
-
 2) **INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA \- HEURÍSTICAS NÃO VIOLADAS \[1 solução completa por pessoa da equipe\]**
+# 1) Avaliação de IHC através de inspeção HEURÍSTICA (Larissa)  
+Sistema avaliado: FaceSense – uso em ambiente de trabalho (programação/home office)  
+Foco da avaliação: experiência de usuários que executam tarefas cognitivamente intensas, como programação.
+
+1. Visibilidade do status do sistema  
+Severidade: 3 – Grave  
+Local: Tela inicial de monitoramento  
+Justificativa: Não há indicação clara se o monitoramento facial está ativo ou aguardando permissões.  
+Recomendação: Inserir indicador explícito (ex.: “Monitoramento ativo/pausado”).
+
+2. Compatibilidade entre sistema e mundo real  
+Severidade: 1 – Cosmético  
+Local: Relatório pós-sessão  
+Justificativa: Uso de termos técnicos pouco intuitivos.  
+Recomendação: Adotar linguagem mais natural como “momentos de distração”.
+
+3. Liberdade e controle do usuário  
+Severidade: 3 – Grave  
+Local: Alertas durante uso  
+Justificativa: Não é possível adiar/silenciar alertas durante tarefas importantes.  
+Recomendação: Incluir opção “Lembrar depois” ou “Silenciar por 10 min”.
+
+4. Consistência e padrões  
+Severidade: 2 – Simples  
+Local: Indicadores de estado  
+Justificativa: Padrões de cores não são uniformes entre telas.  
+Recomendação: Definir paleta fixa (verde = estável, amarelo = atenção, vermelho = alerta).
+
+5. Prevenção contra erros  
+Severidade: 4 – Catastrófico  
+Local: Detecção facial  
+Justificativa: Iluminação inadequada pode gerar alertas falsos.  
+Recomendação: Validar apenas após alguns segundos de consistência.
+
+6. Reconhecimento em vez de lembrança  
+Severidade: 2 – Simples  
+Local: Ícones de status  
+Justificativa: Usuário precisa lembrar o significado de cores e símbolos.  
+Recomendação: Adicionar tooltip explicativo.
+
+7. Flexibilidade e eficiência de uso  
+Severidade: 1 – Cosmético  
+Local: Configurações  
+Justificativa: Não há opções avançadas de ajuste.  
+Recomendação: Permitir personalização de sensibilidade/frequência de alertas.
+
+8. Estética e design minimalista  
+Severidade: 2 – Simples  
+Local: Relatório final  
+Justificativa: Excesso de dados exibidos de forma concentrada.  
+Recomendação: Criar visualização resumida com “ver mais”.
+
+9. Ajuda na detecção e recuperação de erros  
+Severidade: 3 – Grave  
+Local: Inicialização do monitoramento  
+Justificativa: Mensagens de erro são genéricas.  
+Recomendação: Orientar ações (“Verifique permissões da câmera”).
+
+10. Ajuda e documentação  
+Severidade: 2 – Simples  
+Local: Primeira utilização  
+Justificativa: Ausência de orientações iniciais.  
+Recomendação: Inserir tutorial rápido na primeira execução.
+
+--------------------------------------------------
+
+# 2) Heurística não violada – exemplo de boa prática
+Heurística 8 – Projeto estético e minimalista  
+A janela flutuante mostra apenas o status atual e uma recomendação direta, evitando distrações e mantendo a interface limpa, o que favorece usuários em situações de alta concentração como programação.
+
 
 **DICA: 1 EXEMPLO DO SEU SISTEMA ONDE A HEURÍSTICA FOI ATENDIDA (ISSO NÃO É USADO NO MERCADO, SERVE APENAS PARA APRENDIZADO)**
 

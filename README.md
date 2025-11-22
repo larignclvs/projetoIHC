@@ -879,7 +879,7 @@ Ao utilizar o sistema, Victor passa a visualizar um indicador contínuo de seu e
 3. Formulário de avaliação heurística  
 
 
-# **Entrega 13 (data) \[em andamento/concluído\]**
+# **Entrega 13 (data) \[em andamento\]**
 
 DICA: MATERIAL ABAIXO DISPONÍVEL EM ARQUIVO NO MOODLE.
 
@@ -936,9 +936,98 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 | 3 | Grave | Problema de alta prioridade (deve ser reparado) |
 | 4 | Catastrófico | Muito grave, deve ser reparado de qualquer forma. |
 
-**\[colocar o print\]**
+### **1) Avaliação de IHC através de inspeção HEURÍSTICA (Gabi)**  
 
-**\[escolher a tabela de declaração de violação padrão da equipe\]**
+## Avaliação Heurística – FaceSense
+
+### 1. Visibilidade do status do sistema
+**Descrição:** O sistema deve comunicar claramente ao usuário o que está acontecendo, especialmente durante processos contínuos ou automáticos.  
+**Severidade:** 2 – Simples  
+**Local:** Janela flutuante (monitoramento em tempo real)  
+**Justificativa:** A interface não deixa totalmente claro quando o monitoramento facial está ativo ou pausado, podendo gerar incerteza sobre o funcionamento.  
+**Recomendação:** Adicionar um indicador explícito, como “Monitoramento ativo/pausado” com ícone animado.
+
+---
+
+### 2. Compatibilidade entre sistema e mundo real
+**Descrição:** A interface deve usar linguagem natural e conceitos familiares ao usuário.  
+**Severidade:** 1 – Cosmético  
+**Local:** Alertas e relatório final  
+**Justificativa:** Alguns termos técnicos (ex.: “quantidade de piscadas”) não são de fácil compreensão para todos os usuários.  
+**Recomendação:** Substituir termos técnicos por frases diretas como “Você parece cansado. Faça uma pausa.”
+
+---
+
+### 3. Liberdade e controle do usuário
+**Descrição:** O sistema deve permitir que o usuário reverta, pause ou cancele ações quando necessário.  
+**Severidade:** 3 – Grave  
+**Local:** Processo de monitoramento  
+**Justificativa:** O usuário não consegue interromper rapidamente a captura facial quando precisa, especialmente durante reuniões ou situações privadas.  
+**Recomendação:** Garantir um botão de pausa imediato e acessível na janela flutuante.
+
+---
+
+### 4. Consistência e padrões
+**Descrição:** A interface deve apresentar padrões coerentes de cores, ícones e comportamento.  
+**Severidade:** 2 – Simples  
+**Local:** Estados de fadiga (cansado, inquieto, focado)  
+**Justificativa:** Os esquemas de cor dos alertas nem sempre seguem um padrão claro (ex.: amarelo e laranja usados para o mesmo estado).  
+**Recomendação:** Definir um guia de cores fixo e padronizado para todos os tipos de alerta.
+
+---
+
+### 5. Prevenção contra erros
+**Descrição:** O sistema deve evitar que erros aconteçam antes mesmo de serem detectados.  
+**Severidade:** 4 – Catastrófico  
+**Local:** Detecção facial (captura de expressões)  
+**Justificativa:** Movimentos involuntários ou mudanças de iluminação podem gerar falsos positivos de fadiga, prejudicando a confiabilidade dos resultados.  
+**Recomendação:** Implementar validação dupla (ex.: confirmar fadiga apenas após alguns segundos de consistência).
+
+---
+
+### 6. Reconhecimento em vez de lembrança
+**Descrição:** O sistema deve evitar exigir que o usuário memorize informações.  
+**Severidade:** 2 – Simples  
+**Local:** Janela flutuante  
+**Justificativa:** Ícones de estados emocionais/fadiga não possuem legenda; o usuário precisa lembrar o significado.  
+**Recomendação:** Exibir tooltips ao passar o mouse sobre os ícones, explicando seu significado.
+
+---
+
+### 7. Flexibilidade e eficiência de uso
+**Descrição:** Usuários experientes devem ter meios mais rápidos de interação.  
+**Severidade:** 1 – Cosmético  
+**Local:** Menu de configurações  
+**Justificativa:** Não há opções avançadas para ajustar sensibilidade de detecção, frequência de alertas ou configurações de privacidade.  
+**Recomendação:** Oferecer ajustes avançados para usuários experientes.
+
+---
+
+### 8. Estética e design minimalista
+**Descrição:** A interface deve evitar sobrecarga de informações.  
+**Severidade:** 2 – Simples  
+**Local:** Janela flutuante  
+**Justificativa:** Em alguns momentos, muitos elementos aparecem simultaneamente (status, ícones, alertas), tornando a janela visualmente pesada.  
+**Recomendação:** Criar um modo compacto com menos informação e opções expansíveis.
+
+---
+
+### 9. Ajuda na detecção e correção de erros
+**Descrição:** Mensagens de erro devem ser claras e orientar o usuário sobre o que fazer.  
+**Severidade:** 2 – Simples  
+**Local:** Acesso à câmera  
+**Justificativa:** Quando a câmera não responde, a mensagem exibida é genérica (“Erro ao acessar câmera”), sem orientação adicional.  
+**Recomendação:** Exibir instruções como “Verifique permissões, conexão do cabo ou se outro aplicativo está usando a câmera”.
+
+---
+
+### 10. Ajuda e documentação
+**Descrição:** O sistema deve oferecer suporte acessível, fácil de entender e aplicável à tarefa.  
+**Severidade:** 2 – Simples  
+**Local:** Tela inicial  
+**Justificativa:** O sistema não apresenta tutorial ou explicação sobre como funciona a detecção facial e como usar a ferramenta corretamente.  
+**Recomendação:** Criar um guia inicial curto, com imagens explicando como usar o FaceSense.
+
 
 2) **INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA \- HEURÍSTICAS NÃO VIOLADAS \[1 solução completa por pessoa da equipe\]**
 

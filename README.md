@@ -824,7 +824,7 @@ Ao utilizar o sistema, Victor passa a visualizar um indicador contínuo de seu e
 **Protótipo Correspondente ao MOLIC**  
 **Link para o FIGMA:**
 
-# **Entrega 12 (data) \[em andamento/concluído\]**
+# **Entrega 12 (data) \[concluído\]**
 
 **\[1 solução por equipe\]**
 
@@ -832,19 +832,14 @@ Ao utilizar o sistema, Victor passa a visualizar um indicador contínuo de seu e
 
 1) **Planejamento de Usabilidade (método DECIDE)**
 
-| D |  |
+| **D** | Avaliar a usabilidade, clareza, efetividade e não intrusividade dos elementos da interface (janela flutuante, alertas, relatório).<br>Verificar se os usuários conseguem entender e interagir com a ferramenta durante o trabalho remoto.<br>Identificar problemas que possam prejudicar a experiência, como distrações, informações confusas ou dificuldade de interpretação dos alertas.<br>Avaliar se a interface contribui para o bem-estar, oferecendo orientações úteis para pausas e prevenção da fadiga.<br>Validar se o design atual oferece suporte adequado ao monitoramento contínuo sem causar desconforto. |
 | :---: | :---- |
-| **E** |   |
-| **C** |  |
-| **I** |  |
-| **D** |  |
-| **E** | A análise e produção dos resultados precisam considerar vários aspectos… |
+| **E** | **Perguntas operacionais a serem exploradas**<br>1. A interface é compreensível e fácil de usar?<br>2. Os alertas aparecem no momento certo e têm conteúdo útil?<br>3. A interface atrapalha ou interrompe o fluxo de trabalho?<br>4. A janela flutuante é perceptível, porém não invasiva?<br> 5. O relatório final ajuda o usuário a compreender seu nível de fadiga ao longo do expediente?<br>6. O usuário se sente confortável sendo monitorado durante o uso?<br> 7. Os avaliadores heurísticos identificam problemas de usabilidade relevantes?<br>8. Existem inconsistências visuais, terminologias inadequadas ou problemas de navegação? |
+| **C** | Serão utilizadas avaliação heurística e testes com usuários |
+| **I** | Detalhado na entrega 13 |
+| **D** | Ao envolver captura facial (mesmo que não armazene imagens), a avaliação deve seguir princípios éticos de pesquisa com pessoas.<br>**Privacidade e consentimento:** Informar claramente que nenhuma imagem ou vídeo será armazenado, apenas os estados processados (rótulos).<br>**Transparência sobre o monitoramento:** Explicar como funciona a detecção e quais informações são coletadas.<br>**Direito de desistência:** O participante pode sair do estudo a qualquer momento, sem justificativa.<br>**Não causar prejuízo:** A ferramenta não deve atrapalhar ou prejudicar o usuário durante a avaliação.<br>**Anonimização dos dados:** Nenhum dado pessoal do participante será divulgado no relatório final.<br>**Ambiente seguro e confortável:** Garantir que o participante se sinta confortável e que não se sinta julgado por seus níveis de fadiga. |
+| **E** | Entrega 14 |
 
-2) Lista de Instrumentos (exemplos \- dica… tudo pronto por atividades anteriores ou compartilhado pelo professor)  
-   1) Termo de consentimento  
-   2) Questionários  
-   3) Tabela de Observação  
-   4) Formulário de avaliação Heuristica.
 
 # **Entrega 13 (data) \[em andamento/concluído\]**
 

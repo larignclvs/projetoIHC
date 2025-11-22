@@ -1079,17 +1079,52 @@ O objetivo dos testes foi identificar problemas reais de usabilidade durante o u
 
 
 
-1) **Fluxograma de Avaliação de Usabilidade por Observação do Usuário \[1 solução por equipe\]**
+## 1) **Fluxograma de Avaliação de Usabilidade por Observação do Usuário \[1 solução por equipe\]**
 <img width="3916" height="808" alt="image" src="https://github.com/user-attachments/assets/9c0437de-ea89-4ca3-8dbb-e3e59752f442" />  
 
-2) **DESCRIÇÃO DO PROCEDIMENTO DE PREPARAÇÃO DO TESTE \[1 solução por equipe\]**
+## 2) **DESCRIÇÃO DO PROCEDIMENTO DE PREPARAÇÃO DO TESTE \[1 solução por equipe\]**
 
-**Passo1:**  
-**Passo 2: Lista de tarefas que o usuário deve cumprir.**  
+**Passo1: Planejamento** 
+1. Seleção das personas para os testes: programador, estudante e coordenadora.
+2. Preparação do ambiente de testes: programador - ambiente de trabalho (home office); estudante - ambiente de estudos; coordenadora - ambiente de trabalho (home office); todos usando um notebook  
+3. Sistema testado sem nenhuma correção dos problemas identificados nas avaliações heurísticas.  
+
+**Passo 2: Lista de tarefas que o usuário deve cumprir.**    
+1. Abrir o FACESENSE 
+2. Clicar em ‘Iniciar’ 
+3. Começar o expediente/sessão de estudos  
+4. Pausar/Encerrar monitoramento 
+5. Gerar relatório PDF para avaliação da produtividade. 
+
 **Passo 3: Formulário de perfil do usuário**  
-**etc…**
+- Nome ou Identificador (opcional)
+- Idade
+- Profissão / Área de atuação
+- Nível de experiência com tecnologia (Baixa / Média / Alta)  
+- Frequência de uso de ferramentas de produtividade/monitoramento (Nunca / Raramente / Às vezes / Frequentemente)  
+- Local onde costuma trabalhar/estudar (Home office, sala de aula, escritório, coworking etc.)  
+- Equipamento utilizado no teste (Notebook com câmera frontal, desktop com webcam externa, etc.)  
+- Condições do ambiente durante o teste (Iluminação forte, iluminação fraca, ruído, etc.)  
+- Objetivo típico ao usar o FaceSense (Estudar, trabalhar, gerenciar equipe etc.)  
 
-3) **RESULTADOS DO TESTE \[1 solução por equipe\]**
+
+## 3) **RESULTADOS DO TESTE \[1 solução por equipe\]**
+
+
+**Avaliação de cada Tarefa (Nicole - estudante)**
+
+| Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| **1** | **Sucesso Parcial** | **2** | **Não completou a tarefa(1), (1) Compreensão** | **5 segundos** | **Confusão Moderada** |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+
+
 
 **Avaliação de cada Tarefa (para cada usuário)**
 

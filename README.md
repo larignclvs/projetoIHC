@@ -491,7 +491,7 @@ Este é o objetivo principal do usuário: verificar rapidamente seu estado atual
 
 **1\)	Identificação de Necessidades dos Usuários e Requisitos de IHC: exercício de perguntas**
 
-
+**Técnica escolhida: Questionário**
 * **Que dados coletar?**
 
 * **Sobre o próprio usuário**
@@ -569,7 +569,67 @@ Imagem do formulário:
 
 <img width="751" height="407" alt="image" src="https://github.com/user-attachments/assets/5ccaefe9-f841-4af1-8b98-4d9fbf7002a8" />
 
+**Técnica escolhida: Entrevista semiestruturada**
 
+---
+
+## PARTE A – Identificação de Necessidades e Aspectos Éticos
+
+### 1) Identificação de Necessidades dos Usuários e Requisitos de IHC
+
+**Que dados coletar?**
+
+Dados que permitam compreender como o usuário trabalha em ambiente remoto e como reagiria à exibição do status via monitoramento facial:
+- Tempo médio diário em frente ao computador.
+- Frequência e duração das pausas.
+- Tempo gasto em reuniões online e em tarefas de alta concentração.
+- Percepção de cansaço ou estresse durante o expediente.
+- Aceitação de monitoramento por câmera (sem armazenamento de imagem).
+- Preferência por formato de notificação (exibição de status, janelas discretas).
+
+**De quem coletar?**
+
+De profissionais que trabalham em regime remoto, com uso frequente de computador e webcam, especialmente em atividades intelectuais intensivas (ex.: área de tecnologia, análise, gestão ou atendimento remoto).
+
+---
+
+### 2) Aspectos Éticos
+
+Sim, o projeto deve considerar aspectos éticos, pois envolve dados sensíveis relacionados ao comportamento e expressões faciais do usuário. Com base nos princípios apresentados em aula:
+
+- **Autonomia:** participação voluntária, mediante consentimento informado.
+- **Privacidade:** nenhuma imagem ou dado biométrico será armazenado sem autorização explícita.
+- **Não maleficência:** garantir que a exibição de status (ex.: estressado) não cause desconforto emocional ou exposição inadequada.
+- **Beneficência:** a funcionalidade deve contribuir positivamente para o bem-estar do usuário, auxiliando na conscientização de sua condição física e mental.
+
+---
+
+## PARTE B – Ferramenta de Coleta de Dados
+
+### 3.1 Nome do instrumento e objetivo de aplicação
+
+**Instrumento:** Entrevista semiestruturada (individual)  
+**Objetivo:** Coletar informações qualitativas sobre rotina de trabalho remoto, percepção de carga emocional e física, frequência de esforço excessivo e aceitação do monitoramento por IA com exibição do status em tela.
+
+---
+
+### 3.2 Como aplicar
+
+A entrevista será aplicada de forma individual, com duração aproximada de 10 a 15 minutos, remotamente (via Google Meet ou similar).  
+Antes de iniciar, o objetivo será explicado e o participante deverá consentir verbalmente.  
+As perguntas serão feitas de forma aberta, e o entrevistador poderá explorar respostas complementares, mantendo foco na experiência vivida em home office.
+
+---
+
+### 3.3 Instrumento (Roteiro de entrevista)
+
+1. Como é a sua rotina de trabalho em home office em termos de carga horária e pausas?
+2. Em média, quanto tempo você permanece em reuniões ou atividades intensas sem interrupção?
+3. Você frequentemente ultrapassa seu horário normal de trabalho? Com que frequência faz hora extra?
+4. Como percebe os sinais de cansaço ou estresse durante o expediente?
+5. Como avalia a ideia de um sistema que monitora expressões faciais e exibe seu estado (ex.: estressado, neutro) na tela?
+6. Qual seria a forma ideal para receber esse tipo de informação durante o trabalho?
+7. Até que ponto você se sentiria confortável em utilizar esse tipo de tecnologia diariamente?
 
 # 
 

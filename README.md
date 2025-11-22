@@ -838,7 +838,12 @@ Ao utilizar o sistema, Victor passa a visualizar um indicador contínuo de seu e
 | **C** | Serão utilizadas avaliação heurística e testes com usuários |
 | **I** | Detalhado na entrega 13 |
 | **D** | Ao envolver captura facial (mesmo que não armazene imagens), a avaliação deve seguir princípios éticos de pesquisa com pessoas.<br>**Privacidade e consentimento:** Informar claramente que nenhuma imagem ou vídeo será armazenado, apenas os estados processados (rótulos).<br>**Transparência sobre o monitoramento:** Explicar como funciona a detecção e quais informações são coletadas.<br>**Direito de desistência:** O participante pode sair do estudo a qualquer momento, sem justificativa.<br>**Não causar prejuízo:** A ferramenta não deve atrapalhar ou prejudicar o usuário durante a avaliação.<br>**Anonimização dos dados:** Nenhum dado pessoal do participante será divulgado no relatório final.<br>**Ambiente seguro e confortável:** Garantir que o participante se sinta confortável e que não se sinta julgado por seus níveis de fadiga. |
-| **E** | Entrega 14 |
+| **E** | Entrega 14 |   
+
+2) **Lista de instrumentos utilizados**
+1. Termo de consetimento
+2. Questionários
+3. Formulário de avaliação heurística  
 
 
 # **Entrega 13 (data) \[em andamento/concluído\]**

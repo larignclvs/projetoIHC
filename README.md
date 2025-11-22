@@ -738,7 +738,7 @@ A proximidade do vestibular reforça sua necessidade de bom desempenho [10], e p
 <img width="1380" height="2140" alt="mapa_objetivos_nicole" src="https://github.com/user-attachments/assets/97b314a4-aad5-4306-a7b1-cb3cf0901249" />
 
 
-5) **Esquema Conceitual de Signos**
+4) **Esquema Conceitual de Signos**
 
 Exemplo: (fazer a junção das 3 tabelas abaixo em uma única)   
 
@@ -771,6 +771,34 @@ Exemplo: (fazer a junção das 3 tabelas abaixo em uma única)
 | **signo** | **prevenção** | **recuperação** |
 | usuário | PP: campo obrigatório | RA |
 | senha | PP campo obrigatório  | RA |
+
+## 1. Cenários de Interação feito por Lari)
+
+### Cenário Problema  
+Victor é programador e trabalha remotamente em projetos de alta complexidade. Costuma permanecer por longos períodos concentrado em tarefas de codificação, muitas vezes sem perceber sinais de fadiga ou queda de desempenho. Para não interromper o raciocínio, ignora pausas e só reconhece a exaustão quando os erros começam a se acumular.
+
+### Cenário de Interação  
+Ao utilizar o sistema, Victor passa a visualizar um indicador contínuo de seu estado durante o trabalho. Quando são detectados sinais iniciais de tensão facial e perda de foco, o status exibido muda de *“Neutro”* para *“Estressado”*. A alteração ocorre de forma sutil, mas visível, permitindo que Victor perceba a necessidade de interromper brevemente a atividade antes que seu rendimento seja comprometido.
+
+> **Mudança destacada:** momento da percepção da fadiga (**antes da exaustão**) e ação preventiva baseada no feedback visual.
+
+---
+
+## 2. Design Centrado na Comunicação  
+**Nome do Cenário: Victor monitora o próprio estado durante o trabalho remoto**
+
+| Tópico > Subtópico               | Falas e signos                                                                 |
+|----------------------------------|--------------------------------------------------------------------------------|
+| Início da interação              | U: “Preciso manter meu desempenho para concluir esta tarefa de código.”        |
+| > Expressão da necessidade       | U: “Quero saber se estou atingindo meu limite antes de perder produtividade.”<br>D: Exibe *“Status inicial: Neutro”*. |
+| Percepção de desconforto         | U: “Estou começando a sentir tensão; talvez esteja ultrapassando o limite.”   |
+| Detecção automática              | D: Atualiza status para *“Estressado”* na janela flutuante.                    |
+| Informação filtrada              | D: “Identifiquei sinais de estresse. Considera uma pausa curta para evitar queda de foco.” |
+| Ação do usuário                  | U: “Vou parar por alguns minutos para retomar com mais clareza.”               |
+| Feedback do sistema              | D: “A pausa foi registrada. O status voltará a ser monitorado ao retomar a tarefa.” |
+
+
+
 
 # **Entrega 10 (data) \[em andamento]**
 

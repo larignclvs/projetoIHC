@@ -1113,16 +1113,14 @@ O objetivo dos testes foi identificar problemas reais de usabilidade durante o u
 
 **Avaliação de cada Tarefa (Nicole - estudante)**
 
-| Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
-| ----- | ----- | ----- | ----- | ----- | ----- |
-| **1** | **Sucesso Parcial** | **2** | **Não completou a tarefa(1), (1) Compreensão** | **5 segundos** | **Confusão Moderada** |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| Tarefa                               | Grau de Sucesso | Total de Erros | Tipos de Erros                                                    | Tempo Necessário | Grau de Satisfação |
+| ------------------------------------ | --------------- | -------------- | ----------------------------------------------------------------- | ---------------- | ------------------ |
+| **1. Abrir o FaceSense**             | Sucesso Parcial | 2              | Não completou de primeira (1), Erro de compreensão do ícone (1)   | 5 segundos       | Confusão Moderada  |
+| **2. Clicar em “Iniciar”**           | Sucesso Total   | 0              | —                                                                 | 2 segundos       | Satisfeita         |
+| **3. Iniciar sessão de estudos**     | Sucesso Parcial | 1              | Não percebeu que o monitoramento já estava ativo                  | 10 segundos      | Leve Confusão      |
+| **4. Pausar/Encerrar monitoramento** | Sucesso Parcial | 2              | Procurou botão errado (1), Clicou duas vezes sem necessidade (1)  | 8 segundos       | Leve Frustração    |
+| **5. Gerar relatório PDF**           | Não Concluiu    | 2              | Não encontrou botão (1), Não entendeu termo “Gerar relatório” (1) | 20 segundos      | Frustração Alta    |
+
 
 
 

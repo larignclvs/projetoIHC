@@ -473,6 +473,8 @@ Este é o objetivo principal do usuário: verificar rapidamente seu estado atual
 ***Funcionalidade: Alerta de pop up na tela***    
 <img width="4940" height="2080" alt="image" src="https://github.com/user-attachments/assets/bd16f619-a650-4997-9889-20c9eb131cde" />
 
+***Funcionalidade: Janela flutuante com o status do usuário***    
+<img width="1191" height="507" alt="image" src="https://github.com/user-attachments/assets/ef9491cd-8175-4ba7-98ca-181db4eb3a54" />
 
 
 # 

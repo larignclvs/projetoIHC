@@ -947,28 +947,31 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 
 ### 1. Visibilidade do status do sistema
 **Descrição:** O sistema deve comunicar claramente ao usuário o que está acontecendo, especialmente durante processos contínuos ou automáticos.  
-**Severidade:** 2 – Simples  
-**Local:** Janela flutuante (monitoramento em tempo real)  
-**Justificativa:** A interface não deixa totalmente claro quando o monitoramento facial está ativo ou pausado, podendo gerar incerteza sobre o funcionamento.  
-**Recomendação:** Adicionar um indicador explícito, como “Monitoramento ativo/pausado” com ícone animado.
+Tela informando o status do processo:  
+<img width="408" height="97" alt="image" src="https://github.com/user-attachments/assets/2f5b6ae6-bb09-4cc2-a8c7-d3821aed6cf4" />  
+
+
 
 ---
 
 ### 2. Compatibilidade entre sistema e mundo real
 **Descrição:** A interface deve usar linguagem natural e conceitos familiares ao usuário.  
 **Severidade:** 1 – Cosmético  
-**Local:** Alertas e relatório final  
-**Justificativa:** Alguns termos técnicos (ex.: “quantidade de piscadas”) não são de fácil compreensão para todos os usuários.  
-**Recomendação:** Substituir termos técnicos por frases diretas como “Você parece cansado. Faça uma pausa.”
+**Local:** Monitoramento em tempo real e relatório final. 
+**Justificativa:** Alguns termos técnicos (ex.: “Sitting straightly”) não são de fácil compreensão para todos os usuários.  
+**Recomendação:** Substituir termos técnicos por frases diretas e simples.   
+<img width="563" height="81" alt="image" src="https://github.com/user-attachments/assets/1c0090a1-96bb-4d8a-9ab1-3fe64cd86ce0" />  
+
+
 
 ---
 
 ### 3. Liberdade e controle do usuário
 **Descrição:** O sistema deve permitir que o usuário reverta, pause ou cancele ações quando necessário.  
-**Severidade:** 3 – Grave  
-**Local:** Processo de monitoramento  
-**Justificativa:** O usuário não consegue interromper rapidamente a captura facial quando precisa, especialmente durante reuniões ou situações privadas.  
-**Recomendação:** Garantir um botão de pausa imediato e acessível na janela flutuante.
+Tela das opções de controle do usuário 
+<img width="1433" height="79" alt="image" src="https://github.com/user-attachments/assets/ee9fb10a-04b6-4345-ae6f-ffa95a7e58ee" />  
+
+
 
 ---
 
@@ -1003,17 +1006,14 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 **Descrição:** Usuários experientes devem ter meios mais rápidos de interação.  
 **Severidade:** 1 – Cosmético  
 **Local:** Menu de configurações  
-**Justificativa:** Não há opções avançadas para ajustar sensibilidade de detecção, frequência de alertas ou configurações de privacidade.  
-**Recomendação:** Oferecer ajustes avançados para usuários experientes.
+**Justificativa:** Não há opções avançadas para ajustar sensibilidade de detecção ou configurações de privacidade.  
+**Recomendação:** Oferecer ajustes avançados para usuários experientes, oferecendo mais detalhes de configurações.
 
 ---
 
 ### 8. Estética e design minimalista
 **Descrição:** A interface deve evitar sobrecarga de informações.  
-**Severidade:** 2 – Simples  
-**Local:** Janela flutuante  
-**Justificativa:** Em alguns momentos, muitos elementos aparecem simultaneamente (status, ícones, alertas), tornando a janela visualmente pesada.  
-**Recomendação:** Criar um modo compacto com menos informação e opções expansíveis.
+
 
 ---
 
@@ -1032,6 +1032,8 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 **Local:** Tela inicial  
 **Justificativa:** O sistema não apresenta tutorial ou explicação sobre como funciona a detecção facial e como usar a ferramenta corretamente.  
 **Recomendação:** Criar um guia inicial curto, com imagens explicando como usar o FaceSense.
+
+
 
 
 2) **INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA \- HEURÍSTICAS NÃO VIOLADAS \[1 solução completa por pessoa da equipe\]**

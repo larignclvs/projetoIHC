@@ -1137,9 +1137,19 @@ O objetivo dos testes foi identificar problemas reais de usabilidade durante o u
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 
+
+## 4) **Respostas do Formulário do Usuário:**  
+**Persona Nicole**  
+| Nome ou Identificador | Idade | Profissão / Área de atuação | Nível de experiência com tecnologia | Frequência de uso de ferramentas de produtividade/monitoramento | Local onde costuma trabalhar/estudar | Equipamento utilizado no teste | Condições do ambiente durante o teste | Objetivo típico ao usar o FaceSense |
+|-----------------------|-------|-----------------------------|-------------------------------------|------------------------------------------------------------------|----------------------------------------|----------------------------------|----------------------------------------|-----------------------------------------|
+| Nicole                | 18    | Estudante de cursinho       | Média                                | Às vezes                                                         | Quarto de estudos                     | Notebook com câmera frontal      | Iluminação média, ambiente silencioso | Aumentar foco e manter regularidade no estudo |
+
+
+
+
 **Links dos vídeos:**
 
-**Respostas do Formulário do Usuário:**
+
 
 **Conclusão da avaliação por observação do usuário:**
 

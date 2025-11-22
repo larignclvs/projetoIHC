@@ -844,9 +844,11 @@ Ao utilizar o sistema, Victor passa a visualizar um indicador contínuo de seu e
 **Diagrama: Minimalista**  
 <img width="2269" height="1558" alt="MOLIC minimalista-nicole" src="https://github.com/user-attachments/assets/7cf42f91-050d-43b6-866d-5b330b9d66fa" />  
 
+### Nome do Cenário
+Victor monitora o próprio nível de estresse enquanto programa
 
-**Nome do Cenário:**  
-**Diagrama:**
+**Diagrama: Minimalista**
+<img width="2269" height="1558" alt="Cópia de MOLIC minimalista" src="https://github.com/user-attachments/assets/ca8a4ad0-7535-4f35-888c-ecb96c60ae46" />
 
 # **Entrega 11 (data) \[em andamento/concluído\]**
 

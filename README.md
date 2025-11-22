@@ -850,14 +850,10 @@ Victor monitora o próprio nível de estresse enquanto programa
 **Diagrama: Minimalista**
 <img width="2269" height="1558" alt="Cópia de MOLIC minimalista" src="https://github.com/user-attachments/assets/ca8a4ad0-7535-4f35-888c-ecb96c60ae46" />
 
-# **Entrega 11 (data) \[em andamento/concluído\]**
-
-**\[1 solução completa por pessoa da equipe\]**
-
-# 
+# **Entrega 11 (data) \[concluído\]**
 
 **Protótipo Correspondente ao MOLIC**  
-**Link para o FIGMA:**
+**Link para o FIGMA: https://www.figma.com/proto/K6zYDujZiOf12tfWnJVX3y/FACESENSE---PROTOTYPE?node-id=0-1&t=nMxU6QR3f7SQGF5k-1**  
 
 # **Entrega 12 (data) \[concluído\]**
 

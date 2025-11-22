@@ -1146,7 +1146,7 @@ O objetivo dos testes foi identificar problemas reais de usabilidade durante o u
 
 
 ## 5) **Conclusão da avaliação por observação do usuário:**  
-**Persona Nicole** 
+**Persona Nicole**        
 Durante os testes, Nicole apresentou dificuldades principalmente em identificar quando o monitoramento estava realmente ativo, interpretar alguns ícones da interface e localizar o botão de gerar relatório. Ela também teve momentos de confusão ao tentar pausar ou encerrar o monitoramento, clicando em elementos incorretos. No geral, suas dificuldades evidenciaram a falta de um tutorial, rótulos pouco intuitivos, confirmando pontos críticos já identificados na avaliação heurística.  
 
 ## 6) **Impacto por persona**    

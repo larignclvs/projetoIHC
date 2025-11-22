@@ -801,7 +801,7 @@ Ao utilizar o sistema, Victor passa a visualizar um indicador contínuo de seu e
 <img width="1380" height="2140" alt="diagrama obj" src="https://github.com/user-attachments/assets/9cc164ef-1c3c-4bb3-ba87-411e6e8c1ab4" />
 ## 4) Esquema Conceitual de Signos – Persona Victor (Programador)
 
-### Junção das três tabelas em uma única (conforme orientado)
+### Junção das três tabelas em uma única
 
 | **signo**                                    | **origem**   | **observações**                                                                 | **tipo de conteúdo**  | **restrição sobre conteúdo**                                | **valor default** | **prevenção (PP+PA)**                                                         |
 |----------------------------------------------|--------------|---------------------------------------------------------------------------------|-----------------------|-------------------------------------------------------------|-------------------|-------------------------------------------------------------------------------|

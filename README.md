@@ -1375,9 +1375,9 @@ Ao utilizar o sistema, Victor passa a visualizar um indicador contínuo de seu e
 |----------|---------------------------|-----------------|
 | usuário  | PP: campo obrigatório     | RA              |
 | senha    | PP: campo obrigatório     | RA              |
-## Persona: Victor (Programador) – Cenário Alternativo
+## Cenários feito por Alexia
 
-### 1. Cenário Problema (alternativo)
+### 1. Cenário Problema
 
 Victor é programador e trabalha remotamente em projetos de alta complexidade. Em alguns dias, ele já inicia o expediente cansado, após reuniões longas ou noites mal dormidas. Mesmo assim, insiste em manter o ritmo normal de produção, alternando entre reuniões em vídeo, revisões de código e implementações críticas.
 
@@ -1400,6 +1400,8 @@ A partir disso, Victor consegue perceber que a queda de desempenho não é apena
 **Mudança destacada:** percepção da **sobrecarga cognitiva em tempo hábil**, antes da exaustão total, permitindo uma **ação preventiva** baseada no feedback visual do sistema.
 
 ---
+<img width="526" height="673" alt="Captura de Tela 2025-11-23 às 20 27 33" src="https://github.com/user-attachments/assets/4fe35de8-ad2f-4b4e-a458-4479890ccc5f" />
+
 
 ### 3. Design Centrado na Comunicação – Persona Victor
 

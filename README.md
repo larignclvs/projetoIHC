@@ -1375,7 +1375,167 @@ Ao utilizar o sistema, Victor passa a visualizar um indicador contínuo de seu e
 |----------|---------------------------|-----------------|
 | usuário  | PP: campo obrigatório     | RA              |
 | senha    | PP: campo obrigatório     | RA              |
+## Persona: Victor (Programador) – Cenário Alternativo
 
+### 1. Cenário Problema (alternativo)
+
+Victor é programador e trabalha remotamente em projetos de alta complexidade. Em alguns dias, ele já inicia o expediente cansado, após reuniões longas ou noites mal dormidas. Mesmo assim, insiste em manter o ritmo normal de produção, alternando entre reuniões em vídeo, revisões de código e implementações críticas.
+
+Ao longo do dia, Victor começa a cometer pequenos erros de lógica e de sintaxe, mas atribui isso à complexidade da tarefa e não ao próprio estado físico e mental. Ele não percebe que a fadiga está se acumulando e que sua capacidade de concentração está caindo progressivamente, pois não tem nenhum indicador claro desse declínio.
+
+O problema central é que Victor só reconhece o estado de exaustão quando já precisa refazer trechos inteiros de código, o que aumenta ainda mais o estresse e a sensação de improdutividade.
+
+---
+
+### 2. Cenário de Interação com o Sistema
+
+Ao utilizar o sistema de monitoramento, Victor passa a ter um acompanhamento contínuo do seu estado durante o trabalho. A cada intervalo de tempo, o sistema analisa expressões faciais e microgestos, gerando um indicador de carga cognitiva e estresse.
+
+No início da jornada, o status é exibido como **“Estável”**, indicando que, apesar do cansaço inicial, Victor ainda mantém um bom nível de foco. Conforme o tempo passa e sinais de tensão facial, contração de músculos e microexpressões de esforço começam a aparecer com mais frequência, o sistema atualiza o status para **“Sobrecarga”**.
+
+Essa mudança não ocorre de forma abrupta: o sistema mostra a transição visualmente, por meio de uma barra ou ícone de cor neutra que gradualmente se aproxima de uma faixa amarela de atenção. Quando a mudança de estado é consolidada, o status “Sobrecarga” é destacado em uma pequena janela no canto da tela.
+
+A partir disso, Victor consegue perceber que a queda de desempenho não é apenas “dificuldade do código”, mas um sinal concreto de desgaste cognitivo. Com essa informação, ele decide interromper temporariamente a tarefa para tomar água e afastar-se do computador por alguns minutos, retornando depois com maior clareza mental.
+
+**Mudança destacada:** percepção da **sobrecarga cognitiva em tempo hábil**, antes da exaustão total, permitindo uma **ação preventiva** baseada no feedback visual do sistema.
+
+---
+
+### 3. Design Centrado na Comunicação – Persona Victor
+
+**Nome do Cenário:** Victor identifica momentos de sobrecarga cognitiva durante o trabalho remoto
+
+| Tópico > Subtópico              | Falas e signos                                                                                                                                              |
+|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Início da interação             | **U:** “Hoje acordei cansado, mas preciso avançar neste módulo complexo.”                                                                                  |
+| > Expressão da necessidade      | **U:** “Quero saber se estou passando do meu limite, mesmo quando acho que ainda dou conta.”                                                               |
+|                                 | **D:** Exibe “Status inicial: Estável” em um pequeno painel no canto da tela.                                                                              |
+| Aumento gradual de carga        | **U:** (sem falar, mas com sinais sutis de esforço: sobrancelhas contraídas, olhar fixo, microexpressões de tensão).                                      |
+| Detecção automática             | **D:** Passa a registrar maior frequência de sinais de esforço e diminuição de foco.                                                                      |
+| Atualização de status           | **D:** Atualiza o indicador para “Sobrecarga” com ícone amarelo e destaque visual discreto.                                                                |
+| Informação filtrada             | **D:** “Detectei sinais de sobrecarga. Uma pausa curta pode ajudar a evitar erros e retrabalho.”                                                           |
+| Tomada de consciência           | **U:** “Se já estou em sobrecarga, é melhor parar um pouco agora do que refazer tudo depois.”                                                              |
+| Ação do usuário                 | **U:** Faz uma pausa guiada (levanta, bebe água, afasta-se do computador por alguns minutos).                                                              |
+| Feedback do sistema             | **D:** “Pausa registrada. O monitoramento continuará quando você retomar a atividade.”                                                                     |
+
+Legenda: **U** = Usuário (Victor); **D** = Dispositivo/Sistema.
+
+---
+
+### 4. Esquema Conceitual de Signos – Persona Victor (Cenário de Sobrecarga)
+
+#### 4.1 Signos da Aplicação
+
+| signo                             | origem      | observações                                                                                           | tipo de conteúdo        | restrição sobre conteúdo                                        | valor default | prevenção (PP + PA)                                                                 |
+|-----------------------------------|------------|--------------------------------------------------------------------------------------------------------|-------------------------|------------------------------------------------------------------|--------------|--------------------------------------------------------------------------------------|
+| status “Estável”                  | aplicação  | Exibido quando o sistema detecta concentração adequada e esforço dentro de limites saudáveis.        | texto + ícone           | Deve refletir o estado real analisado, sem falsos positivos.    | “Estável”    | **PP:** ajuda a evitar falsa percepção de problema quando o estado ainda é neutro.  |
+| status “Sobrecarga”              | aplicação  | Indica possível queda cognitiva ou tensão mental crescente.                                           | texto + ícone amarelo   | Só pode aparecer se forem detectados sinais válidos e recorrentes. | —            | **PP:** alerta preventivo reduz intensificação de estresse; **PA:** favorece pausa antes de erros graves. |
+| alerta “Alto nível de estresse”  | aplicação  | Notificação gerada a partir da análise das expressões em situação crítica.                            | texto/visual            | Deve estar baseado em detecção sólida (limiares bem calibrados). | —            | **PA:** evita continuação prejudicial do trabalho em estado crítico.                 |
+| sugestão de pausa                 | aplicação  | Recomendação contextual (ex.: “Faça uma pausa de 3–5 minutos”).                                       | texto contextualizado   | Depende da análise prévia de sobrecarga/estresse.               | —            | **PA:** previne queda prolongada de performance e retrabalho.                        |
+| relatório de desempenho           | aplicação  | Registra momentos de tensão, pausas, retomadas e períodos de sobrecarga.                             | tabela/gráfico          | Deve utilizar apenas dados reais captados na sessão.            | vazio        | **PP:** previne perda de registros ao final da sessão; **PA:** apoia revisão posterior de hábitos. |
+| gráfico de variação cognitiva     | aplicação  | Demonstra oscilações de concentração e sobrecarga ao longo da atividade.                              | visual analítico        | Deve representar eventos coletados continuamente e de forma fiel. | zeros        | **PP:** ajuda a visualizar padrões de excesso; **PA:** orienta ajuste futuro de rotina. |
+| pedido de justificativa (“por que pausa?”) | usuário     | Solicitação do programador ao sistema para entender o motivo da recomendação de pausa.                 | texto                   | Sem restrições, mas deve ser tratado de forma respeitosa.       | —            | **PP:** incentiva entendimento consciente; **PA:** evita rejeição do sistema por falta de explicação. |
+
+---
+
+### 4.2 Credenciais (C) – Acesso ao Sistema
+
+| signo   | origem  | observações                  |
+|---------|---------|------------------------------|
+| usuário | domínio | Identificador único do Victor (login). |
+| senha   | domínio | Chave de autenticação secreta.         |
+
+| signo   | tipo de conteúdo | restrição sobre conteúdo | valor default |
+|---------|------------------|--------------------------|--------------|
+| usuário | texto            | Não pode ser nulo        | —            |
+| senha   | texto            | Não pode ser nulo        | —            |
+
+| signo   | prevenção (PP)                 | recuperação (RA/PA)        |
+|---------|--------------------------------|----------------------------|
+| usuário | **PP:** campo obrigatório      | **RA:** mensagem de erro + solicitar novo preenchimento. |
+| senha   | **PP:** campo obrigatório      | **RA:** mensagem de erro + opção de redefinição (quando implementado). |
+
+PP = Prevenção de Problemas; PA = Prevenção de Acidentes/agravamento; RA = Recuperação de Ação.## Persona: Victor (Programador) – Cenário Alternativo
+
+### 1. Cenário Problema (alternativo)
+
+Victor é programador e trabalha remotamente em projetos de alta complexidade. Em alguns dias, ele já inicia o expediente cansado, após reuniões longas ou noites mal dormidas. Mesmo assim, insiste em manter o ritmo normal de produção, alternando entre reuniões em vídeo, revisões de código e implementações críticas.
+
+Ao longo do dia, Victor começa a cometer pequenos erros de lógica e de sintaxe, mas atribui isso à complexidade da tarefa e não ao próprio estado físico e mental. Ele não percebe que a fadiga está se acumulando e que sua capacidade de concentração está caindo progressivamente, pois não tem nenhum indicador claro desse declínio.
+
+O problema central é que Victor só reconhece o estado de exaustão quando já precisa refazer trechos inteiros de código, o que aumenta ainda mais o estresse e a sensação de improdutividade.
+
+---
+
+### 2. Cenário de Interação com o Sistema
+
+Ao utilizar o sistema de monitoramento, Victor passa a ter um acompanhamento contínuo do seu estado durante o trabalho. A cada intervalo de tempo, o sistema analisa expressões faciais e microgestos, gerando um indicador de carga cognitiva e estresse.
+
+No início da jornada, o status é exibido como **“Estável”**, indicando que, apesar do cansaço inicial, Victor ainda mantém um bom nível de foco. Conforme o tempo passa e sinais de tensão facial, contração de músculos e microexpressões de esforço começam a aparecer com mais frequência, o sistema atualiza o status para **“Sobrecarga”**.
+
+Essa mudança não ocorre de forma abrupta: o sistema mostra a transição visualmente, por meio de uma barra ou ícone de cor neutra que gradualmente se aproxima de uma faixa amarela de atenção. Quando a mudança de estado é consolidada, o status “Sobrecarga” é destacado em uma pequena janela no canto da tela.
+
+A partir disso, Victor consegue perceber que a queda de desempenho não é apenas “dificuldade do código”, mas um sinal concreto de desgaste cognitivo. Com essa informação, ele decide interromper temporariamente a tarefa para tomar água e afastar-se do computador por alguns minutos, retornando depois com maior clareza mental.
+
+**Mudança destacada:** percepção da **sobrecarga cognitiva em tempo hábil**, antes da exaustão total, permitindo uma **ação preventiva** baseada no feedback visual do sistema.
+
+---
+
+### 3. Design Centrado na Comunicação – Persona Victor
+
+**Nome do Cenário:** Victor identifica momentos de sobrecarga cognitiva durante o trabalho remoto
+
+| Tópico > Subtópico              | Falas e signos                                                                                                                                              |
+|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Início da interação             | **U:** “Hoje acordei cansado, mas preciso avançar neste módulo complexo.”                                                                                  |
+| > Expressão da necessidade      | **U:** “Quero saber se estou passando do meu limite, mesmo quando acho que ainda dou conta.”                                                               |
+|                                 | **D:** Exibe “Status inicial: Estável” em um pequeno painel no canto da tela.                                                                              |
+| Aumento gradual de carga        | **U:** (sem falar, mas com sinais sutis de esforço: sobrancelhas contraídas, olhar fixo, microexpressões de tensão).                                      |
+| Detecção automática             | **D:** Passa a registrar maior frequência de sinais de esforço e diminuição de foco.                                                                      |
+| Atualização de status           | **D:** Atualiza o indicador para “Sobrecarga” com ícone amarelo e destaque visual discreto.                                                                |
+| Informação filtrada             | **D:** “Detectei sinais de sobrecarga. Uma pausa curta pode ajudar a evitar erros e retrabalho.”                                                           |
+| Tomada de consciência           | **U:** “Se já estou em sobrecarga, é melhor parar um pouco agora do que refazer tudo depois.”                                                              |
+| Ação do usuário                 | **U:** Faz uma pausa guiada (levanta, bebe água, afasta-se do computador por alguns minutos).                                                              |
+| Feedback do sistema             | **D:** “Pausa registrada. O monitoramento continuará quando você retomar a atividade.”                                                                     |
+
+Legenda: **U** = Usuário (Victor); **D** = Dispositivo/Sistema.
+
+---
+
+### 4. Esquema Conceitual de Signos – Persona Victor (Cenário de Sobrecarga)
+
+#### 4.1 Signos da Aplicação
+
+| signo                             | origem      | observações                                                                                           | tipo de conteúdo        | restrição sobre conteúdo                                        | valor default | prevenção (PP + PA)                                                                 |
+|-----------------------------------|------------|--------------------------------------------------------------------------------------------------------|-------------------------|------------------------------------------------------------------|--------------|--------------------------------------------------------------------------------------|
+| status “Estável”                  | aplicação  | Exibido quando o sistema detecta concentração adequada e esforço dentro de limites saudáveis.        | texto + ícone           | Deve refletir o estado real analisado, sem falsos positivos.    | “Estável”    | **PP:** ajuda a evitar falsa percepção de problema quando o estado ainda é neutro.  |
+| status “Sobrecarga”              | aplicação  | Indica possível queda cognitiva ou tensão mental crescente.                                           | texto + ícone amarelo   | Só pode aparecer se forem detectados sinais válidos e recorrentes. | —            | **PP:** alerta preventivo reduz intensificação de estresse; **PA:** favorece pausa antes de erros graves. |
+| alerta “Alto nível de estresse”  | aplicação  | Notificação gerada a partir da análise das expressões em situação crítica.                            | texto/visual            | Deve estar baseado em detecção sólida (limiares bem calibrados). | —            | **PA:** evita continuação prejudicial do trabalho em estado crítico.                 |
+| sugestão de pausa                 | aplicação  | Recomendação contextual (ex.: “Faça uma pausa de 3–5 minutos”).                                       | texto contextualizado   | Depende da análise prévia de sobrecarga/estresse.               | —            | **PA:** previne queda prolongada de performance e retrabalho.                        |
+| relatório de desempenho           | aplicação  | Registra momentos de tensão, pausas, retomadas e períodos de sobrecarga.                             | tabela/gráfico          | Deve utilizar apenas dados reais captados na sessão.            | vazio        | **PP:** previne perda de registros ao final da sessão; **PA:** apoia revisão posterior de hábitos. |
+| gráfico de variação cognitiva     | aplicação  | Demonstra oscilações de concentração e sobrecarga ao longo da atividade.                              | visual analítico        | Deve representar eventos coletados continuamente e de forma fiel. | zeros        | **PP:** ajuda a visualizar padrões de excesso; **PA:** orienta ajuste futuro de rotina. |
+| pedido de justificativa (“por que pausa?”) | usuário     | Solicitação do programador ao sistema para entender o motivo da recomendação de pausa.                 | texto                   | Sem restrições, mas deve ser tratado de forma respeitosa.       | —            | **PP:** incentiva entendimento consciente; **PA:** evita rejeição do sistema por falta de explicação. |
+
+---
+
+### 4.2 Credenciais (C) – Acesso ao Sistema
+
+| signo   | origem  | observações                  |
+|---------|---------|------------------------------|
+| usuário | domínio | Identificador único do Victor (login). |
+| senha   | domínio | Chave de autenticação secreta.         |
+
+| signo   | tipo de conteúdo | restrição sobre conteúdo | valor default |
+|---------|------------------|--------------------------|--------------|
+| usuário | texto            | Não pode ser nulo        | —            |
+| senha   | texto            | Não pode ser nulo        | —            |
+
+| signo   | prevenção (PP)                 | recuperação (RA/PA)        |
+|---------|--------------------------------|----------------------------|
+| usuário | **PP:** campo obrigatório      | **RA:** mensagem de erro + solicitar novo preenchimento. |
+| senha   | **PP:** campo obrigatório      | **RA:** mensagem de erro + opção de redefinição (quando implementado). |
+
+PP = Prevenção de Problemas; PA = Prevenção de Acidentes/agravamento; RA = Recuperação de Ação.
 
 # **Entrega 10 (data) \[em andamento]**
 

@@ -1148,16 +1148,23 @@ O objetivo dos testes foi identificar problemas reais de usabilidade durante o u
 |  |  |  |  |  |  |
 
 
-## 4) **Respostas do Formulário do Usuário:**  
-**Persona Nicole**  
-| Nome ou Identificador | Idade | Profissão / Área de atuação | Nível de experiência com tecnologia | Frequência de uso de ferramentas de produtividade/monitoramento | Local onde costuma trabalhar/estudar | Equipamento utilizado no teste | Condições do ambiente durante o teste | Objetivo típico ao usar o FaceSense |
-|-----------------------|-------|-----------------------------|-------------------------------------|------------------------------------------------------------------|----------------------------------------|----------------------------------|----------------------------------------|-----------------------------------------|
-| Nicole                | 18    | Estudante de cursinho       | Média                                | Às vezes                                                         | Quarto de estudos                     | Notebook com câmera frontal      | Iluminação média, ambiente silencioso | Aumentar foco e manter regularidade no estudo |
-**Persona Victor**
+## 4) **Respostas do Formulário do Usuário**
 
-| Nome ou Identificador | Idade | Profissão / Área de atuação      | Nível de experiência com tecnologia | Frequência de uso de ferramentas de produtividade/monitoramento | Local onde costuma trabalhar/estudar | Equipamento utilizado no teste        | Condições do ambiente durante o teste | Objetivo típico ao usar o FaceSense |
-|-----------------------|-------|----------------------------------|-------------------------------------|------------------------------------------------------------------|----------------------------------------|-------------------------------------|----------------------------------------|--------------------------------------|
-| Victor                | 34    | Programador em consultoria       | Alta                                | Frequentemente                                                   | Home office                          | Notebook gamer com webcam integrada | Ambiente silencioso, iluminação média | Monitorar produtividade e manter foco durante longas sessões de trabalho |
+---
+
+### **Persona Nicole**
+
+| Nome ou Identificador | Idade | Profissão / Área de atuação | Nível de experiência com tecnologia | Frequência de uso de ferramentas de produtividade/monitoramento | Local onde costuma trabalhar/estudar | Equipamento utilizado no teste | Condições do ambiente durante o teste | Objetivo típico ao usar o FaceSense |
+|-----------------------|-------|-----------------------------|-------------------------------------|------------------------------------------------------------------|----------------------------------------|----------------------------------|----------------------------------------|-------------------------------------|
+| Nicole                | 18    | Estudante de cursinho       | Média                               | Às vezes                                                         | Quarto de estudos                     | Notebook com câmera frontal      | Iluminação média, ambiente silencioso | Aumentar foco e manter regularidade no estudo |
+
+---
+
+### **Persona Victor**
+
+| Nome ou Identificador | Idade | Profissão / Área de atuação        | Nível de experiência com tecnologia | Frequência de uso de ferramentas de produtividade/monitoramento | Local onde costuma trabalhar/estudar | Equipamento utilizado no teste        | Condições do ambiente durante o teste | Objetivo típico ao usar o FaceSense |
+|-----------------------|-------|------------------------------------|-------------------------------------|------------------------------------------------------------------|----------------------------------------|-------------------------------------|----------------------------------------|--------------------------------------|
+| Victor                | 34    | Programador em empresa de consultoria | Alta                                | Frequentemente                                                   | Home office                          | Notebook gamer com webcam integrada | Ambiente silencioso, iluminação média | Monitorar produtividade e manter foco durante longas sessões de trabalho |
 
 
 ## 5) **Conclusão da avaliação por observação do usuário:**  

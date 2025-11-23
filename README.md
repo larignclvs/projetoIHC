@@ -738,7 +738,445 @@ As perguntas serão feitas de forma aberta, e o entrevistador poderá explorar r
 5. Como avalia a ideia de um sistema que monitora expressões faciais e exibe seu estado (ex.: estressado, neutro) na tela?
 6. Qual seria a forma ideal para receber esse tipo de informação durante o trabalho?
 7. Até que ponto você se sentiria confortável em utilizar esse tipo de tecnologia diariamente?
+### 🎯 Técnica Escolhida: Grupos de Foco  
 
+#### Entrega 7 – Identificação de Necessidades dos Usuários e Requisitos de IHC (em andamento)
+
+---
+
+## PARTE A – Identificação de Necessidades e Aspectos Éticos
+
+### 1) Identificação de Necessidades dos Usuários e Requisitos de IHC  
+
+**Técnica escolhida:** Grupos de Foco  
+
+**Objetivo:**  
+Discutir em grupo como profissionais em trabalho remoto percebem:
+- o uso de monitoramento por câmera,
+- a exibição de status (cansado, inquieto, focado),
+- e o impacto de relatórios de monitoramento no final da sessão (feedback sobre bem‑estar).
+
+#### Que dados coletar?
+
+**a) Sobre o próprio usuário (perfil dos participantes)**  
+- Idade, gênero, área de atuação e tempo de experiência em trabalho remoto.  
+- Jornada típica de trabalho (horário, pausas, número de reuniões).  
+- Contexto de uso: ambiente de trabalho em casa (silencioso, compartilhado, improvisado etc.).  
+
+**b) Relação com tecnologia e monitoramento**  
+- Experiência prévia com ferramentas de:
+  - videoconferência (Zoom, Teams, Meet),
+  - produtividade (Notion, Trello, etc.),
+  - ou bem‑estar digital (apps de foco, meditação, alongamento).  
+- Atitude em relação a ser monitorado por câmera (aceitação, desconfiança, neutralidade).  
+- Preferência por tipos de feedback:
+  - somente visual na tela,
+  - visual + sonoro,
+  - apenas resumo final ao fim do expediente.  
+
+**c) Conhecimento e percepção sobre saúde e bem‑estar digital**  
+- Grau de consciência sobre:
+  - ergonomia,
+  - pausas ativas,
+  - fadiga visual e mental,  
+  - sinais pessoais de cansaço (dor de cabeça, irritação, distração).  
+- Se já teve experiências negativas de sobrecarga em home office (burnout, exaustão, dificuldade de desconectar).  
+
+**d) Tarefas e contexto de uso do sistema**  
+- Atividades que mais exigem foco (reuniões, codificação, análise de relatórios, atendimento a clientes).  
+- Momentos do dia em que se sentem mais cansados ou inquietos.  
+- Situações em que um alerta de status ou um relatório final seriam mais úteis (por exemplo: depois de um sprint intenso, ao fim do dia, após muitas reuniões).  
+
+**e) Motivações, valores e expectativas**  
+- O que faria o usuário querer **usar regularmente** um sistema de monitoramento de estresse/postura?  
+- Quais tipos de feedback são vistos como:
+  - motivadores (ex.: “você conseguiu manter uma boa postura por 70% do tempo”),  
+  - e quais seriam potencialmente desmotivadores ou invasivos (ex.: “você está muito improdutivo”).  
+- Preferência por:
+  - alertas pontuais vs. relatório consolidado no final,  
+  - linguagem mais técnica vs. linguagem acolhedora.  
+
+---
+
+#### De quem coletar?
+
+- **Quem usará o sistema?**  
+  Profissionais em trabalho remoto que utilizam computador + webcam por longos períodos (TI, análise de dados, gestão, atendimento remoto, ensino, etc.).
+
+- **Quem será afetado?**  
+  - Usuários diretamente (feedback sobre comportamento, estresse e postura).  
+  - Indiretamente, seus gestores ou equipes, caso relatórios agregados sejam usados em contextos organizacionais (neste projeto, focar em uso individual e voluntário).
+
+- **Quem define objetivos?**  
+  - Equipe de desenvolvimento do sistema.  
+  - Orientadora do TCC.  
+  - Referenciais teóricos de bem‑estar digital, ergonomia e saúde mental no trabalho.
+
+---
+
+### 2) Aspectos Éticos
+
+Sim, o projeto **deve** considerar aspectos éticos, especialmente por envolver:
+- **dados sensíveis** (expressões faciais, sinais de cansaço, nível de estresse),  
+- **monitoramento contínuo** via webcam,  
+- e geração de **relatórios de comportamento** ao final da sessão.
+
+Com base em princípios discutidos em aula e na literatura (como Barbosa & Silva, 2010), destacam‑se:
+
+#### Princípios éticos aplicáveis
+
+- **Autonomia**  
+  - Participação voluntária nos testes.  
+  - Consentimento livre e esclarecido antes de qualquer monitoramento.  
+  - Possibilidade de recusar o uso de determinadas funcionalidades (por exemplo, desativar relatório detalhado).  
+
+- **Privacidade e Confidencialidade**  
+  - Não armazenar imagens brutas da webcam sem autorização explícita.  
+  - Processamento local dos dados sempre que possível.  
+  - Relatórios focados em **tendências** e não em julgamentos pessoais.  
+
+- **Não maleficência**  
+  - Evitar que o usuário se sinta vigiado, julgado ou “avaliado” em termos de desempenho.  
+  - Cuidar para que termos usados (ex.: “cansado”, “estressado”, “inquieto”) não gerem estigmatização.  
+  - Garantir que o relatório final tenha **tom de apoio**, e não de punição.  
+
+- **Beneficência**  
+  - O sistema deve trazer benefícios claros:
+    - ajudar o usuário a perceber momentos de exaustão,  
+    - incentivar pausas,  
+    - apoiar uma rotina mais saudável.  
+
+- **Justiça e Equidade**  
+  - Tratar os dados de forma anônima durante pesquisa/pilotos.  
+  - Evitar qualquer tipo de uso discriminatório das informações (ex.: por empresas para controle de produtividade).  
+
+#### Na prática, para os grupos de foco:
+
+- Apresentar um **Termo de Consentimento Livre e Esclarecido (TCLE)** antes de iniciar.  
+- Explicar:
+  - que o grupo de foco discute percepções e não avalia desempenho individual;  
+  - que a participação é opcional e pode ser interrompida a qualquer momento.  
+- Garantir que:
+  - nomes reais não sejam publicados em relatórios da pesquisa,  
+  - gravações (se houver) sejam usadas apenas para análise e depois descartadas ou anonimizadas.  
+
+---
+
+## PARTE B – Ferramenta de Coleta de Dados (Grupos de Foco)
+
+### 3.1 Nome do instrumento e objetivo de aplicação
+
+- **Instrumento:** Grupo de Foco (discussão em grupo, mediada por um facilitador)  
+- **Objetivo:**  
+  - Explorar de forma qualitativa como diferentes usuários percebem:
+    - o monitoramento contínuo por webcam,  
+    - a exibição de status na tela (ex.: cansado, inquieto, focado),  
+    - e a utilidade de um **relatório final de monitoramento** com gráficos, estatísticas e alertas.  
+  - Identificar **necessidades, medos, expectativas e sugestões** sobre a interface e as funcionalidades de feedback.
+
+---
+
+### 3.2 Como aplicar (procedimento padronizado)
+
+1. **Preparação do grupo**
+   - Reunir de 4 a 8 participantes que trabalhem em regime remoto.  
+   - Agendar a sessão em ambiente online (Google Meet, Zoom ou similar).  
+   - Enviar previamente:
+     - um breve resumo do sistema,  
+     - o objetivo do grupo de foco,  
+     - e o termo de consentimento.  
+
+2. **Abertura da sessão (5–10 minutos)**
+   - Apresentar:
+     - o projeto (monitoramento de estresse/postura via webcam),  
+     - o propósito da discussão (melhorar a interface e o relatório final),  
+     - regras básicas (respeito, confidencialidade, liberdade para discordar).  
+   - Pedir consentimento verbal para participação (e gravação, se houver).  
+
+3. **Exploração guiada (30–40 minutos)**
+   - Mostrar, se possível, protótipos da:
+     - tela de monitoramento,  
+     - alertas de status,  
+     - tela final de relatório.  
+   - Conduzir perguntas abertas, por exemplo:
+     - “Como vocês se sentem em relação a um sistema que mostra seu nível de cansaço ou inquietação na tela?”  
+     - “O que vocês gostariam de ver em um relatório final de monitoramento?”  
+     - “Que tipo de alerta ou gráfico ajudaria vocês a tomar decisões melhores sobre pausas e autocuidado?”  
+     - “Haveria alguma situação em que vocês **não gostariam** de ver esse tipo de informação?”  
+
+4. **Foco em IHC (Interface Humano‑Computador)**
+   - Perguntar sobre:
+     - clareza das mensagens,  
+     - quantidade de informação adequada,  
+     - preferências de visualização (cores, ícones, gráficos simples vs. complexos),  
+     - risco de **sobrecarga cognitiva** se o relatório for muito detalhado.  
+
+5. **Encerramento (5–10 minutos)**
+   - Perguntar:
+     - “Se vocês pudessem mudar uma coisa nesse sistema, o que mudariam?”  
+     - “O que mais gostaram e o que menos gostaram na ideia de relatório final?”  
+   - Agradecer a participação e reforçar a confidencialidade.  
+
+6. **Registro**
+   - Registrar a sessão por:
+     - gravação (áudio/vídeo) – se autorizado, ou  
+     - anotações estruturadas (pontos principais, frases marcantes, consensos e divergências).  
+
+---
+
+### 3.3 Instrumento – Roteiro de Grupo de Foco (exemplo de perguntas)
+
+1. **Aquecimento**
+   - “Conte brevemente como é sua rotina de trabalho remoto (horas por dia, tipo de atividade).”
+   - “Você costuma usar câmera ligada com frequência? Em que contextos?”
+
+2. **Percepção de cansaço e estresse**
+   - “Em que momentos do dia você percebe mais cansaço ou dificuldade de foco?”  
+   - “Você já teve sensação de esgotamento ao fim do dia de trabalho remoto? Como percebe isso?”  
+
+3. **Reação à ideia de monitoramento por IA**
+   - “O que você acha da ideia de um sistema que analisa expressões faciais para indicar cansaço ou inquietação?”  
+   - “Quais seriam seus principais receios ou dúvidas em relação a isso?”  
+
+4. **Feedback durante a sessão (alertas)**
+   - “Você prefere ser avisado durante a tarefa (com pop‑ups, ícones) ou só ao final, em forma de relatório?”  
+   - “Que tipo de alerta seria aceitável e o que seria exagerado ou incômodo?”  
+
+5. **Tela final com relatório**
+   - “Ao final da sessão, o que você gostaria de ver em um relatório?”  
+     - exemplos: tempo total de trabalho, tempo em alta carga, momentos de maior estresse, sugestões de pausa.  
+   - “Você usaria esse relatório para mudar seu comportamento no dia a dia? De que forma?”  
+
+6. **Aspectos éticos e confiança**
+   - “O que precisa ficar muito claro para que você confie nesse tipo de sistema?”  
+     - (ex.: não salvar imagens, só armazenar dados agregados, opção de apagar histórico).  
+
+7. **Fechamento**
+   - “Se você pudesse projetar sua própria tela final de relatório, como ela seria?”  
+   - “Você recomendaria esse tipo de sistema para colegas de trabalho? Por quê?”
+
+---
+
+> Esse texto já está pronto em Markdown para você colar direto no GitHub (README, relatório ou documento de IHC).### 🎯 Técnica Escolhida: Grupos de Foco  
+
+#### Entrega 7 – Identificação de Necessidades dos Usuários e Requisitos de IHC (em andamento)
+
+---
+
+## PARTE A – Identificação de Necessidades e Aspectos Éticos
+
+### 1) Identificação de Necessidades dos Usuários e Requisitos de IHC  
+
+**Técnica escolhida:** Grupos de Foco  
+
+**Objetivo:**  
+Discutir em grupo como profissionais em trabalho remoto percebem:
+- o uso de monitoramento por câmera,
+- a exibição de status (cansado, inquieto, focado),
+- e o impacto de relatórios de monitoramento no final da sessão (feedback sobre bem‑estar).
+
+#### Que dados coletar?
+
+**a) Sobre o próprio usuário (perfil dos participantes)**  
+- Idade, gênero, área de atuação e tempo de experiência em trabalho remoto.  
+- Jornada típica de trabalho (horário, pausas, número de reuniões).  
+- Contexto de uso: ambiente de trabalho em casa (silencioso, compartilhado, improvisado etc.).  
+
+**b) Relação com tecnologia e monitoramento**  
+- Experiência prévia com ferramentas de:
+  - videoconferência (Zoom, Teams, Meet),
+  - produtividade (Notion, Trello, etc.),
+  - ou bem‑estar digital (apps de foco, meditação, alongamento).  
+- Atitude em relação a ser monitorado por câmera (aceitação, desconfiança, neutralidade).  
+- Preferência por tipos de feedback:
+  - somente visual na tela,
+  - visual + sonoro,
+  - apenas resumo final ao fim do expediente.  
+
+**c) Conhecimento e percepção sobre saúde e bem‑estar digital**  
+- Grau de consciência sobre:
+  - ergonomia,
+  - pausas ativas,
+  - fadiga visual e mental,  
+  - sinais pessoais de cansaço (dor de cabeça, irritação, distração).  
+- Se já teve experiências negativas de sobrecarga em home office (burnout, exaustão, dificuldade de desconectar).  
+
+**d) Tarefas e contexto de uso do sistema**  
+- Atividades que mais exigem foco (reuniões, codificação, análise de relatórios, atendimento a clientes).  
+- Momentos do dia em que se sentem mais cansados ou inquietos.  
+- Situações em que um alerta de status ou um relatório final seriam mais úteis (por exemplo: depois de um sprint intenso, ao fim do dia, após muitas reuniões).  
+
+**e) Motivações, valores e expectativas**  
+- O que faria o usuário querer **usar regularmente** um sistema de monitoramento de estresse/postura?  
+- Quais tipos de feedback são vistos como:
+  - motivadores (ex.: “você conseguiu manter uma boa postura por 70% do tempo”),  
+  - e quais seriam potencialmente desmotivadores ou invasivos (ex.: “você está muito improdutivo”).  
+- Preferência por:
+  - alertas pontuais vs. relatório consolidado no final,  
+  - linguagem mais técnica vs. linguagem acolhedora.  
+
+---
+
+#### De quem coletar?
+
+- **Quem usará o sistema?**  
+  Profissionais em trabalho remoto que utilizam computador + webcam por longos períodos (TI, análise de dados, gestão, atendimento remoto, ensino, etc.).
+
+- **Quem será afetado?**  
+  - Usuários diretamente (feedback sobre comportamento, estresse e postura).  
+  - Indiretamente, seus gestores ou equipes, caso relatórios agregados sejam usados em contextos organizacionais (neste projeto, focar em uso individual e voluntário).
+
+- **Quem define objetivos?**  
+  - Equipe de desenvolvimento do sistema.  
+  - Orientadora do TCC.  
+  - Referenciais teóricos de bem‑estar digital, ergonomia e saúde mental no trabalho.
+
+---
+
+### 2) Aspectos Éticos
+
+Sim, o projeto **deve** considerar aspectos éticos, especialmente por envolver:
+- **dados sensíveis** (expressões faciais, sinais de cansaço, nível de estresse),  
+- **monitoramento contínuo** via webcam,  
+- e geração de **relatórios de comportamento** ao final da sessão.
+
+Com base em princípios discutidos em aula e na literatura (como Barbosa & Silva, 2010), destacam‑se:
+
+#### Princípios éticos aplicáveis
+
+- **Autonomia**  
+  - Participação voluntária nos testes.  
+  - Consentimento livre e esclarecido antes de qualquer monitoramento.  
+  - Possibilidade de recusar o uso de determinadas funcionalidades (por exemplo, desativar relatório detalhado).  
+
+- **Privacidade e Confidencialidade**  
+  - Não armazenar imagens brutas da webcam sem autorização explícita.  
+  - Processamento local dos dados sempre que possível.  
+  - Relatórios focados em **tendências** e não em julgamentos pessoais.  
+
+- **Não maleficência**  
+  - Evitar que o usuário se sinta vigiado, julgado ou “avaliado” em termos de desempenho.  
+  - Cuidar para que termos usados (ex.: “cansado”, “estressado”, “inquieto”) não gerem estigmatização.  
+  - Garantir que o relatório final tenha **tom de apoio**, e não de punição.  
+
+- **Beneficência**  
+  - O sistema deve trazer benefícios claros:
+    - ajudar o usuário a perceber momentos de exaustão,  
+    - incentivar pausas,  
+    - apoiar uma rotina mais saudável.  
+
+- **Justiça e Equidade**  
+  - Tratar os dados de forma anônima durante pesquisa/pilotos.  
+  - Evitar qualquer tipo de uso discriminatório das informações (ex.: por empresas para controle de produtividade).  
+
+#### Na prática, para os grupos de foco:
+
+- Apresentar um **Termo de Consentimento Livre e Esclarecido (TCLE)** antes de iniciar.  
+- Explicar:
+  - que o grupo de foco discute percepções e não avalia desempenho individual;  
+  - que a participação é opcional e pode ser interrompida a qualquer momento.  
+- Garantir que:
+  - nomes reais não sejam publicados em relatórios da pesquisa,  
+  - gravações (se houver) sejam usadas apenas para análise e depois descartadas ou anonimizadas.  
+
+---
+
+## PARTE B – Ferramenta de Coleta de Dados (Grupos de Foco)
+
+### 3.1 Nome do instrumento e objetivo de aplicação
+
+- **Instrumento:** Grupo de Foco (discussão em grupo, mediada por um facilitador)  
+- **Objetivo:**  
+  - Explorar de forma qualitativa como diferentes usuários percebem:
+    - o monitoramento contínuo por webcam,  
+    - a exibição de status na tela (ex.: cansado, inquieto, focado),  
+    - e a utilidade de um **relatório final de monitoramento** com gráficos, estatísticas e alertas.  
+  - Identificar **necessidades, medos, expectativas e sugestões** sobre a interface e as funcionalidades de feedback.
+
+---
+
+### 3.2 Como aplicar (procedimento padronizado)
+
+1. **Preparação do grupo**
+   - Reunir de 4 a 8 participantes que trabalhem em regime remoto.  
+   - Agendar a sessão em ambiente online (Google Meet, Zoom ou similar).  
+   - Enviar previamente:
+     - um breve resumo do sistema,  
+     - o objetivo do grupo de foco,  
+     - e o termo de consentimento.  
+
+2. **Abertura da sessão (5–10 minutos)**
+   - Apresentar:
+     - o projeto (monitoramento de estresse/postura via webcam),  
+     - o propósito da discussão (melhorar a interface e o relatório final),  
+     - regras básicas (respeito, confidencialidade, liberdade para discordar).  
+   - Pedir consentimento verbal para participação (e gravação, se houver).  
+
+3. **Exploração guiada (30–40 minutos)**
+   - Mostrar, se possível, protótipos da:
+     - tela de monitoramento,  
+     - alertas de status,  
+     - tela final de relatório.  
+   - Conduzir perguntas abertas, por exemplo:
+     - “Como vocês se sentem em relação a um sistema que mostra seu nível de cansaço ou inquietação na tela?”  
+     - “O que vocês gostariam de ver em um relatório final de monitoramento?”  
+     - “Que tipo de alerta ou gráfico ajudaria vocês a tomar decisões melhores sobre pausas e autocuidado?”  
+     - “Haveria alguma situação em que vocês **não gostariam** de ver esse tipo de informação?”  
+
+4. **Foco em IHC (Interface Humano‑Computador)**
+   - Perguntar sobre:
+     - clareza das mensagens,  
+     - quantidade de informação adequada,  
+     - preferências de visualização (cores, ícones, gráficos simples vs. complexos),  
+     - risco de **sobrecarga cognitiva** se o relatório for muito detalhado.  
+
+5. **Encerramento (5–10 minutos)**
+   - Perguntar:
+     - “Se vocês pudessem mudar uma coisa nesse sistema, o que mudariam?”  
+     - “O que mais gostaram e o que menos gostaram na ideia de relatório final?”  
+   - Agradecer a participação e reforçar a confidencialidade.  
+
+6. **Registro**
+   - Registrar a sessão por:
+     - gravação (áudio/vídeo) – se autorizado, ou  
+     - anotações estruturadas (pontos principais, frases marcantes, consensos e divergências).  
+
+---
+
+### 3.3 Instrumento – Roteiro de Grupo de Foco (exemplo de perguntas)
+
+1. **Aquecimento**
+   - “Conte brevemente como é sua rotina de trabalho remoto (horas por dia, tipo de atividade).”
+   - “Você costuma usar câmera ligada com frequência? Em que contextos?”
+
+2. **Percepção de cansaço e estresse**
+   - “Em que momentos do dia você percebe mais cansaço ou dificuldade de foco?”  
+   - “Você já teve sensação de esgotamento ao fim do dia de trabalho remoto? Como percebe isso?”  
+
+3. **Reação à ideia de monitoramento por IA**
+   - “O que você acha da ideia de um sistema que analisa expressões faciais para indicar cansaço ou inquietação?”  
+   - “Quais seriam seus principais receios ou dúvidas em relação a isso?”  
+
+4. **Feedback durante a sessão (alertas)**
+   - “Você prefere ser avisado durante a tarefa (com pop‑ups, ícones) ou só ao final, em forma de relatório?”  
+   - “Que tipo de alerta seria aceitável e o que seria exagerado ou incômodo?”  
+
+5. **Tela final com relatório**
+   - “Ao final da sessão, o que você gostaria de ver em um relatório?”  
+     - exemplos: tempo total de trabalho, tempo em alta carga, momentos de maior estresse, sugestões de pausa.  
+   - “Você usaria esse relatório para mudar seu comportamento no dia a dia? De que forma?”  
+
+6. **Aspectos éticos e confiança**
+   - “O que precisa ficar muito claro para que você confie nesse tipo de sistema?”  
+     - (ex.: não salvar imagens, só armazenar dados agregados, opção de apagar histórico).  
+
+7. **Fechamento**
+   - “Se você pudesse projetar sua própria tela final de relatório, como ela seria?”  
+   - “Você recomendaria esse tipo de sistema para colegas de trabalho? Por quê?”
+
+---
+
+> Esse texto já está pronto em Markdown para você colar direto no GitHub (README, relatório ou documento de IHC).
 # 
 
 # **Entrega 8  (data) \[concluído\]**

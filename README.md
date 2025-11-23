@@ -1121,15 +1121,25 @@ O objetivo dos testes foi identificar problemas reais de usabilidade durante o u
 | **4. Pausar/Encerrar monitoramento** | Sucesso Parcial | 2              | Procurou botão errado (1), Clicou duas vezes sem necessidade (1)  | 8 segundos       | Leve Frustração    |
 | **5. Gerar relatório PDF**           | Não Concluiu    | 2              | Não encontrou botão (1), Não entendeu termo “Gerar relatório” (1) | 20 segundos      | Frustração Alta    |
 
+**Avaliação de cada Tarefa (Victor – programador)**
 
+| Tarefa                               | Grau de Sucesso | Total de Erros | Tipos de Erros                                                                 | Tempo Necessário | Grau de Satisfação |
+| ------------------------------------ | --------------- | -------------- | ------------------------------------------------------------------------------ | ---------------- | ------------------ |
+| **1. Abrir o FaceSense**             | Sucesso Total   | 0              | —                                                                              | 3 segundos       | Satisfeito         |
+| **2. Clicar em “Iniciar”**           | Sucesso Total   | 0              | —                                                                              | 1 segundo        | Indiferente        |
+| **3. Iniciar expediente**            | Sucesso Parcial | 1              | Não percebeu imediatamente o início do monitoramento (falta de feedback claro) | 6 segundos       | Leve Confusão      |
+| **4. Pausar/Encerrar monitoramento** | Sucesso Total   | 0              | —                                                                              | 4 segundos       | Satisfeito         |
+| **5. Gerar relatório PDF**           | Sucesso Parcial | 1              | Confundiu o botão com “Exportar dados” (interpretação diferente do esperado)   | 12 segundos      | Leve Frustração    |
+
+---
 
 
 **Avaliação de cada Tarefa (para cada usuário)**
 
 | Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
-| ----- | ----- | ----- | ----- | ----- | ----- |
-| **1** | **Sucesso Parcial** | **2** | **Não completou a tarefa(1), (1) Compreensão** | **5 segundos** | **Confusão Moderada** |
-|  |  |  |  |  |  |
+|-------|------------------|--------------------------|----------------|------------------|--------------------|
+| **1** | **Sucesso Parcial** | **2** | **Não completou a tarefa (1), erro de compreensão (1)** | **5 segundos** | **Confusão Moderada** |
+| **2** | **Sucesso Parcial** | **1** | **Interpretou diferente o rótulo do botão (“Exportar dados” x “Gerar relatório”)** | **12 segundos** | **Leve Frustração** |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
@@ -1143,11 +1153,20 @@ O objetivo dos testes foi identificar problemas reais de usabilidade durante o u
 | Nome ou Identificador | Idade | Profissão / Área de atuação | Nível de experiência com tecnologia | Frequência de uso de ferramentas de produtividade/monitoramento | Local onde costuma trabalhar/estudar | Equipamento utilizado no teste | Condições do ambiente durante o teste | Objetivo típico ao usar o FaceSense |
 |-----------------------|-------|-----------------------------|-------------------------------------|------------------------------------------------------------------|----------------------------------------|----------------------------------|----------------------------------------|-----------------------------------------|
 | Nicole                | 18    | Estudante de cursinho       | Média                                | Às vezes                                                         | Quarto de estudos                     | Notebook com câmera frontal      | Iluminação média, ambiente silencioso | Aumentar foco e manter regularidade no estudo |
+**Persona Victor**
+
+| Nome ou Identificador | Idade | Profissão / Área de atuação      | Nível de experiência com tecnologia | Frequência de uso de ferramentas de produtividade/monitoramento | Local onde costuma trabalhar/estudar | Equipamento utilizado no teste        | Condições do ambiente durante o teste | Objetivo típico ao usar o FaceSense |
+|-----------------------|-------|----------------------------------|-------------------------------------|------------------------------------------------------------------|----------------------------------------|-------------------------------------|----------------------------------------|--------------------------------------|
+| Victor                | 34    | Programador em consultoria       | Alta                                | Frequentemente                                                   | Home office                          | Notebook gamer com webcam integrada | Ambiente silencioso, iluminação média | Monitorar produtividade e manter foco durante longas sessões de trabalho |
 
 
 ## 5) **Conclusão da avaliação por observação do usuário:**  
 **Persona Nicole**        
 Durante os testes, Nicole apresentou dificuldades principalmente em identificar quando o monitoramento estava realmente ativo, interpretar alguns ícones da interface e localizar o botão de gerar relatório. Ela também teve momentos de confusão ao tentar pausar ou encerrar o monitoramento, clicando em elementos incorretos. No geral, suas dificuldades evidenciaram a falta de um tutorial, rótulos pouco intuitivos, confirmando pontos críticos já identificados na avaliação heurística.  
+**Persona Victor**
+Durante o teste, Victor demonstrou boa autonomia quanto ao uso geral do sistema, devido ao seu alto nível de familiaridade com tecnologias. Contudo, apresentou dificuldade inicial para identificar quando o monitoramento estava ativo, evidenciando a necessidade de um feedback visual mais direto. Também houve leve confusão ao gerar o relatório, já que o termo utilizado diferiu da nomenclatura esperada para esse tipo de ação.  
+Apesar de eficiente, a interação revelou que usuários avançados valorizam objetividade e feedback imediato, e pequenas inconsistências visuais ou semânticas podem prejudicar a fluidez da tarefa. Melhorias na clareza dos rótulos e indicadores visuais devem favorecer esse perfil de usuário sem impactar negativamente os demais.
+
 
 ## 6) **Impacto por persona**    
 ### **Estudantes**  
@@ -1156,6 +1175,8 @@ Apesar de apresentarem leve dificuldade para identificar a função de alguns bo
 
 
 ### **Pessoas em regime de home-office**  
+Usuários que exercem atividades cognitivas intensas em home office, como o programador, necessitam que a interface seja pouco invasiva e ofereça feedback imediato. Informações imprecisas ou atrasadas podem interromper seu fluxo de concentração. A ausência de confirmação explícita sobre o estado do monitoramento gera insegurança, assim como termos técnicos diferentes dos convencionalmente usados na rotina corporativa podem atrasar a tomada de decisão.  
+Recomenda-se otimizar feedback visual e permitir maior personalização para esse público.
 
 
 

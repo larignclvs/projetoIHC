@@ -429,7 +429,102 @@ Este é o objetivo principal do usuário, que é interagir com a notificação q
 
 ---
 
-### 📌 Funcionalidade 2: **Exibir status do usuário em janela flutuante**
+### 📌 Funcionalidade: Tela final com relatório de monitoramento
+
+## GOAL 0: Visualizar relatório final do monitoramento  
+
+Este é o objetivo principal do usuário ao encerrar uma sessão: compreender, por meio da tela final, como foi seu desempenho (níveis de cansaço, ansiedade, inquietação, alertas e gráficos) e, se desejar, exportar o relatório.
+
+Fluxo: 1 → 2 → 3 → 4 → 5
+
+
+---
+
+## GOAL 1: Encerrar sessão de monitoramento
+
+SUBGOAL: Finalizar a captura de dados da sessão atual.
+
+- **OP. 1.1:** Identificar que a sessão de trabalho terminou (por tempo, tarefa concluída ou decisão do usuário).
+- **OP. 1.2:** Localizar o botão ou comando de “Encerrar sessão”.
+- **OP. 1.3:** Clicar no botão / ativar o comando para encerrar o monitoramento.
+- **OP. 1.4:** Aguardar a confirmação visual de que o monitoramento foi interrompido (ex.: status "Sessão encerrada").
+
+---
+
+## GOAL 2: Gerar relatório
+
+SUBGOAL: Produzir o relatório consolidado com base na sessão recém-encerrada.
+
+### 2.1 Gerar estatísticas
+
+- **OP. 2.1.1:** Sistema processa os dados coletados (expressões faciais, microgestos, alertas).
+- **OP. 2.1.2:** Calcular estatísticas de estresse, cansaço, ansiedade e inquietação (médias, picos, tempo em cada estado).
+- **OP. 2.1.3:** Resumir quantidade de alertas, duração da sessão e principais indicadores.
+- **OP. 2.1.4:** Armazenar esses valores em uma estrutura interna de relatório.
+
+### 2.2 Montar gráficos
+
+- **OP. 2.2.1:** Gerar gráficos de linha com a evolução temporal dos níveis de estresse e cansaço.
+- **OP. 2.2.2:** Gerar gráficos de barras/pizza com distribuição de estados (calmo, inquieto, cansado).
+- **OP. 2.2.3:** Vincular os gráficos às estatísticas calculadas para exibição na tela final.
+- **OP. 2.2.4:** Preparar os gráficos em formato adequado para exportação (ex.: imagem ou objeto embutido no PDF).
+
+### 2.3 Compilar alertas feitos durante a sessão
+
+- **OP. 2.3.1:** Percorrer o histórico de alertas gerados (ex.: “Inquieto por muito tempo”, “Cansado, faça pausa”).
+- **OP. 2.3.2:** Agrupar alertas por tipo, horário e severidade.
+- **OP. 2.3.3:** Montar uma lista/linha do tempo de alertas para exibição no relatório.
+- **OP. 2.3.4:** Associar comentários ou recomendações gerais com base nos alertas (ex.: “Considere pausas mais frequentes”).
+
+---
+
+## GOAL 3: Exibir tela final com relatório
+
+SUBGOAL: Mostrar ao usuário uma visão consolidada e compreensível da sessão.
+
+- **OP. 3.1:** Abrir a tela final de relatório assim que o processamento for concluído.
+- **OP. 3.2:** Exibir, em destaque, um resumo da sessão (duração, nível médio de estresse, número de alertas).
+- **OP. 3.3:** Exibir gráficos de tendência (linha temporal) e distribuição (barras/pizza).
+- **OP. 3.4:** Exibir a lista de alertas com horário e tipo.
+- **OP. 3.5:** Disponibilizar controles visíveis para:
+  - **OP. 3.5.1:** Exportar o relatório completo.
+  - **OP. 3.5.2:** Fechar a tela de relatório e retornar à interface principal.
+
+---
+
+## GOAL 4: Exportar relatório completo
+
+METHOD 4.A: Exportar relatório via botão “Exportar PDF”
+
+*(SEL. RULE: O usuário deseja guardar ou compartilhar o resultado.)*
+
+- **OP. 4.A.1:** Localizar o botão “Exportar relatório” ou “Gerar PDF” na tela final.
+- **OP. 4.A.2:** Clicar no botão de exportação.
+- **OP. 4.A.3:** Selecionar o local de salvamento no sistema de arquivos (se aplicável).
+- **OP. 4.A.4:** Confirmar a ação (ex.: clicar em “Salvar”).
+- **OP. 4.A.5:** Perceber o feedback de sucesso (mensagem “Relatório exportado com sucesso”).
+- **OP. 4.A.6:** (Opcional) Abrir o arquivo exportado para conferência.
+
+---
+
+## GOAL 5: Fechar tela de relatório
+
+METHOD 5.A: Fechar via botão ou ícone de fechar
+
+*(SEL. RULE: O usuário já interpretou as informações e não precisa mais da tela de relatório.)*
+
+- **OP. 5.A.1:** Localizar o botão “Fechar” ou o ícone de fechar (X) na tela de relatório.
+- **OP. 5.A.2:** Clicar no botão/ícone de fechar.
+- **OP. 5.A.3:** Perceber que a tela de relatório foi encerrada e que o sistema voltou para a tela principal ou estado ocioso.
+
+METHOD 5.B: Fechar usando atalho de teclado
+
+*(SEL. RULE: O usuário prefere atalhos ou já conhece a interação.)*
+
+- **OP. 5.B.1:** Pressionar a tecla de atalho configurada (ex.: Esc ou Ctrl+W).
+- **OP. 5.B.2:** Perceber que a tela de relatório foi fechada.
+
+### 📌 Funcionalidade 3: **Exibir status do usuário em janela flutuante**
 
 ---
 

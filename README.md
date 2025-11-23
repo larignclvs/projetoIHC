@@ -957,8 +957,6 @@ Com base em princípios discutidos em aula e na literatura (como Barbosa & Silva
 
 ---
 
-> Esse texto já está pronto em Markdown para você colar direto no GitHub (README, relatório ou documento de IHC).### 🎯 Técnica Escolhida: Grupos de Foco  
-
 #### Entrega 7 – Identificação de Necessidades dos Usuários e Requisitos de IHC (em andamento)
 
 ---

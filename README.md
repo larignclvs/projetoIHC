@@ -429,9 +429,9 @@ Este é o objetivo principal do usuário, que é interagir com a notificação q
 
 ---
 
-### 📌 Funcionalidade: Tela final com relatório de monitoramento
+### 📌 Funcionalidade 2: Tela final com relatório de monitoramento
 
-## GOAL 0: Visualizar relatório final do monitoramento  
+#### GOAL 0: Visualizar relatório final do monitoramento  
 
 Este é o objetivo principal do usuário ao encerrar uma sessão: compreender, por meio da tela final, como foi seu desempenho (níveis de cansaço, ansiedade, inquietação, alertas e gráficos) e, se desejar, exportar o relatório.
 
@@ -440,7 +440,7 @@ Fluxo: 1 → 2 → 3 → 4 → 5
 
 ---
 
-## GOAL 1: Encerrar sessão de monitoramento
+#### GOAL 1: Encerrar sessão de monitoramento
 
 SUBGOAL: Finalizar a captura de dados da sessão atual.
 
@@ -451,25 +451,25 @@ SUBGOAL: Finalizar a captura de dados da sessão atual.
 
 ---
 
-## GOAL 2: Gerar relatório
+#### GOAL 2: Gerar relatório
 
 SUBGOAL: Produzir o relatório consolidado com base na sessão recém-encerrada.
 
-### 2.1 Gerar estatísticas
+##### 2.1 Gerar estatísticas
 
 - **OP. 2.1.1:** Sistema processa os dados coletados (expressões faciais, microgestos, alertas).
 - **OP. 2.1.2:** Calcular estatísticas de estresse, cansaço, ansiedade e inquietação (médias, picos, tempo em cada estado).
 - **OP. 2.1.3:** Resumir quantidade de alertas, duração da sessão e principais indicadores.
 - **OP. 2.1.4:** Armazenar esses valores em uma estrutura interna de relatório.
 
-### 2.2 Montar gráficos
+##### 2.2 Montar gráficos
 
 - **OP. 2.2.1:** Gerar gráficos de linha com a evolução temporal dos níveis de estresse e cansaço.
 - **OP. 2.2.2:** Gerar gráficos de barras/pizza com distribuição de estados (calmo, inquieto, cansado).
 - **OP. 2.2.3:** Vincular os gráficos às estatísticas calculadas para exibição na tela final.
 - **OP. 2.2.4:** Preparar os gráficos em formato adequado para exportação (ex.: imagem ou objeto embutido no PDF).
 
-### 2.3 Compilar alertas feitos durante a sessão
+##### 2.3 Compilar alertas feitos durante a sessão
 
 - **OP. 2.3.1:** Percorrer o histórico de alertas gerados (ex.: “Inquieto por muito tempo”, “Cansado, faça pausa”).
 - **OP. 2.3.2:** Agrupar alertas por tipo, horário e severidade.
@@ -478,7 +478,7 @@ SUBGOAL: Produzir o relatório consolidado com base na sessão recém-encerrada.
 
 ---
 
-## GOAL 3: Exibir tela final com relatório
+#### GOAL 3: Exibir tela final com relatório
 
 SUBGOAL: Mostrar ao usuário uma visão consolidada e compreensível da sessão.
 
@@ -492,7 +492,7 @@ SUBGOAL: Mostrar ao usuário uma visão consolidada e compreensível da sessão.
 
 ---
 
-## GOAL 4: Exportar relatório completo
+#### GOAL 4: Exportar relatório completo
 
 METHOD 4.A: Exportar relatório via botão “Exportar PDF”
 
@@ -507,7 +507,7 @@ METHOD 4.A: Exportar relatório via botão “Exportar PDF”
 
 ---
 
-## GOAL 5: Fechar tela de relatório
+#### GOAL 5: Fechar tela de relatório
 
 METHOD 5.A: Fechar via botão ou ícone de fechar
 

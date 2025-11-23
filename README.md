@@ -339,6 +339,7 @@ Explicação da funcionalidade: Durante o monitoramento do usuário, após a an�
 
 ***Funcionalidade: Tela final com relatório de monitoramento***
 Explicação da funcionalidade: permite que o usuário visualize os resultados completos do monitoramento. Quando a sessão de trabalho é encerrada, o sistema gera um relatório com resultados de detecção de expressões faciais, níveis de cansaço, ansiedade e inquietação, além de apresentar gráficos, estatísticas e alertas.
+<img width="970" height="315" alt="Captura de Tela 2025-11-23 às 16 29 47" src="https://github.com/user-attachments/assets/adc93b80-220e-4c81-82f0-ade62da7db1b" />
 
 ***Funcionalidade: Janela flutuante com o status do monitoramento***
 Enquanto o sistema monitora o usuário pela câmera, ele calcula continuamente o status atual (por exemplo: “Neutro”, “Médio estresse”, “Alto estresse”). Esse status é exibido em uma janela flutuante fixa em um canto da tela, com cor/ícone e um texto curto (ex.: “Status atual: Neutro”). O objetivo dessa funcionalidade é permitir que o usuário consulte rapidamente o próprio estado sem precisar abrir menus ou esperar um alerta.
